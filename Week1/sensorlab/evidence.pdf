@@ -1,0 +1,2637 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 7 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3281 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+/F2 8 Tf
+(Assignment 1 evidence) Tj
+T*
+T*
+/F1 8 Tf
+(Yihao Yin \(yihaoyin\)) Tj
+T*
+(generated 2026-08-27 22:14 ????? on Windows-11-10.0.26200-SP0) Tj
+T*
+(project sensorlab, uv.lock sha256 c082196efbe47208) Tj
+T*
+(evidence script sha256 7ab84f0c7ac1349c2c02e239f004ac9e34e1d39e7892bdf0e3c087ca84b3736d) Tj
+T*
+T*
+/F2 8 Tf
+(Score  ) Tj
+0.00 0.45 0.15 rg
+(1.00) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(   \(6 of 6 checks passed\)) Tj
+T*
+T*
+/F2 8 Tf
+(What this script found) Tj
+T*
+T*
+/F1 8 Tf
+(  entry point   sensorlab.train) Tj
+T*
+(  package       src\\sensorlab) Tj
+T*
+(  notebook      notebooks\\explore.ipynb) Tj
+T*
+(  README        README.md) Tj
+T*
+(  MLflow store  sqlite:///mlflow.db) Tj
+T*
+T*
+/F2 8 Tf
+(Definition of done, 6 of 6) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  The environment rebuilds from the lockfile) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  The same seed prints the same number twice) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  A different seed prints a different number) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  The raw data sits under data/ and nowhere else in the project) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  The notebook's cells ran in order from a fresh kernel) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  The metric printed by the seed 0 run also appears in the MLflow table) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(  Each line is decided from the output below, not asserted.) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Transcript) Tj
+T*
+T*
+(  tool versions) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv --version) Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 0.0s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    uv 0.12.6 \(7938ca5d5 2026-08-25 x86_64-pc-windows-msvc\)) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  rebuild the environment from the lockfile) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv sync --locked) Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 5.9s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    Using CPython 3.13.15) Tj
+T*
+(    Creating virtual environment at: .venv) Tj
+T*
+(    Resolved 176 packages in 1ms) Tj
+T*
+(    Installed 169 packages in 5.87s) Tj
+T*
+(     + aiohappyeyeballs==2.7.1) Tj
+T*
+(     + aiohttp==3.14.3) Tj
+T*
+(     + aiosignal==1.4.0) Tj
+T*
+(     + alembic==1.19.1) Tj
+T*
+(     + annotated-doc==0.0.5) Tj
+T*
+(     + annotated-types==0.8.0) Tj
+T*
+(     + anyio==4.14.2) Tj
+T*
+(     + argon2-cffi==25.1.0) Tj
+T*
+(     + argon2-cffi-bindings==26.1.0) Tj
+T*
+(     + arrow==1.4.0) Tj
+T*
+(        [... 151 lines elided ...]) Tj
+T*
+(     + wcwidth==0.8.2) Tj
+T*
+(     + webcolors==25.10.0) Tj
+T*
+(     + webencodings==0.6.1) Tj
+T*
+(     + websocket-client==1.9.0) Tj
+T*
+(     + werkzeug==3.1.8) Tj
+T*
+(     + widgetsnbextension==4.0.16) Tj
+T*
+(     + yarl==1.24.5) Tj
+T*
+(     + zipp==4.1.0) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  resolved versions) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv run python -c "...") Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 6.4s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    python 3.13.15) Tj
+T*
+(    numpy 2.5.2) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 1 of 7) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3060 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+0.40 0.40 0.40 rg
+(    pandas 2.3.3) Tj
+T*
+(    sklearn 1.9.0) Tj
+T*
+(    mlflow 3.15.2) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  run, seed 0) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv run python -m sensorlab.train --seed 0) Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 6.6s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    r2=0.7755448891992244) Tj
+T*
+(    slope 0.00576, intercept -4.27356) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  run, seed 0 again) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv run python -m sensorlab.train --seed 0) Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 3.9s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    r2=0.7755448891992244) Tj
+T*
+(    slope 0.00576, intercept -4.27356) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  run, seed 1) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv run python -m sensorlab.train --seed 1) Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 3.9s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    r2=0.7576898018166922) Tj
+T*
+(    slope 0.00575, intercept -4.26084) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  MLflow runs) Tj
+T*
+/F1 8 Tf
+0.10 0.25 0.60 rg
+(  $ uv run python -c "...") Tj
+0.00 0.00 0.00 rg
+(   [exit 0, 2.2s]) Tj
+T*
+T*
+0.40 0.40 0.40 rg
+(    run_id params.seed  metrics.r2                       start_time) Tj
+T*
+(    50c98c1864984b73b33f654ff8d80dfb           1    0.757690 2026-08-28 02:14:41.376000+00:00) Tj
+T*
+(    c2b0b8ee2f05496fb999698d28acfac8           0    0.775545 2026-08-28 02:14:37.481000+00:00) Tj
+T*
+(    b1821b9ad1714ba086476adafc635b8a           0    0.775545 2026-08-28 02:14:33.510000+00:00) Tj
+T*
+(    940f33c7ae1e4fd58e2cd15b3f15a68e           1    0.757690 2026-08-28 02:09:43.811000+00:00) Tj
+T*
+(    6ad7fa964b6d47f08dae20f21885bf9d           0    0.775545 2026-08-28 02:09:40.171000+00:00) Tj
+T*
+(    c09b7b88c7f7492da94f8c1b6f68c660           0    0.775545 2026-08-28 02:09:36.553000+00:00) Tj
+T*
+(    1e9a8e3891bc442a863d977da1101824           0    0.775545 2026-08-28 01:39:49.237000+00:00) Tj
+T*
+(    eb28d237cbae484f9945a6af058d4043           2    0.775716 2026-08-28 01:21:13.684000+00:00) Tj
+T*
+(    97e98c2dee5942d6a1c20d84af3ac681           1    0.757690 2026-08-28 01:20:27.970000+00:00) Tj
+T*
+(    5f4e0ed28749469e8b22897f9993b381           0    0.775545 2026-08-28 01:16:09.409000+00:00) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(.gitignore) Tj
+T*
+T*
+/F1 8 Tf
+(  .venv/) Tj
+T*
+(  data/) Tj
+T*
+(  mlruns/) Tj
+T*
+(  mlartifacts/) Tj
+T*
+(  mlflow.db) Tj
+T*
+(  ) Tj
+T*
+(  __pycache__/) Tj
+T*
+(  *.py[cod]) Tj
+T*
+(  .ipynb_checkpoints/) Tj
+T*
+(  ) Tj
+T*
+T*
+/F2 8 Tf
+(pyproject.toml) Tj
+T*
+T*
+/F1 8 Tf
+(  [project]) Tj
+T*
+(  name = "sensorlab") Tj
+T*
+(  version = "0.1.0") Tj
+T*
+(  description = "Add your description here") Tj
+T*
+(  readme = "README.md") Tj
+T*
+(  requires-python = ">=3.11") Tj
+T*
+(  dependencies = [) Tj
+T*
+(      "matplotlib>=3.11.1",) Tj
+T*
+(      "mlflow>=3.15.2",) Tj
+T*
+(      "pandas>=2.3.3",) Tj
+T*
+(      "scikit-learn>=1.9.0",) Tj
+T*
+(  ]) Tj
+T*
+(  ) Tj
+T*
+(  [project.scripts]) Tj
+T*
+(  sensorlab = "sensorlab:main") Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 2 of 7) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 7456 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  [build-system]) Tj
+T*
+(  requires = ["uv_build>=0.12.6,<0.13.0"]) Tj
+T*
+(  build-backend = "uv_build") Tj
+T*
+(  ) Tj
+T*
+(  [dependency-groups]) Tj
+T*
+(  dev = [) Tj
+T*
+(      "jupyter>=1.1.1",) Tj
+T*
+(  ]) Tj
+T*
+T*
+/F2 8 Tf
+(The package) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+(--- ) Tj
+(src) Tj
+(\\) Tj
+(sensorlab) Tj
+(\\) Tj
+(__init__) Tj
+(.) Tj
+(py) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Hello from sensorlab!") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(--- ) Tj
+(src) Tj
+(\\) Tj
+(sensorlab) Tj
+(\\) Tj
+(dataprocess) Tj
+(.) Tj
+(py) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(io) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(urllib) Tj
+(.) Tj
+(request) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zipfile) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(URL) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+('https://archive.ics.uci.edu/static/public/360/air+quality.zip') Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+(\() Tj
+(path) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(path) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(path) Tj
+(.) Tj
+(parent) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(parents) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('fetching {URL}') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(urllib) Tj
+(.) Tj
+(request) Tj
+(.) Tj
+(urlopen) Tj
+(\() Tj
+(URL) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(response) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(payload) Tj
+( = ) Tj
+(response) Tj
+(.) Tj
+(read) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zipfile) Tj
+(.) Tj
+(ZipFile) Tj
+(\() Tj
+(io) Tj
+(.) Tj
+(BytesIO) Tj
+(\() Tj
+(payload) Tj
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(archive) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(path) Tj
+(.) Tj
+(write_bytes) Tj
+(\() Tj
+(archive) Tj
+(.) Tj
+(read) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('AirQualityUCI.csv') Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+(.) Tj
+(read_csv) Tj
+(\() Tj
+(path) Tj
+(, ) Tj
+(sep) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+(';') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(decimal) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+(',') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(clean) Tj
+(\() Tj
+(df) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = \() Tj
+(df) Tj
+(.) Tj
+(dropna) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+('all') Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(dropna) Tj
+(\() Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+('all') Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('ts') Tj
+0.00 0.00 0.00 rg
+(] = ) Tj
+(pd) Tj
+(.) Tj
+(to_datetime) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('Date') Tj
+0.00 0.00 0.00 rg
+(] + ) Tj
+0.62 0.20 0.12 rg
+(' ') Tj
+0.00 0.00 0.00 rg
+( + ) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('Time') Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(str) Tj
+(.) Tj
+(replace) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('.') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(':') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(regex) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+(format) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+('%d/%m/%Y %H:%M:%S') Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(replace) Tj
+(\(-) Tj
+0.05 0.40 0.50 rg
+(200) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(np) Tj
+(.) Tj
+(nan) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(df) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(--- ) Tj
+(src) Tj
+(\\) Tj
+(sensorlab) Tj
+(\\) Tj
+(train) Tj
+(.) Tj
+(py) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+(.) Tj
+(pyplot) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plt) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(linear_model) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(LinearRegression) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(model_selection) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train_test_split) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(metrics) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r2_score) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( .) Tj
+(dataprocess) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(clean) Tj
+(, ) Tj
+(load) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mlflow) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(argparse) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train) Tj
+(\() Tj
+(data_path) Tj
+(,) Tj
+(seed) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(load) Tj
+(\() Tj
+(data_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(clean) Tj
+(\() Tj
+(df) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 3 of 7) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 6735 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(d) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(dropna) Tj
+(\() Tj
+(subset) Tj
+(=[) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\)') Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(X) Tj
+( = ) Tj
+(d) Tj
+([[) Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\)') Tj
+0.00 0.00 0.00 rg
+(]]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(y) Tj
+( = ) Tj
+(d) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(X_train) Tj
+(, ) Tj
+(X_test) Tj
+(, ) Tj
+(y_train) Tj
+(, ) Tj
+(y_test) Tj
+( = ) Tj
+(train_test_split) Tj
+(\() Tj
+(X) Tj
+(, ) Tj
+(y) Tj
+(, ) Tj
+(test_size) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.25) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(random_state) Tj
+(=) Tj
+(seed) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+( = ) Tj
+(LinearRegression) Tj
+(\(\).) Tj
+(fit) Tj
+(\() Tj
+(X_train) Tj
+(, ) Tj
+(y_train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(score) Tj
+( = ) Tj
+(r2_score) Tj
+(\() Tj
+(y_test) Tj
+(, ) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(X_test) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(model) Tj
+(, ) Tj
+(score) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Argument Part is generated by ChatGPT) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+( = ) Tj
+(argparse) Tj
+(.) Tj
+(ArgumentParser) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--seed") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(default) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("--data-path") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(default) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("data/AirQualityUCI.csv") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(args) Tj
+( = ) Tj
+(parser) Tj
+(.) Tj
+(parse_args) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+(, ) Tj
+(score) Tj
+( = ) Tj
+(train) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(data_path) Tj
+(, ) Tj
+(args) Tj
+(.) Tj
+(seed) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(mlflow) Tj
+(.) Tj
+(set_tracking_uri) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sqlite:///mlflow.db") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(mlflow) Tj
+(.) Tj
+(set_experiment) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sensorlab") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mlflow) Tj
+(.) Tj
+(start_run) Tj
+(\() Tj
+(run_name) Tj
+(=) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("seed-{args.seed}") Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(mlflow) Tj
+(.) Tj
+(log_params) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("seed") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(args) Tj
+(.) Tj
+(seed) Tj
+(,) Tj
+0.62 0.20 0.12 rg
+("data") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(Path) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(data_path) Tj
+(\).) Tj
+(name) Tj
+(}\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(mlflow) Tj
+(.) Tj
+(log_metric) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("r2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(score) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("r2={score}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("slope {model.coef_[0]:.5f}, ") Tj
+0.00 0.00 0.00 rg
+(f) Tj
+0.62 0.20 0.12 rg
+("intercept {model.intercept_:.5f}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+('__main__') Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Notebook code cells: notebooks\\explore.ipynb) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Run this first on Colab. Anywhere else this cell does nothing.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(#) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Only genuinely missing packages are installed, so Colab's own versions of) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# everything it already ships are left alone.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(#) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Generated by tools/colab_setup.py from this notebook's imports. Edit that.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(importlib) Tj
+(.) Tj
+(util) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(subprocess) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sys) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(REQUIREMENTS) Tj
+( = {) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("matplotlib") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("matplotlib") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("numpy") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("numpy") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("pandas") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("pandas") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("sklearn") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("scikit-learn") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(}) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_missing) Tj
+(\() Tj
+(module) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(try) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(importlib) Tj
+(.) Tj
+(util) Tj
+(.) Tj
+(find_spec) Tj
+(\() Tj
+(module) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(except) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ModuleNotFoundError) Tj
+(:  ) Tj
+0.35 0.48 0.38 rg
+(# the parent package is absent) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("google.colab") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sys) Tj
+(.) Tj
+(modules) Tj
+(:) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 4 of 7) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 7918 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(need) Tj
+( = ) Tj
+(sorted) Tj
+(\({) Tj
+(pip) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mod) Tj
+(, ) Tj
+(pip) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(REQUIREMENTS) Tj
+(.) Tj
+(items) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_missing) Tj
+(\() Tj
+(mod) Tj
+(\)}\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(need) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("installing:") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(" ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(need) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(subprocess) Tj
+(.) Tj
+(run) Tj
+(\([) Tj
+(sys) Tj
+(.) Tj
+(executable) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("-m") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("pip") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("install") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("-q") Tj
+0.00 0.00 0.00 rg
+(, *) Tj
+(need) Tj
+(], ) Tj
+(check) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Colab setup done.") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(need) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("Colab: nothing to install.") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+(.) Tj
+(pyplot) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plt) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sensorlab) Tj
+(.) Tj
+(dataprocess) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(clean) Tj
+(, ) Tj
+(load) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sensorlab) Tj
+(.) Tj
+(train) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('numpy ') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(np) Tj
+(.) Tj
+(__version__) Tj
+(\)) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('pandas') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(pd) Tj
+(.) Tj
+(__version__) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(DATA_PATH) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("../data/AirQualityUCI.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('using {DATA_PATH}') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+(df) Tj
+( = ) Tj
+(clean) Tj
+(\() Tj
+(load) Tj
+(\() Tj
+(DATA_PATH) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('{len\(df\)} rows, {df.ts.min\(\).date\(\)} to {df.ts.max\(\).date\(\)}') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(df) Tj
+(.) Tj
+(head) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+(d) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(dropna) Tj
+(\() Tj
+(subset) Tj
+(=[) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\)') Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(fig) Tj
+(, ) Tj
+(ax) Tj
+( = ) Tj
+(plt) Tj
+(.) Tj
+(subplots) Tj
+(\() Tj
+(figsize) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(6) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(4.2) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(ax) Tj
+(.) Tj
+(scatter) Tj
+(\() Tj
+(d) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\)') Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(d) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(s) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(alpha) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.25) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(ax) Tj
+(.) Tj
+(set_xlabel) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\) sensor response') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(ax) Tj
+(.) Tj
+(set_ylabel) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('CO\(GT\) reference, mg/m$^3$') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(ax) Tj
+(.) Tj
+(set_title) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('Sensor response vs reference measurement') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(plt) Tj
+(.) Tj
+(show) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(6) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+(seed) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(model) Tj
+(, ) Tj
+(score) Tj
+( = ) Tj
+(train) Tj
+(\() Tj
+(DATA_PATH) Tj
+(, ) Tj
+(seed) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('R2 on held-out data: {score:.4f}') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('slope {model.coef_[0]:.5f}, intercept {model.intercept_:.5f}') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(7) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+(hourly_co) Tj
+( = ) Tj
+(d) Tj
+(.) Tj
+(set_index) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('ts') Tj
+0.00 0.00 0.00 rg
+(\)[) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(resample) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('h') Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(mean) Tj
+(\(\).) Tj
+(dropna) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(hours_co) Tj
+( = \() Tj
+(hourly_co) Tj
+(.) Tj
+(index) Tj
+( - ) Tj
+(hourly_co) Tj
+(.) Tj
+(index) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]\).) Tj
+(total_seconds) Tj
+(\(\) / ) Tj
+0.05 0.40 0.50 rg
+(3600.0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(exposure_co) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(trapezoid) Tj
+(\() Tj
+(hourly_co) Tj
+(.) Tj
+(values) Tj
+(, ) Tj
+(hours_co) Tj
+(\)) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('Integrated CO exposure:  {exposure_co:,.0f} mg-h/m3') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(In) Tj
+( [) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+(nox) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(dropna) Tj
+(\() Tj
+(subset) Tj
+(=[) Tj
+0.62 0.20 0.12 rg
+('NOx\(GT\)') Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(hourly_nox) Tj
+( = ) Tj
+(nox) Tj
+(.) Tj
+(set_index) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('ts') Tj
+0.00 0.00 0.00 rg
+(\)[) Tj
+0.62 0.20 0.12 rg
+('NOx\(GT\)') Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(resample) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('h') Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(mean) Tj
+(\(\).) Tj
+(dropna) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(hours_nox) Tj
+( = \() Tj
+(hourly_nox) Tj
+(.) Tj
+(index) Tj
+( - ) Tj
+(hourly_nox) Tj
+(.) Tj
+(index) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]\).) Tj
+(total_seconds) Tj
+(\(\) / ) Tj
+0.05 0.40 0.50 rg
+(3600.0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(exposure_nox) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(trapezoid) Tj
+(\() Tj
+(hourly_nox) Tj
+(.) Tj
+(values) Tj
+(, ) Tj
+(hours_nox) Tj
+(\)) Tj
+T*
+(  ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('Integrated NOx exposure: {exposure_nox:,.0f} ppb-h') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+T*
+/F2 8 Tf
+(README: README.md) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 5 of 7) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 3250 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+T*
+(  # SensorLab: reproducible air quality calibration) Tj
+T*
+(  ) Tj
+T*
+(  ## 1. Project purpose) Tj
+T*
+(  ) Tj
+T*
+(  A sensor analysis can produce a reasonable result and still be difficult to reproduce. The result may) Tj
+T*
+(      ) Tj
+(change when the package versions, data path, or train/test split changes. This project rebuilds a) Tj
+T*
+(      ) Tj
+(simple air-quality calibration analysis as a Python package and controls those sources of variation.) Tj
+T*
+(      ) Tj
+(`uv` records the environment, all paths are relative to the project, the split takes an explicit seed,) Tj
+T*
+(      ) Tj
+(and MLflow keeps the run history. Consequently, a reported result can be traced to the code, data, and) Tj
+T*
+(      ) Tj
+(seed that produced it.) Tj
+T*
+(  ) Tj
+T*
+(  The analysis uses the `PT08.S1\(CO\)` sensor response to predict the reference carbon-monoxide measurement) Tj
+T*
+(      ) Tj
+(`CO\(GT\)` with a linear regression model. The raw data come from the [UCI Air Quality Data) Tj
+T*
+(      ) Tj
+(Set]\(https://archive.ics.uci.edu/dataset/360/air-quality\).) Tj
+T*
+(  ) Tj
+T*
+(  ## 2. Rebuild the environment) Tj
+T*
+(  ) Tj
+T*
+(  Install `uv` and open a terminal in the project root. Then run:) Tj
+T*
+(  ) Tj
+T*
+(  ```bash) Tj
+T*
+(  uv sync) Tj
+T*
+(  ```) Tj
+T*
+(  ) Tj
+T*
+(  The project pins its Python version in `.python-version` and records the exact package resolution in) Tj
+T*
+(      ) Tj
+(`uv.lock`. Deleting `.venv` and running `uv sync` again rebuilds the environment from these files) Tj
+T*
+(      ) Tj
+(without relying on packages already installed on the machine.) Tj
+T*
+(  ) Tj
+T*
+(  ## 3. Get the data) Tj
+T*
+(  ) Tj
+T*
+(  The project downloads the data when it is needed. If the requested CSV is absent,) Tj
+T*
+(      ) Tj
+(`sensorlab.dataprocess.load\(\)` downloads the UCI archive and writes the raw file to:) Tj
+T*
+(  ) Tj
+T*
+(  ```text) Tj
+T*
+(  data/AirQualityUCI.csv) Tj
+T*
+(  ```) Tj
+T*
+(  ) Tj
+T*
+(  `load\(\)` reads the semicolon-separated file and its comma decimal marks. `clean\(\)` removes empty rows and) Tj
+T*
+(      ) Tj
+(columns, constructs the timestamp, and replaces the `-200` missing-value sentinel with `NaN`. The raw) Tj
+T*
+(      ) Tj
+(data remain under `data/` and are excluded from Git.) Tj
+T*
+(  ) Tj
+T*
+(  ## 4. Reproduce the result) Tj
+T*
+(  ) Tj
+T*
+(  From the project root, run:) Tj
+T*
+(  ) Tj
+T*
+(  ```bash) Tj
+T*
+(  uv run python -m sensorlab.train --seed 0) Tj
+T*
+(  ```) Tj
+T*
+(  ) Tj
+T*
+(  The seed `0` run should print:) Tj
+T*
+(  ) Tj
+T*
+(  ```text) Tj
+T*
+(  r2=0.7755448891992244) Tj
+T*
+(  ```) Tj
+T*
+(  ) Tj
+T*
+(  Repeating the command with seed `0` produces the same value. Changing the seed changes the train/test split) Tj
+T*
+(      ) Tj
+(and should produce a different value, for example:) Tj
+T*
+(  ) Tj
+T*
+(  ```bash) Tj
+T*
+(  uv run python -m sensorlab.train --seed 1) Tj
+T*
+(  ```) Tj
+T*
+(  ) Tj
+T*
+(  MLflow writes the seed, data filename, and `r2` metric for each run to the local `mlflow.db` store. To) Tj
+T*
+(      ) Tj
+(inspect the recorded runs, use:) Tj
+T*
+(  ) Tj
+T*
+(  ```bash) Tj
+T*
+(  uv run mlflow ui --backend-store-uri sqlite:///mlflow.db) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 6 of 7) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 1102 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ```) Tj
+T*
+(  ) Tj
+T*
+(  ## 5. Generative-AI use) Tj
+T*
+(  ) Tj
+T*
+(  I used OpenAI Codex during this assignment to diagnose problems in the environment and code. It also) Tj
+T*
+(      ) Tj
+(identified that an active VS Code Jupyter kernel was blocking the evidence script from deleting and) Tj
+T*
+(      ) Tj
+(rebuilding `.venv`. I ran the project locally to check the workflow and am responsible for) Tj
+T*
+(      ) Tj
+(understanding the final code and results.) Tj
+T*
+T*
+/F2 8 Tf
+(Summary line) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(  The script hash should match the checksum published beside the script.) Tj
+T*
+T*
+0.00 0.00 0.00 rg
+(  {"andrew_id": "yihaoyin", "generated": "2026-08-27 22:14 \\u4e1c\\u90e8\\u590f\\u4ee4\\u65f6", "score": 1.0,) Tj
+T*
+(      ) Tj
+("passed": 6, "of": 6, "failed": [], "script_sha256": "7ab84f0c7ac1349c2c02e239f004ac9e34e1d39e7892bdf0e3) Tj
+T*
+(      ) Tj
+(c087ca84b3736d", "uv_lock_sha256": "c082196efbe47208", "module": "sensorlab.train"}) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A1 evidence, yihaoyin   page 7 of 7) Tj ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000155 00000 n 
+0000000223 00000 n 
+0000000296 00000 n 
+0000000432 00000 n 
+0000003765 00000 n 
+0000003901 00000 n 
+0000007013 00000 n 
+0000007150 00000 n 
+0000014659 00000 n 
+0000014797 00000 n 
+0000021585 00000 n 
+0000021723 00000 n 
+0000029694 00000 n 
+0000029832 00000 n 
+0000033135 00000 n 
+0000033273 00000 n 
+trailer
+<< /Size 19 /Root 1 0 R >>
+startxref
+34428
+%%EOF

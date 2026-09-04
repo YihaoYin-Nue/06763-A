@@ -1,0 +1,4 @@
+variable,n_readings,n_sensors,min_value,max_value
+temperature,408133,52,-38.4,385.568
+humidity,299084,51,-8983.13,137.512
+voltage,2111,29,0.00910083,18.56

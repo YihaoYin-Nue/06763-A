@@ -1,0 +1,18 @@
+{
+  "export_seconds": 1.0,
+  "partitions": 36,
+  "parquet_files": 36,
+  "parquet_mb": 202,
+  "lab_db_mb": 1376,
+  "smaller_by": 6.8,
+  "one_day_rows": 386187,
+  "one_day_ms": 10,
+  "a_parquet_hours": 36082,
+  "a_sqlite_hours": 36082,
+  "a_matched": 36082,
+  "a_max_abs_diff": 0.0,
+  "c_rows": 2303290,
+  "c_ms": 1447,
+  "c_n_in_window_min": 1,
+  "c_n_in_window_max": 518
+}

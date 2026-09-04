@@ -1,0 +1,10 @@
+.venv/
+data/
+mlruns/
+mlartifacts/
+mlflow.db
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+

@@ -1,0 +1,24 @@
+[project]
+name = "sensorlab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "mlflow>=3.15.2",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.9.0",
+]
+
+[project.scripts]
+sensorlab = "sensorlab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]

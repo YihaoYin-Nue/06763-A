@@ -1,0 +1,13 @@
+-- Non-empty range: sensor 21, 2004-03-15 to 2004-03-16 (6,916 rows)
+-- SELECT count(*) FROM readings WHERE sensor_id = 21 AND ts BETWEEN '2004-03-15' AND '2004-03-16'
+
+Finalize Aggregate  (cost=148247.01..148247.02 rows=1 width=8) (actual time=157.584..157.622 rows=1 loops=1)
+  ->  Gather  (cost=148246.79..148247.00 rows=2 width=8) (actual time=157.578..157.617 rows=3 loops=1)
+        Workers Planned: 2
+        Workers Launched: 2
+        ->  Partial Aggregate  (cost=147246.79..147246.80 rows=1 width=8) (actual time=155.645..155.646 rows=1 loops=3)
+              ->  Parallel Seq Scan on readings  (cost=0.00..147241.94 rows=1940 width=0) (actual time=64.237..155.588 rows=2305 loops=3)
+                    Filter: ((ts >= '2004-03-15 00:00:00+00'::timestamp with time zone) AND (ts <= '2004-03-16 00:00:00+00'::timestamp with time zone) AND (sensor_id = 21))
+                    Rows Removed by Filter: 3037432
+Planning Time: 0.193 ms
+Execution Time: 157.668 ms

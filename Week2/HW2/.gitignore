@@ -1,0 +1,10 @@
+data/
+*.db
+*.db-journal
+*.db-wal
+parquet/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+evidence.pdf
+evidence.html

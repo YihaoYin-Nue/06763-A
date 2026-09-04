@@ -1,0 +1,18 @@
+# safety net for the whole course; each homework folder may add its own rules
+
+# python environments and bytecode caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# raw datasets and the stores rebuilt from them by load.py / duckdb_export.py
+data/
+parquet/
+*.db
+*.db-journal
+*.db-wal
+
+# mlflow local run store
+mlruns/
+mlartifacts/
