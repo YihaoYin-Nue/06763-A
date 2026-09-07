@@ -13,6 +13,7 @@ SCHEMA = Path("sql/schema.sql")
 CHANNELS = ("temperature", "humidity", "light", "voltage")
 BATCH = 200_000
 REPEATS = 5
+LOW_BATTERY_V = 2.4     # counted and reported, never used to drop a row; REPORT.md says why
 
 INSERT = ("INSERT INTO readings (sensor_id, ts, ts_unix, epoch, variable, value) "
           "VALUES (?,?,?,?,?,?)")
@@ -84,7 +85,7 @@ def load(conn):
                 n["no_mote"] += 1
                 continue
             mote_id = int(f[3])
-            if mote_id not in roster:
+            if not (1 <= mote_id <= 54) or mote_id not in roster:
                 n["off_roster"] += 1
                 continue
             try:
@@ -119,6 +120,9 @@ def cleaning_report(conn, n):
         "rows_accepted": n["accepted"],
         "absent_channel_cells": n["empty_cells"],
         "readings_loaded": conn.execute("SELECT count(*) FROM readings").fetchone()[0],
+        "voltage_below_2.4V": conn.execute(
+            "SELECT count(*) FROM readings WHERE variable = 'voltage' AND value < ?",
+            (LOW_BATTERY_V,)).fetchone()[0],
         "foreign_key_violations": len(conn.execute("PRAGMA foreign_key_check").fetchall()),
         "load_seconds": n["load_s"],
     }

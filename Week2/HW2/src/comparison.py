@@ -46,7 +46,16 @@ def main():
                            ("DuckDB", duckdb_answer, con)):
         print(f"| {label} | {bench(lambda: fn(arg)):,.1f} | {LOC[label]} |")
 
+    # the same three answers, sorted by sensor, so the table above compares one question and not three
+    a_pandas = sorted((int(k), float(v)) for k, v in pandas_answer(df).items())
+    a_sqlite = sorted((int(k), float(v)) for k, v in sqlite_answer(conn))
+    a_duckdb = sorted((int(k), float(v)) for k, v in duckdb_answer(con))
+    gap_sqlite = max(abs(x[1] - y[1]) for x, y in zip(a_pandas, a_sqlite))
+    gap_duckdb = max(abs(x[1] - y[1]) for x, y in zip(a_pandas, a_duckdb))
+
     print(f"\npandas first read {len(df):,} rows into RAM, which took {read_s:,.1f} s.")
+    print(f"{len(a_pandas)} motes, largest gap: pandas vs SQLite {gap_sqlite:.3g}, "
+          f"pandas vs DuckDB {gap_duckdb:.3g}.")
     conn.close()
 
 

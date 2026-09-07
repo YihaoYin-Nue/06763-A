@@ -1,114 +1,72 @@
-# A2 Sensor Data into SQLite and DuckDB
-
+# Report
 Yihao Yin (yihaoyin)
 
 ## Part 1 Schema
-
 ### Results
-
 |  | rows | columns |
 |---|---:|---|
-| sensors | 54 | sensor_id, x_m, y_m |
-| readings | 9,119,212 | sensor_id, ts, ts_unix, epoch, variable (CHECK), value |
-
-I tested two kinds natural key to check if they match the 9,119,212 loaded rows:
-
-| candidate | distinct | unique |
-|---|---:|---|
-| (sensor_id, ts, variable) | 9,119,212 | yes |
-| (sensor_id, epoch, variable) | 8,670,777 | no, 448,435 collisions |
-
+| sensors | 54 | sensor_id INTEGER PRIMARY KEY, x_m REAL, y_m REAL |
+| readings | 9119212 | sensor_id INTEGER (FK), ts TEXT, ts_unix REAL, epoch INTEGER, variable TEXT (CHECK), value REAL |
 ### Discussion
-
-sensors is loaded from mote_locs.txt but not from SELECT DISTINCT moteid, because those are different lists: only 53 of the 54 deployed motes ever transmitted. readings is long format, so the channel name is a value in the variable column rather than a column name, which makes it easy to select one channel and cheap to add another variable. 
-
-The cost is that every query pays for rows it does not want: query (a) needs temperature only but reads all rows to use only 1/4 of them. ts, ts_unix and epoch are each stored for four times. 
-
-SQLite has no date type, so the instant is stored twice. ts is fixed-width ISO-8601 in UTC and it sorts chronologically; ts_unix is a number because a RANGE frame needs one. 
-
-The natural key is (sensor_id, ts, variable). I first tried (sensor_id, epoch, variable), since the dataset documentation calls epoch a monotonically increasing sequence number from each mote, but it turned out to lose 448,435 rows. The reason is that motes will restart the counter after reboot. To solve this, I chose (sensor_id, ts, variable) as the natural key.
-
+sensors is loaded from mote_locs.txt but not from SELECT DISTINCT moteid, because those are different lists: only 53 of the 54 deployed motes ever transmitted. readings is long format, which makes it easy to select one channel and cheap to add another variable. One column per channel buys the opposite: the four channels of a reading sit side by side, so comparing a temperature against its own voltage is one WHERE rather than a self-join.
+The cost is that every query pays for rows it does not want: query (a) needs temperature only but reads all rows to use only 1/4 of them. ts, ts_unix and epoch are each stored four times over.
+SQLite has no date type, so the instant is stored twice. ts is fixed-width ISO-8601 in UTC and it sorts chronologically; ts_unix is a number because a RANGE frame needs one. Both tables are STRICT, so a value of the wrong type is rejected instead of being stored anyway.
+The natural key is (sensor_id, ts, variable). I first tried (sensor_id, epoch, variable), which the dataset documentation calls monotonically increasing per mote, but it loses 448435 rows because motes restart the counter after a reboot.
 PRAGMA foreign_keys = ON is issued wherever a connection is opened, because it is per-connection and off by default.
 
 ## Part 2 Load and Cleaning
-
 ### Results
-
 | rule | rows |
 |---|---:|
-| in file | 2,313,682 |
+| in file | 2313682 |
 | moteid empty, rejected | 526 |
-| moteid outside the 1-54 roster, rejected | 9,866 |
+| moteid outside the 1-54 roster, rejected | 9866 |
 | unparseable timestamp or value | 0 |
-| accepted | 2,303,290 |
-| empty channel fields, recorded as absent | 93,948 |
-| readings written | 9,119,212 |
+| accepted | 2303290 |
+| empty channel fields, recorded as absent | 93948 |
+| readings written | 9119212 |
 | foreign key violations | 0 |
-
 Load time 22.2 s. Plausible bounds, applied at read time in query (d):
-
 | channel | bound | basis | readings outside |
 |---|---|---|---:|
-| humidity | 0-100 %RH | dataset doc, "ranging from 0-100%" | 299,084 |
-| voltage | 2.0-3.0 V | dataset doc, lithium ion, "ranging from 2-3" | 2,746 |
-| temperature | 0-50 °C | general working environment | 408,133 |
+| humidity | 0-100 %RH | dataset doc, "ranging from 0-100%" | 299084 |
+| voltage | 2.0-3.0 V | dataset doc, lithium ion, "ranging from 2-3" | 2746 |
+| temperature | 0-50 degC | general working environment | 408133 |
 | light | 0-2000 lux | observed to saturate at 1847.36 lux | 0 |
-
 ### Discussion
-
-data.txt is split on a single space. Under that rule all 2,313,682 rows yield exactly eight fields, so no row in this file is malformed. Splitting on runs of whitespace instead makes 93,879 rows look ragged and shifts every value after the gap one column left, producing rows that are well-formed, plausible and wrong. The 526 rows whose fields after epoch are all empty end in whitespace, so .strip() would move them out of the empty-moteid count and into a malformed one. An empty channel field is an absent measurement and not a zero one, so in the long table it is the absence of a row. Four rows carry a whole-second timestamp, and the loader pads the fraction to six digits so ts stays fixed width.
-
-Implausible readings are neither deleted nor flagged. The bounds are literals in query (d), so changing one changes the answer and no data is destroyed. The four are not equally strong: humidity and voltage come from the dataset documentation, light from the observed hardware ceiling, and temperature only from the deployment being an indoor office. Temperature is therefore the one I would expect to be argued with.
-
-Light never fires, so query (d) returns three channels rather than four. That is a result and not an omission: the observed range is 0 → 1847.36 lux, and 1847.36 appears 139,078 times, eight times more often than any other value above 1000, which is what a saturated sensor looks like.
-
-Impossible temperatures correlate with low voltage in the same transmission, mean 2.19 V against 2.55 V. The relation runs one way only: over 200,000 readings between 2.20 and 2.40 V carry perfectly normal temperatures, and the documentation notes that the voltage reading itself varies with temperature. Cause is not established, so nothing was cleaned on this basis.
-
-Query (b) counts distinct timestamps per mote against the observation window divided by a 30 s nominal period. That period is an assumption, but n_expected is identical for every mote, so it scales the column without changing the ranking. The real weakness is that it charges every mote for the whole window, so died-early and never-started score alike. Mote 5, with 35 samples in 36 days, tops the list either way, and is invisible to any query starting FROM readings.
+Every row of data.txt has eight fields separated by exactly one space, and a channel that did not arrive leaves its field empty, so two spaces appear in a row. Splitting on a single space keeps that empty field and every row comes out with eight. Splitting on any amount of whitespace, which is what line.split() and pandas do by default, reads those two spaces as one separator, so 93879 rows lose a field and every value after the gap shifts one column left with no error raised. An empty field means the measurement is missing rather than zero, so the loader writes no row for it.
+Readings outside these bounds are kept in the database, neither deleted nor marked. The bounds are written directly into query (d) and applied when it runs, so changing one gives a different answer without reloading anything.
+1847.36 lux is the largest value in the file and repeats 139078 times, far more often than any other, so the sensors reach their maximum there and keep reporting the same number. Everything below that can be real, since some sensors sit near windows, so the bound is set at 2000 rather than lower.
+The dying-battery anomalies are counted but not cleaned out. Temperatures outside 0-50 degC come with a voltage averaging 2.19 V in the same transmission, against 2.55 V for the rest. A voltage rule cannot be derived from the temperatures, since the ones that would set it are the corrupted readings themselves; and temperatures cannot be judged by the voltage, since the documentation says the voltage reading itself changes with temperature and over 200000 readings below 2.40 V carry normal temperatures. Dropping everything below some voltage would throw away good data to remove bad.
 
 ## Part 3 Indexing
-
+### Method
+The probe query counts the readings from sensor 22 on 2004-03-09. It is run once to warm the cache and then five more times, and the fastest of those five is reported. EXPLAIN QUERY PLAN reports no timings, so the timing comes from time.perf_counter() in Python. The index is created after the load rather than in schema.sql, which is why an unindexed table exists to measure. Both configurations return the same 10452 rows, so only the cost changed.
 ### Results
-
-Probe: count(*) for sensor 22 over 2004-03-09, best of 5 warm runs, timed with time.perf_counter() because EXPLAIN QUERY PLAN reports no timings. Both configurations return the same 10,452 rows.
-
 | index | best | EXPLAIN QUERY PLAN |
 |---|---:|---|
 | none | 397.97 ms | SCAN readings |
 | (sensor_id, ts, variable) | 0.19 ms | SEARCH readings USING COVERING INDEX ux_readings (sensor_id=? AND ts>? AND ts<?) |
-
 ### Discussion
-
-The parenthesis in the plan lists the columns the index actually constrained, here all three predicates. Leading with sensor_id puts one mote's day in one contiguous run. An index leading with ts would also be used, but would constrain only ts and read that whole day for all 54 motes: 386,187 rows to answer a question about 10,452, thirty-seven times as many. Column order is what decides how much of a composite index a query can use. COVERING means the answer came out of the index without the table being read at all, which is why 0.19 ms is possible.
-
-The index is also the natural key, so one statement buys both the uniqueness constraint and the access path. It is built after the bulk load so that 9.1M inserts need not maintain it, and so that an unindexed state exists to measure.
+SCAN readings means SQLite reads every row in the table and keeps the ones that match, so a question about one mote on one day costs a walk over all 9119212 rows. SEARCH means it uses the index instead, a second copy of (sensor_id, ts, variable) kept in sorted order, so it can jump straight to that sensor and then to that day inside it. It reads about 10452 entries rather than the whole table, which is the difference between the two timings.
+The part in parentheses says which conditions the index actually handled, and here it handled all three. That depends on column order: sensor_id comes first, so one mote's readings sit together and its day is a contiguous run inside them. An index built as (ts, sensor_id) would constrain only ts and read that day for all 54 motes, thirty-seven times as many rows. COVERING means every column the query needs is already in the index, so the table is never opened.
 
 ## Part 4 The Three-Way Comparison
-
+### Method
+All three engines answer the same question, the average temperature of each of the 53 motes that reported one. Only the query itself is timed, warm, best of 5. Lines of code counts the expression that produces the answer rather than the setup, so the pandas read_parquet call is not included.
 ### Results
-
-Question: average temperature per mote over the whole history. Timed: the query only, warm, best of 5. The setup column is what each engine needs from data.txt before it can answer at all.
-
 | engine | before it can answer | query | lines of code |
 |---|---|---:|---:|
-| pandas, Parquet into RAM | 0.1 s read | 101.1 ms | 1 |
-| SQLite, lab.db | 22.2 s load | 1,046.9 ms | 2 |
-| DuckDB, Parquet | none | 20.4 ms | 2 |
-
+| pandas, Parquet into RAM | 0.5 s read | 105.5 ms | 1 |
+| SQLite, lab.db | 22.2 s load | 1019.9 ms | 2 |
+| DuckDB, Parquet | none | 19.0 ms | 2 |
 ### Discussion
-
-DuckDB is 51 times faster than SQLite and needs nothing prepared, since it reads the Parquet tree in place. SQLite is slowest because the long schema makes it walk all 9,119,212 rows, three quarters of which belong to channels the question never names. The pandas setup number is not comparable to the other two: 0.1 s is a warm read of three columns, and the approach works only while the answer fits in RAM.
+pandas and SQLite return exactly the same numbers, and DuckDB differs from them by at most 1.33e-12. That is a different order of addition rather than a different answer: pandas and SQLite accumulate row by row, DuckDB adds partial sums from vectorised chunks, and floating-point addition is not associative. DuckDB is also the fastest and needs nothing prepared, since it reads the Parquet tree in place, while SQLite is slowest because the long schema makes it walk the whole table.
 
 ## Part 5 When You Would Choose Each Store
-
-### Discussion
-
-A row store keeps a reading's columns contiguous, so averaging one channel still walks every page: the bytes it wants are interleaved with the bytes it does not. The long schema quadruples that, since three of every four rows read belong to a channel the question never mentions. Parquet stores each column separately and the whole tree is 95 MB against lab.db's 1,038 MB, so DuckDB reads a fraction of the bytes SQLite must. That is what OLAP means here, a wide scan of few columns over the whole history.
-
-SQLite wins elsewhere. One sensor over one day is 0.19 ms, against a file that is always current with no export step between the writer and the reader. Constraints are enforced on write, so a reading cannot name a mote outside the roster, store text in a REAL column, or invent a fifth channel, and foreign_key_check proves it afterwards. Correcting a single reading is an UPDATE, while in Parquet it is rewriting a partition. It is one file, with no server and no daemon. That is the OLTP side: many small correct writes, point lookups, integrity.
-
-The export takes 0.9 s for 9,119,212 rows, so running both is not a compromise.
+A row store keeps one reading's fields next to each other on disk, and it reads in fixed-size pages, so a page holds whole rows. Averaging the value column means loading pages that carry every other column too, because value was never stored on its own. A column store writes all the values of one column together, so reading value reads only value. The Parquet tree is 95 MB against lab.db's 1038 MB.
+SQLite is good at touching a small part of the data. Reading one sensor over one day takes a fraction of a millisecond because the index leads straight to those rows, and correcting a single reading is one UPDATE where the same fix in Parquet means rewriting the whole day's file. The file is also the data, so a value written a second ago is already in the next query. And it is the only one of the two that checks anything: the foreign key, STRICT and the CHECK reject a bad mote, a wrong type or an unknown channel at insert time.
+I would keep the data in SQLite while it is still arriving or being corrected, and whenever a question names one mote or one day. I would go to Parquet and DuckDB once the data is finished and the questions change shape, scanning months but naming two or three columns. The deciding factor is the access pattern rather than the size of the data, and since the export takes 0.9 s there is no reason to pick only one.
 
 ## AI Use
-
-Generative AI (Claude) was used throughout: to profile the raw file, to draft the loader, the SQL and this report, and as a reviewer of the schema and index decisions. Every number here was produced by the scripts in this repository on my own machine and checked against the counts published on the assignment page.
+Generative AI was used to fix bugs in the code, to resolve SQL syntax problems, and to improve the wording and organisation of this report; every number here was produced by the scripts in this repository on my own machine.
