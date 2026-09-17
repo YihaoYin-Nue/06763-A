@@ -16,3 +16,6 @@ parquet/
 # mlflow local run store
 mlruns/
 mlartifacts/
+
+# raw sample dataset for HW2FS
+Week2/HW2FS/sample.txt
