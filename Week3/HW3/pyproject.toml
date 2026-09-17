@@ -1,0 +1,16 @@
+[project]
+name = "a03-plant-stream"
+version = "0.1.0"
+description = "06763 A3 - Tennessee Eastman plant stream: collect, validate, dedup, grid, window"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.20",
+    "pandas>=2.2",
+    "pyarrow>=17",
+    "pandera[pandas]>=0.22",
+    "numpy>=2.0",
+]
+
+# Not an installable package - just a pinned environment for scripts.
+[tool.uv]
+package = false

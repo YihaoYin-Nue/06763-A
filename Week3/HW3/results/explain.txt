@@ -1,0 +1,8 @@
+SELECT [col("line"), col("metric").struct.field_by_name(name)().alias("tag"), col("metric").struct.field_by_name(value)(), col("metric").struct.field_by_name(statusCode)().alias("status"), col("metric").struct.field_by_name(sourceTimestamp)().str.strptime(["raise"]).alias("event_time"), col("server_raw").str.strptime(["raise"]).alias("server_time"), col("received_raw").str.strptime(["raise"]).alias("received_at"), col("seq"), col("is_historical")]
+  EXPLODE [metric]
+    SELECT [col("line"), col("receivedAt").alias("received_raw"), col("payload").struct.field_by_name(seq)(), col("payload").struct.field_by_name(timestamp)().alias("server_raw"), col("payload").struct.field_by_name(isHistorical)().alias("is_historical"), col("payload").struct.field_by_name(metrics)().alias("metric")]
+      simple π 3/3 ["line", "receivedAt", ... 1 other column]
+        NDJson SCAN [D:/Lecture/System & Tool Chains/Week3/HW3/raw/stream-2026-09-16.ndjson]
+        PROJECT 3/3 COLUMNS
+        SELECTION: col("topic") == "plant/tep/telemetry"
+        ROW_INDEX: line

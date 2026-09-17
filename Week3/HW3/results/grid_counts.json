@@ -1,0 +1,29 @@
+{
+  "rows": 576,
+  "start": "2029-07-20 02:49:54.016000+00:00",
+  "end": "2029-07-21 07:34:54.016000+00:00",
+  "tidy_rows_off_grid": 5,
+  "off_grid_before_start": 5,
+  "fill": {
+    "continuous_interpolated": 192,
+    "continuous_edge_nearest": 0,
+    "analyser_seeded_from_before_grid": 5,
+    "analyser_held_forward": 6340,
+    "analyser_filled_backward": 0,
+    "still_empty": 0
+  },
+  "empty_before_fill": {
+    "continuous": {
+      "tags": 34,
+      "cells": 19584,
+      "empty": 192,
+      "pct": 0.98
+    },
+    "analyser": {
+      "tags": 19,
+      "cells": 10944,
+      "empty": 6340,
+      "pct": 57.93
+    }
+  }
+}

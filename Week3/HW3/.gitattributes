@@ -1,0 +1,5 @@
+# Stored byte for byte. The raw capture is the one file that cannot be
+# regenerated, and a PDF with no NUL bytes would otherwise pass for text.
+raw/*.ndjson -text
+*.pdf binary
+*.parquet binary

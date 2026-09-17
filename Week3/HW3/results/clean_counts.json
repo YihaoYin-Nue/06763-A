@@ -1,0 +1,27 @@
+{
+  "messages": 574,
+  "readings": 30422,
+  "status": {
+    "Good": 30337,
+    "Uncertain_SensorNotAccurate": 70,
+    "Bad_DeviceFailure": 15
+  },
+  "good_deliveries": 30337,
+  "duplicates_removed": 6333,
+  "good_measurements": 24004,
+  "schema_failure_cases": {
+    "value_in_unit_range": 24
+  },
+  "schema_rejected": 3,
+  "tidy_rows": 24001,
+  "quarantine_rows": 88,
+  "quarantine_reasons": {
+    "status: Uncertain_SensorNotAccurate": 70,
+    "status: Bad_DeviceFailure": 15,
+    "schema: value_in_unit_range": 3
+  },
+  "window_plant": [
+    "2029-07-19 20:49:22.363000+00:00",
+    "2029-07-21 08:34:23.947000+00:00"
+  ]
+}

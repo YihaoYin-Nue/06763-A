@@ -1,0 +1,30 @@
+gate test: 300 clean rows copied from processed/tidy.parquet
+  before breaking anything: 0 rows fail the schema
+  broke 5 rows on purpose, then validated with lazy=True
+
+which check caught which rows (from SchemaErrors.failure_cases):
+  event_time_in_collection_window    rows [210]
+  not_nullable                       rows [110]
+  status_known                       rows [160]
+  tag_declared_in_birth              rows [10]
+  value_in_unit_range                rows [10, 60]
+
+row by row:
+  row  10  undeclared tag
+            tag: XMEAS_11_separator_temperature -> XMEAS_99_not_in_birth
+            caught by: tag_declared_in_birth;value_in_unit_range
+  row  60  value 10x the top of its unit range (1000)
+            value: 45.172469 -> 1000.0
+            caught by: value_in_unit_range
+  row 110  missing value on a Good reading
+            value: 19.030412 -> nan
+            caught by: not_nullable
+  row 160  unknown status code
+            status: Good -> Questionable
+            caught by: status_known
+  row 210  event_time one year early
+            event_time: 2029-07-20 08:37:54.016000+00:00 -> 2028-07-20 08:37:54.016000+00:00
+            caught by: event_time_in_collection_window
+
+broken rows caught: 5 of 5
+clean rows flagged: 0

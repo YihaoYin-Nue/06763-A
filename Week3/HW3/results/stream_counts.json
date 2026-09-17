@@ -1,0 +1,55 @@
+{
+  "measurements": 24001,
+  "late_pct": 22.32,
+  "lateness_all": {
+    "late": 5356,
+    "of": 24001,
+    "median_min": 66.0,
+    "p95_min": 99.0,
+    "max_min": 108.0
+  },
+  "lateness_live": {
+    "late": 0,
+    "of": 18645,
+    "median_min": 0.0,
+    "p95_min": 0.0,
+    "max_min": 0.0
+  },
+  "lateness_historical": {
+    "late": 5356,
+    "of": 5356,
+    "median_min": 66.0,
+    "p95_min": 99.0,
+    "max_min": 108.0
+  },
+  "lateness_continuous": {
+    "late": 4372,
+    "of": 19392,
+    "median_min": 63.0,
+    "p95_min": 99.0,
+    "max_min": 108.0
+  },
+  "lateness_analyser": {
+    "late": 984,
+    "of": 4609,
+    "median_min": 66.0,
+    "p95_min": 99.0,
+    "max_min": 105.0
+  },
+  "newest_event_time": "2029-07-21 07:34:54.016000+00:00",
+  "clock_comparison": {
+    "tag": "XMEAS_7_reactor_pressure",
+    "tag_std": 8.516379094197935,
+    "windows": 59,
+    "max_abs_readings_diff": 1258,
+    "at_window": "2029-07-20 20:30:00+00:00",
+    "readings_there": {
+      "event_time": 418,
+      "received_at": 1676,
+      "historical_by_received_at": 1258
+    },
+    "max_abs_mean_diff": 14.14439369999991,
+    "mean_diff_at_window": "2029-07-20 09:30:00+00:00",
+    "windows_with_mean_only_one_way": 8
+  }
+}

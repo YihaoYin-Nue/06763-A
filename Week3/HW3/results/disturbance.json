@@ -1,0 +1,145 @@
+{
+  "method": {
+    "quiet_z": 3.0,
+    "cut_sd": 3.0,
+    "single_tag_z": 4.0,
+    "complete_windows": 57,
+    "incomplete_windows_excluded": 2,
+    "tags_scored": 33,
+    "tags_excluded_no_spread": [
+      "XMV_12_agitator_speed"
+    ],
+    "quiet_windows": 40,
+    "quiet_score_mean": 0.8129,
+    "quiet_score_sd": 0.17,
+    "cut": 1.323
+  },
+  "episodes": [
+    {
+      "disturbed_from": "2029-07-20 03:00:00+00:00",
+      "recovered_by": "2029-07-20 04:30:00+00:00",
+      "standout_windows": [
+        "2029-07-20 03:00:00+00:00",
+        "2029-07-20 03:30:00+00:00"
+      ],
+      "onset_or_recovery_windows": [
+        "2029-07-20 04:00:00+00:00"
+      ],
+      "starts_at_first_complete_window": true,
+      "peak_window": "2029-07-20 03:00:00+00:00",
+      "peak_score": 1.7342,
+      "tags": [
+        {
+          "tag": "XMV_10_reactor_cw_flow",
+          "description": "Reactor Cooling Water Flow",
+          "max_abs_z": 22.3,
+          "z_at_peak": -22.3
+        },
+        {
+          "tag": "XMEAS_9_reactor_temperature",
+          "description": "Reactor Temperature",
+          "max_abs_z": 9.8,
+          "z_at_peak": 1.3
+        },
+        {
+          "tag": "XMV_4_total_feed_flow",
+          "description": "A and C Feed Flow (stream 4)",
+          "max_abs_z": 3.2,
+          "z_at_peak": -3.2
+        },
+        {
+          "tag": "XMEAS_22_condenser_cw_outlet",
+          "description": "Separator Cooling Water Outlet Temp",
+          "max_abs_z": 2.7,
+          "z_at_peak": -2.7
+        },
+        {
+          "tag": "XMV_6_purge_valve",
+          "description": "Purge Valve (stream 9)",
+          "max_abs_z": 2.3,
+          "z_at_peak": -0.5
+        }
+      ]
+    },
+    {
+      "disturbed_from": "2029-07-21 04:00:00+00:00",
+      "recovered_by": "2029-07-21 05:30:00+00:00",
+      "standout_windows": [
+        "2029-07-21 04:30:00+00:00",
+        "2029-07-21 05:00:00+00:00"
+      ],
+      "onset_or_recovery_windows": [
+        "2029-07-21 04:00:00+00:00"
+      ],
+      "starts_at_first_complete_window": false,
+      "peak_window": "2029-07-21 04:30:00+00:00",
+      "peak_score": 1.6609,
+      "tags": [
+        {
+          "tag": "XMV_5_compressor_recycle",
+          "description": "Compressor Recycle Valve",
+          "max_abs_z": 8.6,
+          "z_at_peak": -8.6
+        },
+        {
+          "tag": "XMEAS_20_compressor_work",
+          "description": "Compressor Work",
+          "max_abs_z": 6.5,
+          "z_at_peak": -5.6
+        },
+        {
+          "tag": "XMEAS_13_separator_pressure",
+          "description": "Prod Sep Pressure",
+          "max_abs_z": 4.5,
+          "z_at_peak": -3.7
+        },
+        {
+          "tag": "XMV_10_reactor_cw_flow",
+          "description": "Reactor Cooling Water Flow",
+          "max_abs_z": 3.6,
+          "z_at_peak": -1.8
+        },
+        {
+          "tag": "XMEAS_22_condenser_cw_outlet",
+          "description": "Separator Cooling Water Outlet Temp",
+          "max_abs_z": 3.6,
+          "z_at_peak": -3.6
+        }
+      ]
+    }
+  ],
+  "ambiguous": [
+    {
+      "from": "2029-07-20 08:30:00+00:00",
+      "to": "2029-07-20 10:30:00+00:00",
+      "scores": [
+        1.2404,
+        1.1339,
+        1.1239,
+        0.9648
+      ],
+      "tags": [
+        {
+          "tag": "XMV_10_reactor_cw_flow",
+          "description": "Reactor Cooling Water Flow",
+          "z_by_window": [
+            -5.9,
+            7.9,
+            -5.0,
+            4.1
+          ]
+        },
+        {
+          "tag": "XMEAS_9_reactor_temperature",
+          "description": "Reactor Temperature",
+          "z_by_window": [
+            -5.0,
+            6.3,
+            -5.0,
+            3.4
+          ]
+        }
+      ]
+    }
+  ]
+}

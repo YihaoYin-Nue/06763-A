@@ -1,0 +1,5 @@
+tag_class,cause,cells,leading
+analyser,between analyses,6337,5
+analyser,quarantined,3,0
+continuous,quarantined,56,0
+continuous,sample never delivered (lost message),136,0

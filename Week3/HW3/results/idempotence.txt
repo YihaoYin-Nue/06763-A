@@ -1,0 +1,21 @@
+idempotence: src/pipeline.py run twice on the same raw capture
+
+  run 2 vs run 1   sha256 (first 16)  file
+  same             6dc02aa7693b4bb2   processed/grid.parquet
+  same             75e92a4b748a8b03   processed/quarantine.parquet
+  same             ecf7bd22f8f2b47f   processed/tidy.parquet
+  same             82cbeed775f47618   results/clean_counts.json
+  same             f8ac9777228642d8   results/clock_comparison.csv
+  same             eecab40ee644e0b6   results/disturbance.csv
+  same             79704779adae414a   results/disturbance.json
+  same             90b7118879544db9   results/empty_cells.csv
+  same             eef89c6d01905fe5   results/explain.txt
+  same             7c67075ede529159   results/gate_test.txt
+  same             05890ad1b0fa6883   results/grid_counts.json
+  same             3de95e0a1d161c5c   results/stream_counts.json
+  same             5ef69accf2cc11c4   results/watermark.csv
+  same             1bfb1a3091720eeb   results/windows.csv
+
+  raw stream-2026-09-16.ndjson: sha256 c8806e5431c06cad before, unchanged after
+
+all 14 outputs byte-identical across the two runs: yes
