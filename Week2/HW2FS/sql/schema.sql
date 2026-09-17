@@ -14,7 +14,7 @@ CREATE TABLE readings (
     sensor_id INTEGER NOT NULL REFERENCES sensors(sensor_id),
     ts        TEXT    NOT NULL,   -- 'YYYY-MM-DD HH:MM:SS.ffffff' UTC, fixed width so text sorts by time
     ts_unix   REAL    NOT NULL,   -- the same instant as a number, which is what a RANGE frame needs
-    epoch     INTEGER NOT NULL,   -- the mote's own transmission counter, carried through from data.txt
+    epoch     INTEGER NOT NULL,   -- the mote's own counter; it resets on reboot, so it is not part of the key
     variable  TEXT    NOT NULL CHECK (variable IN ('temperature', 'humidity', 'light', 'voltage')),
     value     REAL    NOT NULL
 ) STRICT;

@@ -1,9 +1,0 @@
-Aggregate  (cost=148244.99..148245.00 rows=1 width=8) (actual time=182.710..183.134 rows=1 loops=1)
-  ->  Gather  (cost=1000.00..148244.99 rows=1 width=0) (actual time=182.705..183.128 rows=0 loops=1)
-        Workers Planned: 2
-        Workers Launched: 2
-        ->  Parallel Seq Scan on readings  (cost=0.00..147244.89 rows=1 width=0) (actual time=179.188..179.188 rows=0 loops=3)
-              Filter: ((ts >= '2004-03-15 00:00:00+00'::timestamp with time zone) AND (ts <= '2004-03-16 00:00:00+00'::timestamp with time zone) AND (sensor_id = 5))
-              Rows Removed by Filter: 3039737
-Planning Time: 0.281 ms
-Execution Time: 183.164 ms
