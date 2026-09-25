@@ -1,0 +1,12187 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 20 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 5365 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+/F2 8 Tf
+(Assignment 4 evidence) Tj
+T*
+T*
+/F1 8 Tf
+(YihaoYin \(yihaoyin\)) Tj
+T*
+(generated 2026-09-24 22:06 ????? on Windows-11-10.0.26200-SP0, polars 1.44.2) Tj
+T*
+(project System & Tool Chains) Tj
+T*
+(evidence script sha256 76151d2e3fb565930aed34c3b78d3a4f8debede7fcdaae3d053cfd814d921ab8) Tj
+T*
+T*
+/F2 8 Tf
+(Score  ) Tj
+(4.50 / 5) Tj
+/F1 8 Tf
+(  automatic, out of 6 for the assignment.) Tj
+T*
+0.40 0.40 0.40 rg
+(  The last 1 point is REPORT.md, which your TA reads. This script does not score it.) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Summary) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(  group                        score   checks        decided by) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(The table             ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.00 / 1.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   4/4 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Baselines             ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.00 / 1.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   4/4 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Models                ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.25 / 1.25) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   5/5 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Honest evaluation     ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.25 / 1.25) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   5/5 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Report numbers        ) Tj
+/F2 8 Tf
+0.70 0.06 0.06 rg
+( 0.00 / 0.50) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   0/2 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(REPORT.md             ) Tj
+/F2 8 Tf
+0.60 0.42 0.00 rg
+(   ?  / 1.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   0/1 passed    your TA) Tj
+T*
+(  --------------------------------------------------------------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+(automatic total       ) Tj
+(4.50 / 5.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   of 6 for the assignment) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(What this script found) Tj
+T*
+T*
+/F1 8 Tf
+(  data         Week4\\HW4\\data\\tep_fault_free_training.parquet) Tj
+T*
+(  predictions  Week4\\HW4\\results\\predictions.parquet) Tj
+T*
+(  forecast     Week4\\HW4\\results\\forecast.csv) Tj
+T*
+(  validation   Week4\\HW4\\results\\validation.csv) Tj
+T*
+(  leaky        Week4\\HW4\\results\\leaky.csv) Tj
+T*
+(  report       Week2\\HW2\\REPORT.md) Tj
+T*
+0.40 0.40 0.40 rg
+(  code         28 files) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(The table) Tj
+(   1.00 / 1.00) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  predictions.parquet with the eight columns) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  every test run and origin, for every horizon, and nothing else) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  y_true is xmeas_18 at t + h) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% of rows match) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  shifts kept inside each run in the code) Tj
+T*
+T*
+/F2 8 Tf
+(Baselines) Tj
+(   1.00 / 1.00) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  forecast.csv with the five horizons and the six columns) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  persistence RMSE matches the recomputation) Tj
+T*
+0.40 0.40 0.40 rg
+(          within 0.5 % at every horizon) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  mean RMSE matches the recomputation) Tj
+T*
+0.40 0.40 0.40 rg
+(          mean over all samples of runs 1 to 300) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  skill = 1 - direct / better baseline) Tj
+T*
+T*
+/F2 8 Tf
+(Models) Tj
+(   1.25 / 1.25) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  direct RMSE matches your predictions) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  recursive RMSE matches your predictions) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  direct beats the better baseline at four or more horizons) Tj
+T*
+0.40 0.40 0.40 rg
+(          5 of 5) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  recursive differs from direct beyond h = 1) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  a scaler inside a pipeline in the code) Tj
+T*
+T*
+/F2 8 Tf
+(Honest evaluation) Tj
+(   1.25 / 1.25) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  validation.csv with three or more settings) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  validation on runs 301 to 400 in the code) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  leaky.csv with both splits for runs 1 to 10) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  TimeSeriesSplit with a gap of at least 10 in the code) Tj
+T*
+0.40 0.40 0.40 rg
+(          gap arguments found: ['H']) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  shuffled KFold in the code) Tj
+T*
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 1 of 20) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5065 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+/F2 8 Tf
+(Report numbers) Tj
+(   0.00 / 0.50) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.70 0.06 0.06 rg
+([FAIL]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  RMSE values in REPORT.md come from forecast.csv) Tj
+T*
+0.40 0.40 0.40 rg
+(          0 of 20 quoted; four needed) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.70 0.06 0.06 rg
+([FAIL]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  REPORT.md quotes both leaky.csv means) Tj
+T*
+T*
+/F2 8 Tf
+(REPORT.md) Tj
+0.40 0.40 0.40 rg
+(   1.00 point, read by your TA) Tj
+T*
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.60 0.42 0.00 rg
+([SKIP]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  six sections and the AI-use line) Tj
+T*
+0.40 0.40 0.40 rg
+(          read by your TA) Tj
+T*
+T*
+(  Each line is decided from the output below, not asserted.) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Transcript) Tj
+T*
+T*
+(  data, and the script's own baselines) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    250,000 rows, 500 runs, samples per run [500]) Tj
+T*
+(    training mean of xmeas_18 over runs 1 to 300: 65.80559) Tj
+T*
+(    h= 1: persistence 0.0501, mean 0.4231 on 46,000 test origins) Tj
+T*
+(    h= 5: persistence 0.1400, mean 0.4244 on 45,600 test origins) Tj
+T*
+(    h=10: persistence 0.2218, mean 0.4260 on 45,100 test origins) Tj
+T*
+(    h=20: persistence 0.3920, mean 0.4289 on 44,100 test origins) Tj
+T*
+(    h=40: persistence 0.6353, mean 0.4345 on 42,100 test origins) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  predictions) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    222,900 rows, columns ['run', 't', 'h', 'y_true', 'persistence', 'mean', 'direct', 'recursive']) Tj
+T*
+(    runs: 401 to 500, 100 distinct) Tj
+T*
+(    h= 1: 46,000 rows \(expected 46,000\), 0 duplicated origins, 0 origins outside 40..499) Tj
+T*
+(    h= 5: 45,600 rows \(expected 45,600\), 0 duplicated origins, 0 origins outside 40..495) Tj
+T*
+(    h=10: 45,100 rows \(expected 45,100\), 0 duplicated origins, 0 origins outside 40..490) Tj
+T*
+(    h=20: 44,100 rows \(expected 44,100\), 0 duplicated origins, 0 origins outside 40..480) Tj
+T*
+(    h=40: 42,100 rows \(expected 42,100\), 0 duplicated origins, 0 origins outside 40..460) Tj
+T*
+(    y_true equal to xmeas_18 at t + h: 100.00% of rows) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  forecast.csv against the script's recomputation) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    columns ['h', 'minutes', 'rows', 'persistence_rmse', 'mean_rmse', 'direct_rmse', 'recursive_rmse',) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+('skill', 'recursive_skill']) Tj
+T*
+(    ) Tj
+T*
+(      h              persistence                     mean                   direct                recursive) Tj
+T*
+(                  yours / script           yours / script       yours / from preds       yours / from preds) Tj
+T*
+(      1          0.0501 / 0.0501          0.4231 / 0.4231          0.0367 / 0.0367          0.0393 / 0.0393) Tj
+T*
+(      5          0.1400 / 0.1400          0.4244 / 0.4244          0.0869 / 0.0869          0.1070 / 0.1070) Tj
+T*
+(     10          0.2218 / 0.2218          0.4260 / 0.4260          0.1271 / 0.1271          0.1486 / 0.1486) Tj
+T*
+(     20          0.3920 / 0.3920          0.4289 / 0.4289          0.2029 / 0.2029          0.2482 / 0.2482) Tj
+T*
+(     40          0.6353 / 0.6353          0.4345 / 0.4345          0.3328 / 0.3328          0.3846 / 0.3846) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  validation.csv) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    24 settings, columns ['h', 'n_lags', 'alpha', 'features', 'train_rows', 'train_rmse', 'val_rmse',) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+('val_persistence_rmse', 'chosen']) Tj
+T*
+(    ) Tj
+T*
+(    shape: \(12, 9\)) Tj
+T*
+(    ?????????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+(    ? h   ? n_lags ? alpha   ? features ? ? ? train_rmse ? val_rmse ? val_persistence_rmse ? chosen ?) Tj
+T*
+(    ? --- ? ---    ? ---     ? ---      ?   ? ---        ? ---      ? ---                  ? ---    ?) Tj
+T*
+(    ? i64 ? i64    ? f64     ? i64      ?   ? f64        ? f64      ? f64                  ? bool   ?) Tj
+T*
+(    ?????????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+(    ? 10  ? 1      ? 0.01    ? 12       ? ? ? 0.154756   ? 0.152825 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 1      ? 1.0     ? 12       ? ? ? 0.154756   ? 0.152825 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 1      ? 100.0   ? 12       ? ? ? 0.154768   ? 0.152833 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 1      ? 10000.0 ? 12       ? ? ? 0.16248    ? 0.160314 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 2      ? 0.01    ? 13       ? ? ? 0.149295   ? 0.14773  ? 0.227914             ? false  ?) Tj
+T*
+(    ? ?   ? ?      ? ?       ? ?        ? ? ? ?          ? ?        ? ?                    ? ?      ?) Tj
+T*
+(    ? 10  ? 2      ? 10000.0 ? 13       ? ? ? 0.164293   ? 0.162113 ? 0.227914             ? false  ?) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 2 of 20) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 4999 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+0.40 0.40 0.40 rg
+(    ? 10  ? 5      ? 0.01    ? 16       ? ? ? 0.143173   ? 0.142104 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 5      ? 1.0     ? 16       ? ? ? 0.143173   ? 0.142103 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 5      ? 100.0   ? 16       ? ? ? 0.143384   ? 0.142252 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 5      ? 10000.0 ? 16       ? ? ? 0.161009   ? 0.159015 ? 0.227914             ? false  ?) Tj
+T*
+(    ?????????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  leaky.csv) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    20 rows, columns ['run', 'split', 'h', 'model_rmse', 'persistence_rmse']) Tj
+T*
+(    runs with a shuffled row: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) Tj
+T*
+(    runs with a time-ordered row: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) Tj
+T*
+(    ) Tj
+T*
+(    shape: \(2, 3\)) Tj
+T*
+(    ????????????????????????????????????????????) Tj
+T*
+(    ? kind     ? model_rmse ? persistence_rmse ?) Tj
+T*
+(    ? ---      ? ---        ? ---              ?) Tj
+T*
+(    ? str      ? f64        ? f64              ?) Tj
+T*
+(    ????????????????????????????????????????????) Tj
+T*
+(    ? shuffled ? 0.096044   ? 0.255007         ?) Tj
+T*
+(    ? time     ? 0.344777   ? 0.251701         ?) Tj
+T*
+(    ????????????????????????????????????????????) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  read the code) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    28 code files: Week1\\sensorlab\\a01-evidence.py, Week1\\sensorlab\\src\\sensorlab\\__init__.py,) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+(Week1\\sensorlab\\src\\sensorlab\\dataprocess.py, Week1\\sensorlab\\src\\sensorlab\\train.py,) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+(Week2\\HW2\\src\\comparison.py, Week2\\HW2\\src\\duckdb_export.py, Week2\\HW2\\src\\load.py,) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+(Week2\\HW2\\src\\query.py, Week3\\HW3\\src\\clean.py, Week3\\HW3\\src\\contract.py, Week3\\HW3\\src\\decode.py,) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+(Week3\\HW3\\src\\disturbance.py) Tj
+T*
+(    ) Tj
+T*
+(    shifts kept inside a run \(.over / group_by / per-run loop\): yes) Tj
+T*
+(    scaler inside a pipeline: yes) Tj
+T*
+(    validation runs 301 to 400 referenced: yes) Tj
+T*
+(    TimeSeriesSplit: yes; gap arguments: ['H']) Tj
+T*
+(    KFold with shuffle=True: yes) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  REPORT.md) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    1441 words, 17 headings: ['Report', 'Part 1 Schema', 'Results', 'Discussion', 'Part 2 Load and Cleaning',) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+('Results', 'Discussion', 'Part 3 Indexing', 'Method', 'Results']) Tj
+T*
+(    RMSE values from forecast.csv quoted in the report: 0 of 20) Tj
+T*
+(    leaky.csv means quoted: shuffled no, time no) Tj
+T*
+(    AI-use line: yes) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Code: Week1\\sensorlab\\a01-evidence.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.35 0.48 0.38 rg
+(#!/usr/bin/env python3) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Build the Assignment 1 evidence report.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(Run this in the root of your project, the directory holding `pyproject.toml`:) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    python3 a01-evidence.py --andrew-id yourid --name "Your Name") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(It writes `evidence.pdf`. Upload that to Canvas. That PDF is your submission, so) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(read it before you send it.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(WHAT IT DOES. It runs the commands in the assignment's Definition of done and) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(records what they actually printed, then embeds the files a grader needs to) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(read: your `pyproject.toml`, your package, the code cells of your notebook, and) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(your README. Nothing is invented. If a command fails, the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(failure goes in the report, which is better for you than a report that quietly) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(omits it: a report showing one broken command and five working ones is worth) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(more marks than no report at all.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(It deletes `.venv` and rebuilds it with `uv sync --locked`, because that rebuild) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(is what the first 30 points are for. That is the only destructive thing it does,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(and it is the same thing the assignment asks you to do by hand at least once.) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 3 of 20) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 8322 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(NAMES. The assignment prescribes names \(`sensorlab`, `src/sensorlab/train.py`,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(`notebooks/explore.ipynb`, `README.md`, `sqlite:///mlflow.db`\) and this script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(looks for those first. It also goes looking when it does not find them, so a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(project laid out sensibly under different names still produces a report rather) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(than a page of failures. What it found is printed at the top of the report, and) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(every guess can be overridden with --module, --notebook or --tracking-uri. If) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(the header says it used something you did not intend, pass the flag and run it) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(again.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(The PDF is written here, with no browser and no LaTeX and nothing to install, so) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(every submission arrives in the same shape and there is no print dialog to get) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(wrong.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(Standard library only, so it runs on the system Python without being installed) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(into your project. It shells out to `uv`, and to nothing else.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(argparse) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(hashlib) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(html) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(json) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(platform) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(re) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(shutil) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(subprocess) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sys) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(time) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(datetime) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(datetime) Tj
+(, ) Tj
+(timezone) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(TIMEOUT) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(900) Tj
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# seconds, per command; a cold uv cache can take a few minutes) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(SKIP_DIRS) Tj
+( = {) Tj
+0.62 0.20 0.12 rg
+(".venv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".git") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("node_modules") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("__pycache__") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".ipynb_checkpoints") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(             ) Tj
+0.62 0.20 0.12 rg
+("build") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("dist") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".pytest_cache") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("mlruns") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("site-packages") Tj
+0.00 0.00 0.00 rg
+(}) Tj
+T*
+(  ) Tj
+(DATA_SUFFIXES) Tj
+( = \() Tj
+0.62 0.20 0.12 rg
+(".csv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".tsv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".xlsx") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".xls") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".zip") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".parquet") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".data") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(                 ) Tj
+0.62 0.20 0.12 rg
+(".gz") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".h5") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".nc") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# The project's own machinery, which this assignment tells students to create and) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# which the data check must never mistake for a raw file. An MLflow store is a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# SQLite database, so ".sqlite" cannot live in DATA_SUFFIXES above: a student who) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# named their store mlflow.sqlite instead of mlflow.db was told their MLflow store) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# was stray raw data, and lost the data check and the cross-check together.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# uv.lock is here for the size rule rather than the suffix rule: with pandas,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# scikit-learn, matplotlib and mlflow resolved it runs to hundreds of kilobytes.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(OURS_BY_SUFFIX) Tj
+( = \() Tj
+0.62 0.20 0.12 rg
+(".db") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".sqlite") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".sqlite3") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".lock") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(BIG_FILE) Tj
+( = 1) Tj
+(_000_000) Tj
+(  ) Tj
+0.35 0.48 0.38 rg
+(# a tracked file this large is data by any other name) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(OURS) Tj
+( = \() Tj
+0.62 0.20 0.12 rg
+("a01-evidence.py") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("evidence.html") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("evidence.pdf") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Finder and Explorer leave these behind in any directory a student opens.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# They say nothing about the submission, and failing the clean-tree check) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# over one would be a mark deducted for using a Mac.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(OS_JUNK) Tj
+( = {) Tj
+0.62 0.20 0.12 rg
+(".DS_Store") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("Thumbs.db") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("desktop.ini") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".Spotlight-V100") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(".Trashes") Tj
+0.00 0.00 0.00 rg
+(}) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(class) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Step) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""One recorded command: what was run, what came back, how long it took.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__init__) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(label) Tj
+(, ) Tj
+(command) Tj
+(, ) Tj
+(stdout) Tj
+(, ) Tj
+(code) Tj
+(, ) Tj
+(seconds) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(label) Tj
+( = ) Tj
+(label) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(command) Tj
+( = ) Tj
+(command) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(stdout) Tj
+( = ) Tj
+(stdout) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(code) Tj
+( = ) Tj
+(code) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(seconds) Tj
+( = ) Tj
+(seconds) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    @) Tj
+(property) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ok) Tj
+(\() Tj
+(self) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(self) Tj
+(.) Tj
+(code) Tj
+( == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 4 of 20) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 11480 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\() Tj
+(label) Tj
+(, ) Tj
+(command) Tj
+(, ) Tj
+(cwd) Tj
+(, ) Tj
+(steps) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Run one command, record it, and return the Step.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("  {label} ...") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(flush) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(start) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(monotonic) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(try) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(proc) Tj
+( = ) Tj
+(subprocess) Tj
+(.) Tj
+(run) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(command) Tj
+(, ) Tj
+(cwd) Tj
+(=) Tj
+(cwd) Tj
+(, ) Tj
+(capture_output) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(text) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(timeout) Tj
+(=) Tj
+(TIMEOUT) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(out) Tj
+( = \() Tj
+(proc) Tj
+(.) Tj
+(stdout) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("") Tj
+0.00 0.00 0.00 rg
+(\) + \() Tj
+(proc) Tj
+(.) Tj
+(stderr) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# uv's VIRTUAL_ENV warning fires for anyone who happens to have another) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# environment active. It says nothing about the submission.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(out) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("\\n") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(line) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(line) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+(.) Tj
+(splitlines) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("VIRTUAL_ENV") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(line) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("use `--active`") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(line) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(code) Tj
+( = ) Tj
+(proc) Tj
+(.) Tj
+(returncode) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(except) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(FileNotFoundError) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(out) Tj
+(, ) Tj
+(code) Tj
+( = ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{command[0]}: not found on PATH") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(127) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(except) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(subprocess) Tj
+(.) Tj
+(TimeoutExpired) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(out) Tj
+(, ) Tj
+(code) Tj
+( = ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("timed out after {TIMEOUT}s") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(124) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# A python -c one-liner is unreadable as a command line, so show its head.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(shown) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+(" ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(command) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("-c") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(command) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(shown) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+(" ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(command) Tj
+([:) Tj
+(command) Tj
+(.) Tj
+(index) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("-c") Tj
+0.00 0.00 0.00 rg
+(\) + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]\) + ) Tj
+0.62 0.20 0.12 rg
+(' "..."') Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(step) Tj
+( = ) Tj
+(Step) Tj
+(\() Tj
+(label) Tj
+(, ) Tj
+(shown) Tj
+(, ) Tj
+(out) Tj
+(.) Tj
+(strip) Tj
+(\(\), ) Tj
+(code) Tj
+(, ) Tj
+(time) Tj
+(.) Tj
+(monotonic) Tj
+(\(\) - ) Tj
+(start) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(steps) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(step) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(step) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ------------------------------------------------------------------ discovery) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(path) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(any) Tj
+(\() Tj
+(part) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(SKIP_DIRS) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(part) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\).) Tj
+(parts) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(find_module) Tj
+(\() Tj
+(root) Tj
+(, ) Tj
+(given) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""The module to run with `python -m`, and the package directory it is in.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    src/<pkg>/ first, because that is what the assignment asks for, then a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    package beside pyproject.toml so a flat layout still reports. Within the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    package, train.py wins, then any module that both parses arguments and has a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    main, since that is what an entry point looks like from the outside.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(packages) Tj
+( = [) Tj
+(p) Tj
+(.) Tj
+(parent) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(root) Tj
+(.) Tj
+(glob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("src/*/__init__.py") Tj
+0.00 0.00 0.00 rg
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(p) Tj
+(\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(packages) Tj
+( += [) Tj
+(p) Tj
+(.) Tj
+(parent) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(root) Tj
+(.) Tj
+(glob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*/__init__.py") Tj
+0.00 0.00 0.00 rg
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(p) Tj
+(\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(package) Tj
+( = ) Tj
+(packages) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(packages) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(given) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(package) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(given) Tj
+(, ) Tj
+(package) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(modules) Tj
+( = [) Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(package) Tj
+(.) Tj
+(glob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*.py") Tj
+0.00 0.00 0.00 rg
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+(.) Tj
+(stem) Tj
+( != ) Tj
+0.62 0.20 0.12 rg
+("__init__") Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(entry) Tj
+( = ) Tj
+(next) Tj
+(\(\() Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(modules) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+(.) Tj
+(stem) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("train") Tj
+0.00 0.00 0.00 rg
+(\), ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(entry) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(candidate) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(modules) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(text) Tj
+( = ) Tj
+(candidate) Tj
+(.) Tj
+(read_text) Tj
+(\() Tj
+(errors) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("replace") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("argparse") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("def main") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(entry) Tj
+( = ) Tj
+(candidate) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(break) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(entry) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(package) Tj
+(.) Tj
+(name) Tj
+(, ) Tj
+(package) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{package.name}.{entry.stem}") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(package) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(find_notebook) Tj
+(\() Tj
+(root) Tj
+(, ) Tj
+(given) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""The exploratory notebook: the prescribed path first, then anything plausible.""") Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 5 of 20) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 9867 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(given) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(root) Tj
+( / ) Tj
+(given) Tj
+(\).) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(root) Tj
+( / ) Tj
+(given) Tj
+T*
+(  ) Tj
+(    ) Tj
+(prescribed) Tj
+( = ) Tj
+(root) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("notebooks") Tj
+0.00 0.00 0.00 rg
+( / ) Tj
+0.62 0.20 0.12 rg
+("explore.ipynb") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(prescribed) Tj
+(.) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(prescribed) Tj
+T*
+(  ) Tj
+(    ) Tj
+(found) Tj
+( = [) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(root) Tj
+(.) Tj
+(rglob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*.ipynb") Tj
+0.00 0.00 0.00 rg
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(p) Tj
+(\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(found) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Under notebooks/ first, then the largest, which is the exploratory one) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# rather than somebody's scratch file.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(found) Tj
+(.) Tj
+(sort) Tj
+(\() Tj
+(key) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(lambda) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+(: \() Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+(.) Tj
+(parent) Tj
+(.) Tj
+(name) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("notebooks") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, -) Tj
+(p) Tj
+(.) Tj
+(stat) Tj
+(\(\).) Tj
+(st_size) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(found) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(find_readme) Tj
+(\() Tj
+(root) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""README.md, readme.md, README.rst, README.txt, or plain README.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(candidate) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(root) Tj
+(.) Tj
+(glob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*") Tj
+0.00 0.00 0.00 rg
+(\)\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(candidate) Tj
+(.) Tj
+(is_file) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(candidate) Tj
+(.) Tj
+(stem) Tj
+(.) Tj
+(lower) Tj
+(\(\) == ) Tj
+0.62 0.20 0.12 rg
+("readme") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(candidate) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(find_tracking_uri) Tj
+(\() Tj
+(root) Tj
+(, ) Tj
+(given) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Where MLflow put the runs.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    The assignment prescribes sqlite:///mlflow.db. A student who used the file) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    store instead still has runs worth showing, and reporting "no runs found") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    for a project that logged them correctly would cost ten points over a path) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    this script guessed rather than anything they did.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(given) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(given) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Newest wins, not the prescribed name. Called after the runs, the store) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# they just wrote to is the one with the newest mtime, so a leftover) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# mlflow.db from an earlier attempt cannot send the search to an empty) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# database while the real runs sit in the file beside it.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Any SQLite suffix, not just .db. Naming the store mlflow.sqlite is an) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# ordinary convention, and looking only for .db meant the runs were never) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# found and the cross-check failed over the spelling of a filename.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(candidates) Tj
+( = [\() Tj
+(p) Tj
+(.) Tj
+(stat) Tj
+(\(\).) Tj
+(st_mtime) Tj
+(, ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("sqlite:///{p.name}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(                  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pattern) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+0.62 0.20 0.12 rg
+("*.db") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("*.sqlite") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("*.sqlite3") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(                  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(root) Tj
+(.) Tj
+(glob) Tj
+(\() Tj
+(pattern) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(p) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+(.) Tj
+(is_file) Tj
+(\(\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(mlruns) Tj
+( = ) Tj
+(root) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("mlruns") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mlruns) Tj
+(.) Tj
+(is_dir) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(candidates) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(mlruns) Tj
+(.) Tj
+(stat) Tj
+(\(\).) Tj
+(st_mtime) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("file:./mlruns") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(candidates) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(max) Tj
+(\() Tj
+(candidates) Tj
+(\)[) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("sqlite:///mlflow.db") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# -------------------------------------------------------------------- reading) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sha256) Tj
+(\() Tj
+(path) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(path) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(hashlib) Tj
+(.) Tj
+(sha256) Tj
+(\() Tj
+(path) Tj
+(.) Tj
+(read_bytes) Tj
+(\(\)\).) Tj
+(hexdigest) Tj
+(\(\)[:) Tj
+0.05 0.40 0.50 rg
+(16) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(exists) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("absent") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(self_hash) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""This file's own sha256, printed in the report.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    HONESTLY, WHAT THIS BUYS. Not much on its own. Anyone who edits the script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    can also edit this function, and the hash is computed on the machine doing) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    the editing. What it catches is the cheap case: a student who changes a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    command or a check and does not think about the header line. The published) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    checksum sits beside the script on the course site, so a grader comparing) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 6 of 20) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 8925 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+0.62 0.20 0.12 rg
+(    one line spots that in a second.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    The expensive-to-forge part of this report is not the hash. It is the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    cross-checks, which tie the transcript to the MLflow table and to the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    notebook, and which all have to agree with each other.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(hashlib) Tj
+(.) Tj
+(sha256) Tj
+(\() Tj
+(Path) Tj
+(\() Tj
+(__file__) Tj
+(\).) Tj
+(resolve) Tj
+(\(\).) Tj
+(read_bytes) Tj
+(\(\)\).) Tj
+(hexdigest) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(read) Tj
+(\() Tj
+(path) Tj
+(, ) Tj
+(limit) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(20000) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""File contents, truncated, or a note saying it is missing.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\).) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("[{path} is not in this project]") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(text) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\).) Tj
+(read_text) Tj
+(\() Tj
+(errors) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("replace") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(text) Tj
+(\) <= ) Tj
+(limit) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+([:) Tj
+(limit) Tj
+(] + ) Tj
+0.62 0.20 0.12 rg
+("\\n[truncated]") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(trim) Tj
+(\() Tj
+(text) Tj
+(, ) Tj
+(head) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(14) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(tail) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Long output, shortened for print.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    `uv sync` lists every package it installed, which is 169 lines for this) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    project and pages of a PDF nobody reads. The count that matters and the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    lines either side of the elision are kept.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(lines) Tj
+( = ) Tj
+(text) Tj
+(.) Tj
+(splitlines) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(lines) Tj
+(\) <= ) Tj
+(head) Tj
+( + ) Tj
+(tail) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+T*
+(  ) Tj
+(    ) Tj
+(elided) Tj
+( = ) Tj
+(len) Tj
+(\() Tj
+(lines) Tj
+(\) - ) Tj
+(head) Tj
+( - ) Tj
+(tail) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("\\n") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(lines) Tj
+([:) Tj
+(head) Tj
+(] + [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("    [... {elided} lines elided ...]") Tj
+0.00 0.00 0.00 rg
+(] + ) Tj
+(lines) Tj
+([-) Tj
+(tail) Tj
+(:]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numbers) Tj
+(\() Tj
+(text) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Every decimal number in some output, rounded, as a set.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Comparing numbers rather than whole strings is what lets the determinism) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    check survive a student who prints a run id or a timestamp beside the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    metric. Comparing whole strings called those submissions non-deterministic,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    which they were not.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    One decimal place counts, and scientific notation counts. Requiring two) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    digits meant "R2 = 0.8" and "R2 = 1.0" produced no numbers at all, which) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    failed both determinism checks and the cross-check together: half the score,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    for printing a metric with one decimal place in a project that was correct.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Rounding to four places is what keeps 0.8 and 0.80 the same number.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(pattern) Tj
+( = ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("-?\\d+\\.\\d+\(?:[eE][-+]?\\d+\)?|-?\\d+[eE][-+]?\\d+") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( {) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{float\(t\):.4f}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(t) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(re) Tj
+(.) Tj
+(findall) Tj
+(\() Tj
+(pattern) Tj
+(, ) Tj
+(text) Tj
+(\)}) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(notebook_code) Tj
+(\() Tj
+(path) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""The notebook's code cells, with their execution counts.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    The execution counts are the interesting part. A notebook run top to bottom) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    from a fresh kernel numbers its code cells 1, 2, 3 and so on. Any other) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    pattern means the cells were run out of order, which is the hidden-state) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    problem from Lecture 1.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\).) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("[no notebook found in this project]") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(try) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(cells) Tj
+( = ) Tj
+(json) Tj
+(.) Tj
+(loads) Tj
+(\() Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\).) Tj
+(read_text) Tj
+(\() Tj
+(errors) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("replace") Tj
+0.00 0.00 0.00 rg
+(\)\)[) Tj
+0.62 0.20 0.12 rg
+("cells") Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(except) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(ValueError) Tj
+(, ) Tj
+(KeyError) Tj
+(, ) Tj
+(TypeError) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("[{path} is not readable as a notebook]") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(counts) Tj
+(, ) Tj
+(blocks) Tj
+( = [], []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cell) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cells) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cell) Tj
+(.) Tj
+(get) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("cell_type") Tj
+0.00 0.00 0.00 rg
+(\) != ) Tj
+0.62 0.20 0.12 rg
+("code") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 7 of 20) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 10724 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(count) Tj
+( = ) Tj
+(cell) Tj
+(.) Tj
+(get) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("execution_count") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(counts) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(count) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(blocks) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("In [{count if count is not None else ' '}]:\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                      + ) Tj
+0.62 0.20 0.12 rg
+("") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(cell) Tj
+(.) Tj
+(get) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("source") Tj
+0.00 0.00 0.00 rg
+(, []\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(counts) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("[the notebook has no code cells]") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("\\n\\n") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(blocks) Tj
+(\), ) Tj
+(counts) Tj
+( == ) Tj
+(list) Tj
+(\() Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(len) Tj
+(\() Tj
+(counts) Tj
+(\) + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(package_source) Tj
+(\() Tj
+(root) Tj
+(, ) Tj
+(package) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Every .py in the student's package, plus any scripts/ they wrote.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(package) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("[no package directory found]") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(files) Tj
+( = [) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\(\() Tj
+(root) Tj
+( / ) Tj
+(package) Tj
+(\).) Tj
+(rglob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*.py") Tj
+0.00 0.00 0.00 rg
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(p) Tj
+(\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(files) Tj
+( += [) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(root) Tj
+(.) Tj
+(glob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("scripts/*.py") Tj
+0.00 0.00 0.00 rg
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(p) Tj
+(\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(files) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("[no Python files under {package}]") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.62 0.20 0.12 rg
+("\\n\\n") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("--- {p.relative_to\(root\)}\\n{read\(p, limit=12000\)}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(p) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(files) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ----------------------------------------------------------------- collection) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(collect) Tj
+(\() Tj
+(root) Tj
+(, ) Tj
+(found) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Run every command the report is built from.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(steps) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("tool versions") Tj
+0.00 0.00 0.00 rg
+(, [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("--version") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(venv) Tj
+( = ) Tj
+(root) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+(".venv") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(venv) Tj
+(.) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(shutil) Tj
+(.) Tj
+(rmtree) Tj
+(\() Tj
+(venv) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# --locked, not a bare sync. A bare `uv sync` silently WRITES a lockfile if) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# one is missing, so a project with no committed lockfile would rebuild) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# happily and the check that is supposed to fail would pass.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(rebuild) Tj
+( = ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("rebuild the environment from the lockfile") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(                  [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("sync") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("--locked") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(rebuild) Tj
+(.) Tj
+(ok) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# --locked fails when the lockfile is missing OR merely out of date with) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# pyproject.toml, which is one mistake. Without a fallback it also takes) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# the runs, both determinism checks and the cross-check down with it, so) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# one mistake would cost 70 points instead of 30. Sync anyway, and let) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# the lockfile check stay failed on its own.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("lockfile rejected, so rebuilding without --locked to continue") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("sync") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("resolved versions") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("python") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("-c") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("import sys\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("print\('python', sys.version.split\(\)[0]\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("for name in \('numpy', 'pandas', 'sklearn', 'mlflow'\):\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    try:\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("        print\(name, __import__\(name\).__version__\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    except Exception as exc:\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("        print\(name, 'not importable:', exc\)") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(module) Tj
+( = ) Tj
+(found) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("module") Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(blank) Tj
+( = ) Tj
+(Step) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("no entry point found, so the runs were skipped") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(first) Tj
+( = ) Tj
+(again) Tj
+( = ) Tj
+(other) Tj
+( = ) Tj
+(blank) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(module) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(first) Tj
+( = ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("run, seed 0") Tj
+0.00 0.00 0.00 rg
+(, [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("python") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("-m") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(module) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("--seed") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("0") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(again) Tj
+( = ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("run, seed 0 again") Tj
+0.00 0.00 0.00 rg
+(, [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("python") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("-m") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(module) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("--seed") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("0") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(other) Tj
+( = ) Tj
+(run) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("run, seed 1") Tj
+0.00 0.00 0.00 rg
+(, [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("python") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("-m") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(module) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("--seed") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("1") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(steps) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(blank) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 8 of 20) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 9986 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Detected here rather than before the runs: a file store does not exist) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# until something has been logged to it, so detecting up front sent a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# perfectly good project to the wrong place and reported "no runs found".) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(found) Tj
+(.) Tj
+(get) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("tracking_given") Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(found) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("tracking_uri") Tj
+0.00 0.00 0.00 rg
+(] = ) Tj
+(find_tracking_uri) Tj
+(\() Tj
+(root) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(mlflow_step) Tj
+( = ) Tj
+(run) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("MLflow runs") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        [) Tj
+0.62 0.20 0.12 rg
+("uv") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("python") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("-c") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("import mlflow, pandas as pd\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("mlflow.set_tracking_uri\({found['tracking_uri']!r}\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("pd.set_option\('display.width', 200\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("df = mlflow.search_runs\(search_all_experiments=True\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("if len\(df\):\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    df = df.sort_values\('start_time', ascending=False\).head\(10\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    cols = [c for c in ['run_id', 'params.seed', 'metrics.r2', 'start_time'] if c in) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(df.columns]\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    cols += [c for c in df.columns if c.startswith\('metrics.'\) and c not in cols][:2]\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    print\(df[cols].to_string\(index=False\)\)\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("else:\\n") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(         ) Tj
+0.62 0.20 0.12 rg
+("    print\('no runs found'\)") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+(root) Tj
+(, ) Tj
+(steps) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(nb_source) Tj
+(, ) Tj
+(nb_in_order) Tj
+( = ) Tj
+(notebook_code) Tj
+(\() Tj
+(found) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("notebook_path") Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Hygiene from the filesystem rather than from git, because Assignment 1 no) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# longer asks anyone to run git. The lesson is the same one L2 teaches, that) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# data has one home and code has another, and it is checkable without a) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# repository: the raw file belongs under data/, which the download creates,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# and nowhere else in the project.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(stray) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sorted) Tj
+(\() Tj
+(root) Tj
+(.) Tj
+(rglob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*") Tj
+0.00 0.00 0.00 rg
+(\)\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(is_file) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_usable) Tj
+(\() Tj
+(path) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(name) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(OS_JUNK) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(relative) Tj
+( = ) Tj
+(path) Tj
+(.) Tj
+(relative_to) Tj
+(\() Tj
+(root) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(relative) Tj
+(.) Tj
+(parts) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+0.62 0.20 0.12 rg
+("data") Tj
+0.00 0.00 0.00 rg
+(, *) Tj
+(OURS) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(relative) Tj
+(.) Tj
+(name) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(OURS) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(suffix) Tj
+(.) Tj
+(lower) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(OURS_BY_SUFFIX) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# A lockfile or an MLflow store. Both are supposed to be here, and) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# both are large enough to trip the size rule below on an ordinary) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# project: this reference one has an 872 kB store after three runs,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# growing about 5 kB a run, and a 786 kB lockfile. Deducting for) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# either is a mark taken for following the instructions.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(suffix) Tj
+(.) Tj
+(lower) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(DATA_SUFFIXES) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(stray) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(str) Tj
+(\() Tj
+(relative) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(elif) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(stat) Tj
+(\(\).) Tj
+(st_size) Tj
+( > ) Tj
+(BIG_FILE) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# A renamed data file has no telling suffix, so size is the tell.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(stray) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{relative} \({path.stat\(\).st_size // 1000} kB\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Do the numbers the seed 0 run printed turn up again in the MLflow table?) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# Two independent records of one run, so a forged number has to be forged in) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# both places, consistently, in a format the student did not choose. That is) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# a better control than any hash of this file.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(printed) Tj
+( = ) Tj
+(numbers) Tj
+(\() Tj
+(first) Tj
+(.) Tj
+(stdout) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(logged) Tj
+( = ) Tj
+(numbers) Tj
+(\() Tj
+(mlflow_step) Tj
+(.) Tj
+(stdout) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(checks) Tj
+( = [) Tj
+T*
+(  ) Tj
+(        \() Tj
+0.62 0.20 0.12 rg
+("The environment rebuilds from the lockfile") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(         ) Tj
+(rebuild) Tj
+(.) Tj
+(ok) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(root) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("uv.lock") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(is_file) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(root) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+(".python-version") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(is_file) Tj
+(\(\)\),) Tj
+T*
+(  ) Tj
+(        \() Tj
+0.62 0.20 0.12 rg
+("The same seed prints the same number twice") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(         ) Tj
+(first) Tj
+(.) Tj
+(ok) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(again) Tj
+(.) Tj
+(ok) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(bool) Tj
+(\() Tj
+(printed) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(printed) Tj
+( == ) Tj
+(numbers) Tj
+(\() Tj
+(again) Tj
+(.) Tj
+(stdout) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(        \() Tj
+0.62 0.20 0.12 rg
+("A different seed prints a different number") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(         ) Tj
+(other) Tj
+(.) Tj
+(ok) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(bool) Tj
+(\() Tj
+(printed) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(and) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numbers) Tj
+(\() Tj
+(other) Tj
+(.) Tj
+(stdout) Tj
+(\) != ) Tj
+(printed) Tj
+(\),) Tj
+T*
+(  ) Tj
+(        \() Tj
+0.62 0.20 0.12 rg
+("The raw data sits under data/ and nowhere else in the project") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(stray) Tj
+(\),) Tj
+T*
+(  ) Tj
+(        \() Tj
+0.62 0.20 0.12 rg
+("The notebook's cells ran in order from a fresh kernel") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(bool) Tj
+(\() Tj
+(nb_in_order) Tj
+(\)\),) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 9 of 20) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 9952 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(        \() Tj
+0.62 0.20 0.12 rg
+("The metric printed by the seed 0 run also appears in the MLflow table") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(         ) Tj
+(bool) Tj
+(\() Tj
+(printed) Tj
+( & ) Tj
+(logged) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(    ]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(notes) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(stray) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(notes) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("data outside data/: ") Tj
+0.00 0.00 0.00 rg
+( + ) Tj
+0.62 0.20 0.12 rg
+(", ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(stray) Tj
+([:) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(]\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(steps) Tj
+(, ) Tj
+(checks) Tj
+(, ) Tj
+(nb_source) Tj
+(, ) Tj
+(notes) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ------------------------------------------------------- colour and highlight) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(BLACK) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(GREEN) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.00) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.45) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.15) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(RED) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.70) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.06) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.06) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(BLUE) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.10) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.25) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.60) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(GREY) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.40) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.40) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.40) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(KEYWORD) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.45) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.15) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.55) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(STRING) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.62) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.20) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.12) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(NUMBER) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.05) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.40) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.50) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(COMMENT) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(0.35) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.48) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.38) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(KEYWORDS) Tj
+( = {) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("False") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("None") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("True") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("and") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("as") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("assert") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("async") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("await") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("break") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("class") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("continue") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("def") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("del") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("elif") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("else") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("except") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("finally") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("for") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("from") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("global") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("if") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("import") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("in") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("is") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("lambda") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("nonlocal") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("not") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("or") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("pass") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("raise") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("return") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("try") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("while") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("with") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("yield") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(}) Tj
+T*
+(  ) Tj
+(TOKENS) Tj
+( = ) Tj
+(re) Tj
+(.) Tj
+(compile) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("\(?P<comment>#[^\\n]*\)") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("|\(?P<string>'''|\\"\\"\\"|'\(?:\\\\.|[^'\\\\]\)*'|\\"\(?:\\\\.|[^\\"\\\\]\)*\\"\)") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("|\(?P<number>\\b\\d+\\.?\\d*\\b\)") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("|\(?P<word>[A-Za-z_]\\w*\)") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plain) Tj
+(\() Tj
+(text) Tj
+(, ) Tj
+(bold) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(colour) Tj
+(=) Tj
+(BLACK) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""One line, one colour. Lines are lists of \(text, bold, colour\) runs.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( [\() Tj
+(text) Tj
+(, ) Tj
+(bold) Tj
+(, ) Tj
+(colour) Tj
+(\)]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(highlight) Tj
+(\() Tj
+(source) Tj
+(, ) Tj
+(indent) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("  ") Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Python source as coloured runs, one list of runs per line.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    A hand-rolled highlighter rather than a dependency, and deliberately a small) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    one: keywords, strings, numbers and comments. It tracks triple-quoted) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    strings across lines, because docstrings are the one multi-line construct) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    that every student's module will contain.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(out) Tj
+(, ) Tj
+(in_triple) Tj
+( = [], ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(raw) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(source) Tj
+(.) Tj
+(splitlines) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(runs) Tj
+(, ) Tj
+(position) Tj
+( = [\() Tj
+(indent) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(BLACK) Tj
+(\)], ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(in_triple) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(end) Tj
+( = ) Tj
+(raw) Tj
+(.) Tj
+(find) Tj
+(\() Tj
+(in_triple) Tj
+(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(end) Tj
+( == -) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(out) Tj
+(.) Tj
+(append) Tj
+(\([\() Tj
+(indent) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(BLACK) Tj
+(\), \() Tj
+(raw) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(STRING) Tj
+(\)]\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(raw) Tj
+([:) Tj
+(end) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(STRING) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(position) Tj
+( = ) Tj
+(end) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(in_triple) Tj
+( = ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(match) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(TOKENS) Tj
+(.) Tj
+(finditer) Tj
+(\() Tj
+(raw) Tj
+(, ) Tj
+(position) Tj
+(\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# finditer was started before a triple-quoted run was consumed by) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# hand, so it still yields matches from inside it. Skipping those is) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# what stops a one-line docstring being printed twice.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(match) Tj
+(.) Tj
+(start) Tj
+(\(\) < ) Tj
+(position) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(match) Tj
+(.) Tj
+(start) Tj
+(\(\) > ) Tj
+(position) Tj
+(:) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 10 of 20) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 9440 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(                ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(raw) Tj
+([) Tj
+(position) Tj
+(:) Tj
+(match) Tj
+(.) Tj
+(start) Tj
+(\(\)], ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(BLACK) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(text) Tj
+( = ) Tj
+(match) Tj
+(.) Tj
+(group) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(kind) Tj
+( = ) Tj
+(match) Tj
+(.) Tj
+(lastgroup) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(kind) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("comment") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(COMMENT) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(elif) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(kind) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("string") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+0.62 0.20 0.12 rg
+("'''") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+('"""') Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(                    ) Tj
+(rest) Tj
+( = ) Tj
+(raw) Tj
+([) Tj
+(match) Tj
+(.) Tj
+(start) Tj
+(\(\):]) Tj
+T*
+(  ) Tj
+(                    ) Tj
+(closing) Tj
+( = ) Tj
+(rest) Tj
+(.) Tj
+(find) Tj
+(\() Tj
+(text) Tj
+(, ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(closing) Tj
+( == -) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(rest) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(STRING) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(in_triple) Tj
+( = ) Tj
+(text) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(position) Tj
+( = ) Tj
+(len) Tj
+(\() Tj
+(raw) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(break) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(                    ) Tj
+(text) Tj
+( = ) Tj
+(rest) Tj
+([:) Tj
+(closing) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(                    ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(STRING) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(                    ) Tj
+(position) Tj
+( = ) Tj
+(match) Tj
+(.) Tj
+(start) Tj
+(\(\) + ) Tj
+(len) Tj
+(\() Tj
+(text) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(STRING) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(elif) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(kind) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("number") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(NUMBER) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(elif) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(KEYWORDS) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(KEYWORD) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(BLACK) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(position) Tj
+( = ) Tj
+(match) Tj
+(.) Tj
+(end) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(position) Tj
+( < ) Tj
+(len) Tj
+(\() Tj
+(raw) Tj
+(\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+(runs) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(raw) Tj
+([) Tj
+(position) Tj
+(:], ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(BLACK) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(out) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(runs) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ----------------------------------------------------------------- PDF output) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(escape_pdf) Tj
+(\() Tj
+(text) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = ) Tj
+(text) Tj
+(.) Tj
+(replace) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\\\\") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("\\\\") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(replace) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\(") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("\\\(") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(replace) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("\\\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+(.) Tj
+(encode) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("latin-1") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("replace") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(decode) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("latin-1") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(wrap) Tj
+(\() Tj
+(lines) Tj
+(, ) Tj
+(max_chars) Tj
+(, ) Tj
+(indent) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("      ") Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Wrap coloured lines to the page width, keeping each run's colour.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Courier is monospace, so a character count is a width, and a line can be cut) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    anywhere without measuring anything.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(runs) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lines) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(current) Tj
+(, ) Tj
+(used) Tj
+( = [], ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+(, ) Tj
+(bold) Tj
+(, ) Tj
+(colour) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(runs) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(text) Tj
+( = ) Tj
+(text) Tj
+(.) Tj
+(replace) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\\t") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("    ") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(while) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(room) Tj
+( = ) Tj
+(max_chars) Tj
+( - ) Tj
+(used) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(text) Tj
+(\) <= ) Tj
+(room) Tj
+(:) Tj
+T*
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(text) Tj
+(:) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(current) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+(, ) Tj
+(bold) Tj
+(, ) Tj
+(colour) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(used) Tj
+( += ) Tj
+(len) Tj
+(\() Tj
+(text) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(break) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+(cut) Tj
+( = ) Tj
+(text) Tj
+(.) Tj
+(rfind) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+(" ") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(room) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(cut) Tj
+( = ) Tj
+(cut) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cut) Tj
+( > ) Tj
+(room) Tj
+( // ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(room) Tj
+T*
+(  ) Tj
+(                ) Tj
+(current) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(text) Tj
+([:) Tj
+(cut) Tj
+(], ) Tj
+(bold) Tj
+(, ) Tj
+(colour) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(out) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(current) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(current) Tj
+(, ) Tj
+(used) Tj
+( = [\() Tj
+(indent) Tj
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(BLACK) Tj
+(\)], ) Tj
+(len) Tj
+(\() Tj
+(indent) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(text) Tj
+( = ) Tj
+(text) Tj
+([) Tj
+(cut) Tj
+(:].) Tj
+(lstrip) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(out) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(current) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 11 of 20) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 8172 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(write_pdf) Tj
+(\() Tj
+(path) Tj
+(, ) Tj
+(lines) Tj
+(, ) Tj
+(title) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Write a paginated, coloured, monospace PDF.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    No dependency, no browser, no LaTeX, so every submission arrives in the same) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    shape and there is no print dialog to get wrong. `lines` is a list of lines,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    each a list of \(text, bold, colour\) runs. Successive Tj operators continue) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    where the last o) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+([truncated]) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Code: Week1\\sensorlab\\src\\sensorlab\\__init__.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Hello from sensorlab!") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: Week1\\sensorlab\\src\\sensorlab\\dataprocess.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(io) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(urllib) Tj
+(.) Tj
+(request) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zipfile) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(URL) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+('https://archive.ics.uci.edu/static/public/360/air+quality.zip') Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+(\() Tj
+(path) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(path) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+(path) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(path) Tj
+(.) Tj
+(parent) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(parents) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+('fetching {URL}') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(urllib) Tj
+(.) Tj
+(request) Tj
+(.) Tj
+(urlopen) Tj
+(\() Tj
+(URL) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(response) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(payload) Tj
+( = ) Tj
+(response) Tj
+(.) Tj
+(read) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zipfile) Tj
+(.) Tj
+(ZipFile) Tj
+(\() Tj
+(io) Tj
+(.) Tj
+(BytesIO) Tj
+(\() Tj
+(payload) Tj
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(archive) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(path) Tj
+(.) Tj
+(write_bytes) Tj
+(\() Tj
+(archive) Tj
+(.) Tj
+(read) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('AirQualityUCI.csv') Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+(.) Tj
+(read_csv) Tj
+(\() Tj
+(path) Tj
+(, ) Tj
+(sep) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+(';') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(decimal) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+(',') Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(clean) Tj
+(\() Tj
+(df) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = \() Tj
+(df) Tj
+(.) Tj
+(dropna) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+('all') Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(dropna) Tj
+(\() Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+('all') Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('ts') Tj
+0.00 0.00 0.00 rg
+(] = ) Tj
+(pd) Tj
+(.) Tj
+(to_datetime) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('Date') Tj
+0.00 0.00 0.00 rg
+(] + ) Tj
+0.62 0.20 0.12 rg
+(' ') Tj
+0.00 0.00 0.00 rg
+( + ) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('Time') Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(str) Tj
+(.) Tj
+(replace) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+('.') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+(':') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(regex) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+(format) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+('%d/%m/%Y %H:%M:%S') Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(replace) Tj
+(\(-) Tj
+0.05 0.40 0.50 rg
+(200) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(np) Tj
+(.) Tj
+(nan) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(df) Tj
+T*
+T*
+/F2 8 Tf
+(Code: Week1\\sensorlab\\src\\sensorlab\\train.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+(.) Tj
+(pyplot) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plt) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(linear_model) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(LinearRegression) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(model_selection) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train_test_split) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(metrics) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r2_score) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( .) Tj
+(dataprocess) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(clean) Tj
+(, ) Tj
+(load) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mlflow) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(argparse) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train) Tj
+(\() Tj
+(data_path) Tj
+(,) Tj
+(seed) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(load) Tj
+(\() Tj
+(data_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(clean) Tj
+(\() Tj
+(df) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(d) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(dropna) Tj
+(\() Tj
+(subset) Tj
+(=[) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\)') Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 12 of 20) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 7052 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(X) Tj
+( = ) Tj
+(d) Tj
+([[) Tj
+0.62 0.20 0.12 rg
+('PT08.S1\(CO\)') Tj
+0.00 0.00 0.00 rg
+(]]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(y) Tj
+( = ) Tj
+(d) Tj
+([) Tj
+0.62 0.20 0.12 rg
+('CO\(GT\)') Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(X_train) Tj
+(, ) Tj
+(X_test) Tj
+(, ) Tj
+(y_train) Tj
+(, ) Tj
+(y_test) Tj
+( = ) Tj
+(train_test_split) Tj
+(\() Tj
+(X) Tj
+(, ) Tj
+(y) Tj
+(, ) Tj
+(test_size) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.25) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(random_state) Tj
+(=) Tj
+(seed) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+( = ) Tj
+(LinearRegression) Tj
+(\(\).) Tj
+(fit) Tj
+(\() Tj
+(X_train) Tj
+(, ) Tj
+(y_train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(score) Tj
+( = ) Tj
+(r2_score) Tj
+(\() Tj
+(y_test) Tj
+(, ) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(X_test) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(model) Tj
+(, ) Tj
+(score) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Argument Part is generated by ChatGPT) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+( = ) Tj
+(argparse) Tj
+(.) Tj
+(ArgumentParser) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--seed") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(default) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("--data-path") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(default) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("data/AirQualityUCI.csv") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(args) Tj
+( = ) Tj
+(parser) Tj
+(.) Tj
+(parse_args) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+(, ) Tj
+(score) Tj
+( = ) Tj
+(train) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(data_path) Tj
+(, ) Tj
+(args) Tj
+(.) Tj
+(seed) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(mlflow) Tj
+(.) Tj
+(set_tracking_uri) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sqlite:///mlflow.db") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(mlflow) Tj
+(.) Tj
+(set_experiment) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sensorlab") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mlflow) Tj
+(.) Tj
+(start_run) Tj
+(\() Tj
+(run_name) Tj
+(=) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("seed-{args.seed}") Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(mlflow) Tj
+(.) Tj
+(log_params) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("seed") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(args) Tj
+(.) Tj
+(seed) Tj
+(,) Tj
+0.62 0.20 0.12 rg
+("data") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(Path) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(data_path) Tj
+(\).) Tj
+(name) Tj
+(}\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(mlflow) Tj
+(.) Tj
+(log_metric) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("r2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(score) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("r2={score}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("slope {model.coef_[0]:.5f}, ") Tj
+0.00 0.00 0.00 rg
+(f) Tj
+0.62 0.20 0.12 rg
+("intercept {model.intercept_:.5f}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+('__main__') Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: Week2\\HW2\\src\\comparison.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.35 0.48 0.38 rg
+(# uv run python src/comparison.py) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(time) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(duckdb) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pd) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(bench) Tj
+(, ) Tj
+(connect) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(GLOB) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("parquet/readings/**/*.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(NEEDED) Tj
+( = [) Tj
+0.62 0.20 0.12 rg
+("sensor_id") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("variable") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("value") Tj
+0.00 0.00 0.00 rg
+(]     ) Tj
+0.35 0.48 0.38 rg
+(# the only three columns this question names) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(LOC) Tj
+( = {) Tj
+0.62 0.20 0.12 rg
+("pandas") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("SQLite") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("DuckDB") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(}   ) Tj
+0.35 0.48 0.38 rg
+(# counted by hand from the three answers below) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- The same question, three engines ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas_answer) Tj
+(\() Tj
+(df) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(df) Tj
+([) Tj
+(df) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("variable") Tj
+0.00 0.00 0.00 rg
+(] == ) Tj
+0.62 0.20 0.12 rg
+("temperature") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(groupby) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sensor_id") Tj
+0.00 0.00 0.00 rg
+(\)[) Tj
+0.62 0.20 0.12 rg
+("value") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(mean) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sqlite_answer) Tj
+(\() Tj
+(conn) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("SELECT sensor_id, avg\(value\) FROM readings ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                        ) Tj
+0.62 0.20 0.12 rg
+("WHERE variable = 'temperature' GROUP BY sensor_id") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(fetchall) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(duckdb_answer) Tj
+(\() Tj
+(con) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(con) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("SELECT sensor_id, avg\(value\) FROM '{GLOB}' ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                       ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("WHERE variable = 'temperature' GROUP BY sensor_id") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(fetchall) Tj
+(\(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 13 of 20) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 7581 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Time them ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(t) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(pd) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("parquet/readings") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(engine) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("pyarrow") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(columns) Tj
+(=) Tj
+(NEEDED) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(read_s) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\) - ) Tj
+(t) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+( = ) Tj
+(connect) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(con) Tj
+( = ) Tj
+(duckdb) Tj
+(.) Tj
+(connect) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Query: average temperature per mote. Timed warm, best of 5, the query only.\\n") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("| engine | query \(ms\) | lines of code |") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("|---|---:|---:|") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(label) Tj
+(, ) Tj
+(fn) Tj
+(, ) Tj
+(arg) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \(\() Tj
+0.62 0.20 0.12 rg
+("pandas") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(pandas_answer) Tj
+(, ) Tj
+(df) Tj
+(\),) Tj
+T*
+(  ) Tj
+(                           \() Tj
+0.62 0.20 0.12 rg
+("SQLite") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(sqlite_answer) Tj
+(, ) Tj
+(conn) Tj
+(\),) Tj
+T*
+(  ) Tj
+(                           \() Tj
+0.62 0.20 0.12 rg
+("DuckDB") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(duckdb_answer) Tj
+(, ) Tj
+(con) Tj
+(\)\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("| {label} | {bench\(lambda: fn\(arg\)\):,.1f} | {LOC[label]} |") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# the same three answers, sorted by sensor, so the table above compares one question and not three) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(a_pandas) Tj
+( = ) Tj
+(sorted) Tj
+(\(\() Tj
+(int) Tj
+(\() Tj
+(k) Tj
+(\), ) Tj
+(float) Tj
+(\() Tj
+(v) Tj
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+(, ) Tj
+(v) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pandas_answer) Tj
+(\() Tj
+(df) Tj
+(\).) Tj
+(items) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(a_sqlite) Tj
+( = ) Tj
+(sorted) Tj
+(\(\() Tj
+(int) Tj
+(\() Tj
+(k) Tj
+(\), ) Tj
+(float) Tj
+(\() Tj
+(v) Tj
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+(, ) Tj
+(v) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sqlite_answer) Tj
+(\() Tj
+(conn) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(a_duckdb) Tj
+( = ) Tj
+(sorted) Tj
+(\(\() Tj
+(int) Tj
+(\() Tj
+(k) Tj
+(\), ) Tj
+(float) Tj
+(\() Tj
+(v) Tj
+(\)\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+(, ) Tj
+(v) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(duckdb_answer) Tj
+(\() Tj
+(con) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(gap_sqlite) Tj
+( = ) Tj
+(max) Tj
+(\() Tj
+(abs) Tj
+(\() Tj
+(x) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(] - ) Tj
+(y) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(x) Tj
+(, ) Tj
+(y) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(a_pandas) Tj
+(, ) Tj
+(a_sqlite) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(gap_duckdb) Tj
+( = ) Tj
+(max) Tj
+(\() Tj
+(abs) Tj
+(\() Tj
+(x) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(] - ) Tj
+(y) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(x) Tj
+(, ) Tj
+(y) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(a_pandas) Tj
+(, ) Tj
+(a_duckdb) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("\\npandas first read {len\(df\):,} rows into RAM, which took {read_s:,.1f} s.") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{len\(a_pandas\)} motes, largest gap: pandas vs SQLite {gap_sqlite:.3g}, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(          ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("pandas vs DuckDB {gap_duckdb:.3g}.") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(close) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: Week2\\HW2\\src\\duckdb_export.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.35 0.48 0.38 rg
+(# uv run python src/duckdb_export.py) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(shutil) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(time) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(duckdb) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(DB) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("lab.db") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(OUT) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("parquet/readings") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(PARQUET) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("read_parquet\('parquet/readings/**/*.parquet', hive_partitioning = true\)") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.35 0.48 0.38 rg
+(# hive_partitioning restores `date`, which exists only as a directory name) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# query \(a\): DuckDB has a real TIMESTAMP type, so the text is cast rather than sliced) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(A) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(SELECT sensor_id,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(       strftime\(ts::TIMESTAMP, '%Y-%m-%d %H:00:00'\) AS hour,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(       count\(*\)             AS n,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(       round\(avg\(value\), 2\) AS avg_temp) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(FROM {src}) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(WHERE variable = 'temperature') Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(GROUP BY ALL) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# query \(c\): the RANGE frame is ordered by ts_unix here too, never by the ts text) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(C) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(SELECT sensor_id, ts, value AS voltage,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(       round\(avg\(value\) OVER \(PARTITION BY sensor_id ORDER BY ts_unix) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(                              RANGE BETWEEN 3600 PRECEDING AND CURRENT ROW\), 4\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 14 of 20) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 7101 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+0.62 0.20 0.12 rg
+(                                   AS voltage_1h_avg,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(       count\(*\)         OVER \(PARTITION BY sensor_id ORDER BY ts_unix) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(                              RANGE BETWEEN 3600 PRECEDING AND CURRENT ROW\)) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(                                   AS n_in_window) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(FROM {src}) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(WHERE variable = 'voltage') Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Export to date-partitioned Parquet ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(export) Tj
+(\() Tj
+(con) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(OUT) Tj
+(.) Tj
+(exists) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(shutil) Tj
+(.) Tj
+(rmtree) Tj
+(\() Tj
+(OUT) Tj
+(\)   ) Tj
+0.35 0.48 0.38 rg
+(# a partial tree left by an earlier run would be re-read) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(OUT) Tj
+(.) Tj
+(parent) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(parents) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(t) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# date is the first 10 characters of ts, and becomes the partition directory name) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(con) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(        COPY \(SELECT *, CAST\(substr\(ts, 1, 10\) AS DATE\) AS date FROM lab.readings\)) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(        TO '{OUT.as_posix\(\)}' \(FORMAT parquet, PARTITION_BY \(date\)\)) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\) - ) Tj
+(t) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(timed) Tj
+(\() Tj
+(con) Tj
+(, ) Tj
+(sql) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(t) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(rows) Tj
+( = ) Tj
+(con) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(sql) Tj
+(\).) Tj
+(fetchall) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(rows) Tj
+(, \() Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\) - ) Tj
+(t) Tj
+(\) * ) Tj
+0.05 0.40 0.50 rg
+(1000) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Reproduce \(a\) and \(c\) against the Parquet ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(con) Tj
+( = ) Tj
+(duckdb) Tj
+(.) Tj
+(connect) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(con) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("INSTALL sqlite; LOAD sqlite;") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(con) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("ATTACH '{DB}' AS lab \(TYPE sqlite, READ_ONLY\)") Tj
+0.00 0.00 0.00 rg
+(\)   ) Tj
+0.35 0.48 0.38 rg
+(# no Python between the two engines) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(export_s) Tj
+( = ) Tj
+(export) Tj
+(\() Tj
+(con) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parquet_mb) Tj
+( = ) Tj
+(sum) Tj
+(\() Tj
+(f) Tj
+(.) Tj
+(stat) Tj
+(\(\).) Tj
+(st_size) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(OUT) Tj
+(.) Tj
+(rglob) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("*.parquet") Tj
+0.00 0.00 0.00 rg
+(\)\) / 1) Tj
+(e6) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("export     {export_s:,.1f} s into {len\(list\(OUT.glob\('date=*'\)\)\)} date partitions") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("on disk    lab.db {Path\(DB\).stat\(\).st_size / 1e6:,.0f} MB, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(          ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("parquet {parquet_mb:,.0f} MB") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(a_rows) Tj
+(, ) Tj
+(a_ms) Tj
+( = ) Tj
+(timed) Tj
+(\() Tj
+(con) Tj
+(, ) Tj
+(A) Tj
+(.) Tj
+(format) Tj
+(\() Tj
+(src) Tj
+(=) Tj
+(PARQUET) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("\(a\)        {len\(a_rows\):,} hourly buckets, {a_ms:,.0f} ms") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(c_rows) Tj
+(, ) Tj
+(c_ms) Tj
+( = ) Tj
+(timed) Tj
+(\() Tj
+(con) Tj
+(, ) Tj
+(C) Tj
+(.) Tj
+(format) Tj
+(\() Tj
+(src) Tj
+(=) Tj
+(PARQUET) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(window) Tj
+( = [) Tj
+(r) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c_rows) Tj
+(]              ) Tj
+0.35 0.48 0.38 rg
+(# ordering the frame by text would pin every window at 1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("\(c\)        {len\(c_rows\):,} rows, {c_ms:,.0f} ms, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(          ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("n_in_window {min\(window\)}-{max\(window\)}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(con) Tj
+(.) Tj
+(close) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: Week2\\HW2\\src\\load.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.35 0.48 0.38 rg
+(# uv run python src/load.py) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sqlite3) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(time) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(datetime) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(datetime) Tj
+(, ) Tj
+(timezone) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(DB) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("lab.db") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(DATA) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("data/data.txt") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 15 of 20) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 36 0 R >>
+endobj
+36 0 obj
+<< /Length 8725 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(ROSTER_FILE) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("data/mote_locs.txt") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(SCHEMA) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sql/schema.sql") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(CHANNELS) Tj
+( = \() Tj
+0.62 0.20 0.12 rg
+("temperature") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("humidity") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("light") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("voltage") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(BATCH) Tj
+( = 200) Tj
+(_000) Tj
+T*
+(  ) Tj
+(REPEATS) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(LOW_BATTERY_V) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(2.4) Tj
+0.00 0.00 0.00 rg
+(     ) Tj
+0.35 0.48 0.38 rg
+(# counted and reported, never used to drop a row; REPORT.md says why) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(INSERT) Tj
+( = \() Tj
+0.62 0.20 0.12 rg
+("INSERT INTO readings \(sensor_id, ts, ts_unix, epoch, variable, value\) ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(          ) Tj
+0.62 0.20 0.12 rg
+("VALUES \(?,?,?,?,?,?\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# the natural key and the access path in one statement, built after the load) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(INDEX) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("CREATE UNIQUE INDEX ux_readings ON readings \(sensor_id, ts, variable\)") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(PROBE) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("SELECT count\(*\) FROM readings WHERE sensor_id = ? AND ts >= ? AND ts < ?") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(PROBE_ARGS) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(22) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("2004-03-09 00:00:00") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("2004-03-10 00:00:00") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Helpers ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(connect) Tj
+(\() Tj
+(path) Tj
+(=) Tj
+(DB) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+( = ) Tj
+(sqlite3) Tj
+(.) Tj
+(connect) Tj
+(\() Tj
+(path) Tj
+(, ) Tj
+(isolation_level) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)   ) Tj
+0.35 0.48 0.38 rg
+(# autocommit, so BEGIN/COMMIT are ours) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("PRAGMA foreign_keys = ON") Tj
+0.00 0.00 0.00 rg
+(\)             ) Tj
+0.35 0.48 0.38 rg
+(# per connection, and off by default) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(conn) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(bench) Tj
+(\() Tj
+(fn) Tj
+(, ) Tj
+(n) Tj
+(=) Tj
+(REPEATS) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fn) Tj
+(\(\)                                                 ) Tj
+0.35 0.48 0.38 rg
+(# warm up, then take the best of n) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(best) Tj
+( = ) Tj
+(float) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("inf") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+(n) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(t) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(fn) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(best) Tj
+( = ) Tj
+(min) Tj
+(\() Tj
+(best) Tj
+(, \() Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\) - ) Tj
+(t) Tj
+(\) * ) Tj
+0.05 0.40 0.50 rg
+(1000) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(best) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(read_roster) Tj
+(\() Tj
+(path) Tj
+(=) Tj
+(ROSTER_FILE) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(roster) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(entry) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(path) Tj
+(.) Tj
+(read_text) Tj
+(\(\).) Tj
+(splitlines) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(entry) Tj
+(.) Tj
+(strip) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+(mote) Tj
+(, ) Tj
+(x) Tj
+(, ) Tj
+(y) Tj
+( = ) Tj
+(entry) Tj
+(.) Tj
+(split) Tj
+(\(\)                   ) Tj
+0.35 0.48 0.38 rg
+(# 'moteid x y', whitespace separated) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(roster) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+(int) Tj
+(\() Tj
+(mote) Tj
+(\), ) Tj
+(float) Tj
+(\() Tj
+(x) Tj
+(\), ) Tj
+(float) Tj
+(\() Tj
+(y) Tj
+(\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(roster) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(to_instant) Tj
+(\() Tj
+(day) Tj
+(, ) Tj
+(clock) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(sec) Tj
+(, ) Tj
+(_) Tj
+(, ) Tj
+(frac) Tj
+( = ) Tj
+(clock) Tj
+(.) Tj
+(partition) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+(".") Tj
+0.00 0.00 0.00 rg
+(\)                  ) Tj
+0.35 0.48 0.38 rg
+(# four rows in data.txt land on a whole second) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(ts) Tj
+( = ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{day} {sec}.{\(frac + '000000'\)[:6]}") Tj
+0.00 0.00 0.00 rg
+(          ) Tj
+0.35 0.48 0.38 rg
+(# pad to fixed width, so the text sorts by time) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(datetime) Tj
+(.) Tj
+(fromisoformat) Tj
+(\() Tj
+(ts) Tj
+(\).) Tj
+(replace) Tj
+(\() Tj
+(tzinfo) Tj
+(=) Tj
+(timezone) Tj
+(.) Tj
+(utc) Tj
+(\).) Tj
+(timestamp) Tj
+(\(\), ) Tj
+(ts) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Load dataset ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+(\() Tj
+(conn) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n) Tj
+( = ) Tj
+(dict) Tj
+(\() Tj
+(rows) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ragged) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(no_mote) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(off_roster) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(unparseable) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(accepted) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(empty_cells) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(roster_rows) Tj
+( = ) Tj
+(read_roster) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(roster) Tj
+( = {) Tj
+(r) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(roster_rows) Tj
+(}) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("BEGIN") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(executemany) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("INSERT INTO sensors \(sensor_id, x_m, y_m\) VALUES \(?,?,?\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(roster_rows) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("COMMIT") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(batch) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+(t0) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("BEGIN") Tj
+0.00 0.00 0.00 rg
+(\)                        ) Tj
+0.35 0.48 0.38 rg
+(# one transaction for the whole file, not one per row) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(DATA) Tj
+(.) Tj
+(open) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("r") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(encoding) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("utf-8") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(errors) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("replace") Tj
+0.00 0.00 0.00 rg
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fh) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(entry) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fh) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(entry) Tj
+( = ) Tj
+(entry) Tj
+(.) Tj
+(rstrip) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\\r\\n") Tj
+0.00 0.00 0.00 rg
+(\)         ) Tj
+0.35 0.48 0.38 rg
+(# not .strip\(\): an empty voltage leaves a trailing space) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 16 of 20) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 38 0 R >>
+endobj
+38 0 obj
+<< /Length 10853 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(entry) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("rows") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(f) Tj
+( = ) Tj
+(entry) Tj
+(.) Tj
+(split) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+(" ") Tj
+0.00 0.00 0.00 rg
+(\)                 ) Tj
+0.35 0.48 0.38 rg
+(# one space; collapsing whitespace shifts the columns left) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(f) Tj
+(\) != ) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("ragged") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(isdigit) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(                ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("no_mote") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(mote_id) Tj
+( = ) Tj
+(int) Tj
+(\() Tj
+(f) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+( <= ) Tj
+(mote_id) Tj
+( <= ) Tj
+0.05 0.40 0.50 rg
+(54) Tj
+0.00 0.00 0.00 rg
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mote_id) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(roster) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("off_roster") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(try) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(unix) Tj
+(, ) Tj
+(ts) Tj
+( = ) Tj
+(to_instant) Tj
+(\() Tj
+(f) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(f) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(epoch) Tj
+( = ) Tj
+(int) Tj
+(\() Tj
+(f) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(cells) Tj
+( = [) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(float) Tj
+(\() Tj
+(c) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(]]) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(except) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("unparseable") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("accepted") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("empty_cells") Tj
+0.00 0.00 0.00 rg
+(] += ) Tj
+(cells) Tj
+(.) Tj
+(count) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)   ) Tj
+0.35 0.48 0.38 rg
+(# an empty channel is absent, not zero) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(batch) Tj
+( += [\() Tj
+(mote_id) Tj
+(, ) Tj
+(ts) Tj
+(, ) Tj
+(unix) Tj
+(, ) Tj
+(epoch) Tj
+(, ) Tj
+(name) Tj
+(, ) Tj
+(v) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                      ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(name) Tj
+(, ) Tj
+(v) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(CHANNELS) Tj
+(, ) Tj
+(cells) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(v) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(batch) Tj
+(\) >= ) Tj
+(BATCH) Tj
+(:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(conn) Tj
+(.) Tj
+(executemany) Tj
+(\() Tj
+(INSERT) Tj
+(, ) Tj
+(batch) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+(batch) Tj
+(.) Tj
+(clear) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(executemany) Tj
+(\() Tj
+(INSERT) Tj
+(, ) Tj
+(batch) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("COMMIT") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("load_s") Tj
+0.00 0.00 0.00 rg
+(] = ) Tj
+(round) Tj
+(\() Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\) - ) Tj
+(t0) Tj
+(, ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(n) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Cleaning report ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cleaning_report) Tj
+(\() Tj
+(conn) Tj
+(, ) Tj
+(n) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( {) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("rows_in_file") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("rows") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("ragged_rows") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("ragged") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("rejected_empty_moteid") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("no_mote") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("rejected_off_roster") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("off_roster") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("rejected_unparseable") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("unparseable") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("rows_accepted") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("accepted") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("absent_channel_cells") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("empty_cells") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("readings_loaded") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("SELECT count\(*\) FROM readings") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(fetchone) Tj
+(\(\)[) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("voltage_below_2.4V") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("SELECT count\(*\) FROM readings WHERE variable = 'voltage' AND value < ?") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            \() Tj
+(LOW_BATTERY_V) Tj
+(,\)\).) Tj
+(fetchone) Tj
+(\(\)[) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("foreign_key_violations") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(len) Tj
+(\() Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("PRAGMA foreign_key_check") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(fetchall) Tj
+(\(\)\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("load_seconds") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("load_s") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(    }) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Index: one query, before and after ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(probe) Tj
+(\() Tj
+(conn) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(plan) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+(" ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(r) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("EXPLAIN QUERY PLAN ") Tj
+0.00 0.00 0.00 rg
+( + ) Tj
+(PROBE) Tj
+(, ) Tj
+(PROBE_ARGS) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(rows) Tj
+( = ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(PROBE) Tj
+(, ) Tj
+(PROBE_ARGS) Tj
+(\).) Tj
+(fetchone) Tj
+(\(\)[) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ms) Tj
+( = ) Tj
+(bench) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(lambda) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(: ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(PROBE) Tj
+(, ) Tj
+(PROBE_ARGS) Tj
+(\).) Tj
+(fetchone) Tj
+(\(\)\)   ) Tj
+0.35 0.48 0.38 rg
+(# EXPLAIN QUERY PLAN reports no timing) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plan) Tj
+(, ) Tj
+(rows) Tj
+(, ) Tj
+(ms) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(index_experiment) Tj
+(\() Tj
+(conn) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(stages) Tj
+( = [\() Tj
+0.62 0.20 0.12 rg
+("before") Tj
+0.00 0.00 0.00 rg
+(, *) Tj
+(probe) Tj
+(\() Tj
+(conn) Tj
+(\)\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(INDEX) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(stages) Tj
+(.) Tj
+(append) Tj
+(\(\() Tj
+0.62 0.20 0.12 rg
+("after") Tj
+0.00 0.00 0.00 rg
+(, *) Tj
+(probe) Tj
+(\() Tj
+(conn) Tj
+(\)\)\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 17 of 20) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 40 0 R >>
+endobj
+40 0 obj
+<< /Length 6516 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("\\nProbe: sensor {PROBE_ARGS[0]}, {PROBE_ARGS[1][:10]}, best of {REPEATS} warm runs") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(label) Tj
+(, ) Tj
+(plan) Tj
+(, ) Tj
+(rows) Tj
+(, ) Tj
+(ms) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(stages) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{label:<8}{rows:>8,} rows{ms:>10.2f} ms   {plan}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Run ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(DB) Tj
+(.) Tj
+(unlink) Tj
+(\() Tj
+(missing_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)                   ) Tj
+0.35 0.48 0.38 rg
+(# lab.db is rebuilt from data.txt, never edited in place) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(conn) Tj
+( = ) Tj
+(connect) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(executescript) Tj
+(\() Tj
+(SCHEMA) Tj
+(.) Tj
+(read_text) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(key) Tj
+(, ) Tj
+(value) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cleaning_report) Tj
+(\() Tj
+(conn) Tj
+(, ) Tj
+(load) Tj
+(\() Tj
+(conn) Tj
+(\)\).) Tj
+(items) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{key:<26}{value:>14,}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(index_experiment) Tj
+(\() Tj
+(conn) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(close) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: Week2\\HW2\\src\\query.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.35 0.48 0.38 rg
+(# uv run python src/query.py) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(re) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(time) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(connect) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(QUERIES) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sql/queries.sql") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(PREVIEW) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(blocks) Tj
+(\() Tj
+(body) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parts) Tj
+( = ) Tj
+(re) Tj
+(.) Tj
+(split) Tj
+(\() Tj
+(r) Tj
+0.62 0.20 0.12 rg
+("^--\\s*name:\\s*\(\\S+\)\\s*$") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(body) Tj
+(, ) Tj
+(flags) Tj
+(=) Tj
+(re) Tj
+(.) Tj
+(M) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(list) Tj
+(\() Tj
+(zip) Tj
+(\() Tj
+(parts) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(::) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(parts) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(::) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(]\)\)    ) Tj
+0.35 0.48 0.38 rg
+(# ['', name, sql, name, sql, ...]) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# ---------- Run every named query ----------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+( = ) Tj
+(connect) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(name) Tj
+(, ) Tj
+(sql) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(blocks) Tj
+(\() Tj
+(QUERIES) Tj
+(.) Tj
+(read_text) Tj
+(\(\)\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(t) Tj
+( = ) Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(cur) Tj
+( = ) Tj
+(conn) Tj
+(.) Tj
+(execute) Tj
+(\() Tj
+(sql) Tj
+(.) Tj
+(strip) Tj
+(\(\).) Tj
+(rstrip) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+(";") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(rows) Tj
+( = ) Tj
+(cur) Tj
+(.) Tj
+(fetchall) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ms) Tj
+( = \() Tj
+(time) Tj
+(.) Tj
+(perf_counter) Tj
+(\(\) - ) Tj
+(t) Tj
+(\) * ) Tj
+0.05 0.40 0.50 rg
+(1000) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("\\n## {name}   {len\(rows\):,} rows, {ms:,.0f} ms") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+(" | ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(d) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(d) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cur) Tj
+(.) Tj
+(description) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(rows) Tj
+([:) Tj
+(PREVIEW) Tj
+(]:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+(" | ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(str) Tj
+(\() Tj
+(x) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(x) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(conn) Tj
+(.) Tj
+(close) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(REPORT: Week2\\HW2\\REPORT.md) Tj
+T*
+T*
+/F1 8 Tf
+(  # Report) Tj
+T*
+(  Yihao Yin \(yihaoyin\)) Tj
+T*
+(  ) Tj
+T*
+(  ## Part 1 Schema) Tj
+T*
+(  ### Results) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 18 of 20) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 42 0 R >>
+endobj
+42 0 obj
+<< /Length 5514 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  |  | rows | columns |) Tj
+T*
+(  |---|---:|---|) Tj
+T*
+(  | sensors | 54 | sensor_id INTEGER PRIMARY KEY, x_m REAL, y_m REAL |) Tj
+T*
+(  | readings | 9119212 | sensor_id INTEGER \(FK\), ts TEXT, ts_unix REAL, epoch INTEGER, variable TEXT \(CHECK\),) Tj
+T*
+(      ) Tj
+(value REAL |) Tj
+T*
+(  ### Discussion) Tj
+T*
+(  sensors is loaded from mote_locs.txt but not from SELECT DISTINCT moteid, because those are different) Tj
+T*
+(      ) Tj
+(lists: only 53 of the 54 deployed motes ever transmitted. readings is long format, which makes it easy) Tj
+T*
+(      ) Tj
+(to select one channel and cheap to add another variable. One column per channel buys the opposite: the) Tj
+T*
+(      ) Tj
+(four channels of a reading sit side by side, so comparing a temperature against its own voltage is one) Tj
+T*
+(      ) Tj
+(WHERE rather than a self-join.) Tj
+T*
+(  The cost is that every query pays for rows it does not want: query \(a\) needs temperature only but reads all) Tj
+T*
+(      ) Tj
+(rows to use only 1/4 of them. ts, ts_unix and epoch are each stored four times over.) Tj
+T*
+(  SQLite has no date type, so the instant is stored twice. ts is fixed-width ISO-8601 in UTC and it sorts) Tj
+T*
+(      ) Tj
+(chronologically; ts_unix is a number because a RANGE frame needs one. Both tables are STRICT, so a) Tj
+T*
+(      ) Tj
+(value of the wrong type is rejected instead of being stored anyway.) Tj
+T*
+(  The natural key is \(sensor_id, ts, variable\). I first tried \(sensor_id, epoch, variable\), which the dataset) Tj
+T*
+(      ) Tj
+(documentation calls monotonically increasing per mote, but it loses 448435 rows because motes restart) Tj
+T*
+(      ) Tj
+(the counter after a reboot.) Tj
+T*
+(  PRAGMA foreign_keys = ON is issued wherever a connection is opened, because it is per-connection and off by) Tj
+T*
+(      ) Tj
+(default.) Tj
+T*
+(  ) Tj
+T*
+(  ## Part 2 Load and Cleaning) Tj
+T*
+(  ### Results) Tj
+T*
+(  | rule | rows |) Tj
+T*
+(  |---|---:|) Tj
+T*
+(  | in file | 2313682 |) Tj
+T*
+(  | moteid empty, rejected | 526 |) Tj
+T*
+(  | moteid outside the 1-54 roster, rejected | 9866 |) Tj
+T*
+(  | unparseable timestamp or value | 0 |) Tj
+T*
+(  | accepted | 2303290 |) Tj
+T*
+(  | empty channel fields, recorded as absent | 93948 |) Tj
+T*
+(  | readings written | 9119212 |) Tj
+T*
+(  | foreign key violations | 0 |) Tj
+T*
+(  Load time 22.2 s. Plausible bounds, applied at read time in query \(d\):) Tj
+T*
+(  | channel | bound | basis | readings outside |) Tj
+T*
+(  |---|---|---|---:|) Tj
+T*
+(  | humidity | 0-100 %RH | dataset doc, "ranging from 0-100%" | 299084 |) Tj
+T*
+(  | voltage | 2.0-3.0 V | dataset doc, lithium ion, "ranging from 2-3" | 2746 |) Tj
+T*
+(  | temperature | 0-50 degC | general working environment | 408133 |) Tj
+T*
+(  | light | 0-2000 lux | observed to saturate at 1847.36 lux | 0 |) Tj
+T*
+(  ### Discussion) Tj
+T*
+(  Every row of data.txt has eight fields separated by exactly one space, and a channel that did not arrive) Tj
+T*
+(      ) Tj
+(leaves its field empty, so two spaces appear in a row. Splitting on a single space keeps that empty) Tj
+T*
+(      ) Tj
+(field and every row comes out with eight. Splitting on any amount of whitespace, which is what) Tj
+T*
+(      ) Tj
+(line.split\(\) and pandas do by default, reads those two spaces as one separator, so 93879 rows lose a) Tj
+T*
+(      ) Tj
+(field and every value after the gap shifts one column left with no error raised. An empty field means) Tj
+T*
+(      ) Tj
+(the measurement is missing rather than zero, so the loader writes no row for it.) Tj
+T*
+(  Readings outside these bounds are kept in the database, neither deleted nor marked. The bounds are written) Tj
+T*
+(      ) Tj
+(directly into query \(d\) and applied when it runs, so changing one gives a different answer without) Tj
+T*
+(      ) Tj
+(reloading anything.) Tj
+T*
+(  1847.36 lux is the largest value in the file and repeats 139078 times, far more often than any other, so) Tj
+T*
+(      ) Tj
+(the sensors reach their maximum there and keep reporting the same number. Everything below that can be) Tj
+T*
+(      ) Tj
+(real, since some sensors sit near windows, so the bound is set at 2000 rather than lower.) Tj
+T*
+(  The dying-battery anomalies are counted but not cleaned out. Temperatures outside 0-50 degC come with a) Tj
+T*
+(      ) Tj
+(voltage averaging 2.19 V in the same transmission, against 2.55 V for the rest. A voltage rule cannot) Tj
+T*
+(      ) Tj
+(be derived from the temperatures, since the ones that would set it are the corrupted readings) Tj
+T*
+(      ) Tj
+(themselves; and temperatures cannot be judged by the voltage, since the documentation says the voltage) Tj
+T*
+(      ) Tj
+(reading itself changes with temperature and over 200000 readings below 2.40 V carry normal) Tj
+T*
+(      ) Tj
+(temperatures. Dropping everything below some voltage would throw away good data to remove bad.) Tj
+T*
+(  ) Tj
+T*
+(  ## Part 3 Indexing) Tj
+T*
+(  ### Method) Tj
+T*
+(  The probe query counts the readings from sensor 22 on 2004-03-09. It is run once to warm the cache and then) Tj
+T*
+(      ) Tj
+(five more times, and the fastest of those five is reported. EXPLAIN QUERY PLAN reports no timings, so) Tj
+T*
+(      ) Tj
+(the timing comes from time.perf_counter\(\) in Python. The index is created after the load rather than in) Tj
+T*
+(      ) Tj
+(schema.sql, which is why an unindexed table exists to measure. Both configurations return the same) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 19 of 20) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 44 0 R >>
+endobj
+44 0 obj
+<< /Length 5510 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(      ) Tj
+(10452 rows, so only the cost changed.) Tj
+T*
+(  ### Results) Tj
+T*
+(  | index | best | EXPLAIN QUERY PLAN |) Tj
+T*
+(  |---|---:|---|) Tj
+T*
+(  | none | 397.97 ms | SCAN readings |) Tj
+T*
+(  | \(sensor_id, ts, variable\) | 0.19 ms | SEARCH readings USING COVERING INDEX ux_readings \(sensor_id=? AND) Tj
+T*
+(      ) Tj
+(ts>? AND ts<?\) |) Tj
+T*
+(  ### Discussion) Tj
+T*
+(  SCAN readings means SQLite reads every row in the table and keeps the ones that match, so a question about) Tj
+T*
+(      ) Tj
+(one mote on one day costs a walk over all 9119212 rows. SEARCH means it uses the index instead, a) Tj
+T*
+(      ) Tj
+(second copy of \(sensor_id, ts, variable\) kept in sorted order, so it can jump straight to that sensor) Tj
+T*
+(      ) Tj
+(and then to that day inside it. It reads about 10452 entries rather than the whole table, which is the) Tj
+T*
+(      ) Tj
+(difference between the two timings.) Tj
+T*
+(  The part in parentheses says which conditions the index actually handled, and here it handled all three.) Tj
+T*
+(      ) Tj
+(That depends on column order: sensor_id comes first, so one mote's readings sit together and its day is) Tj
+T*
+(      ) Tj
+(a contiguous run inside them. An index built as \(ts, sensor_id\) would constrain only ts and read that) Tj
+T*
+(      ) Tj
+(day for all 54 motes, thirty-seven times as many rows. COVERING means every column the query needs is) Tj
+T*
+(      ) Tj
+(already in the index, so the table is never opened.) Tj
+T*
+(  ) Tj
+T*
+(  ## Part 4 The Three-Way Comparison) Tj
+T*
+(  ### Method) Tj
+T*
+(  All three engines answer the same question, the average temperature of each of the 53 motes that reported) Tj
+T*
+(      ) Tj
+(one. Only the query itself is timed, warm, best of 5. Lines of code counts the expression that produces) Tj
+T*
+(      ) Tj
+(the answer rather than the setup, so the pandas read_parquet call is not included.) Tj
+T*
+(  ### Results) Tj
+T*
+(  | engine | before it can answer | query | lines of code |) Tj
+T*
+(  |---|---|---:|---:|) Tj
+T*
+(  | pandas, Parquet into RAM | 0.5 s read | 105.5 ms | 1 |) Tj
+T*
+(  | SQLite, lab.db | 22.2 s load | 1019.9 ms | 2 |) Tj
+T*
+(  | DuckDB, Parquet | none | 19.0 ms | 2 |) Tj
+T*
+(  ### Discussion) Tj
+T*
+(  pandas and SQLite return exactly the same numbers, and DuckDB differs from them by at most 1.33e-12. That) Tj
+T*
+(      ) Tj
+(is a different order of addition rather than a different answer: pandas and SQLite accumulate row by) Tj
+T*
+(      ) Tj
+(row, DuckDB adds partial sums from vectorised chunks, and floating-point addition is not associative.) Tj
+T*
+(      ) Tj
+(DuckDB is also the fastest and needs nothing prepared, since it reads the Parquet tree in place, while) Tj
+T*
+(      ) Tj
+(SQLite is slowest because the long schema makes it walk the whole table.) Tj
+T*
+(  ) Tj
+T*
+(  ## Part 5 When You Would Choose Each Store) Tj
+T*
+(  A row store keeps one reading's fields next to each other on disk, and it reads in fixed-size pages, so a) Tj
+T*
+(      ) Tj
+(page holds whole rows. Averaging the value column means loading pages that carry every other column) Tj
+T*
+(      ) Tj
+(too, because value was never stored on its own. A column store writes all the values of one column) Tj
+T*
+(      ) Tj
+(together, so reading value reads only value. The Parquet tree is 95 MB against lab.db's 1038 MB.) Tj
+T*
+(  SQLite is good at touching a small part of the data. Reading one sensor over one day takes a fraction of a) Tj
+T*
+(      ) Tj
+(millisecond because the index leads straight to those rows, and correcting a single reading is one) Tj
+T*
+(      ) Tj
+(UPDATE where the same fix in Parquet means rewriting the whole day's file. The file is also the data,) Tj
+T*
+(      ) Tj
+(so a value written a second ago is already in the next query. And it is the only one of the two that) Tj
+T*
+(      ) Tj
+(checks anything: the foreign key, STRICT and the CHECK reject a bad mote, a wrong type or an unknown) Tj
+T*
+(      ) Tj
+(channel at insert time.) Tj
+T*
+(  I would keep the data in SQLite while it is still arriving or being corrected, and whenever a question) Tj
+T*
+(      ) Tj
+(names one mote or one day. I would go to Parquet and DuckDB once the data is finished and the questions) Tj
+T*
+(      ) Tj
+(change shape, scanning months but naming two or three columns. The deciding factor is the access) Tj
+T*
+(      ) Tj
+(pattern rather than the size of the data, and since the export takes 0.9 s there is no reason to pick) Tj
+T*
+(      ) Tj
+(only one.) Tj
+T*
+(  ) Tj
+T*
+(  ## AI Use) Tj
+T*
+(  Generative AI was used to fix bugs in the code, to resolve SQL syntax problems, and to improve the wording) Tj
+T*
+(      ) Tj
+(and organisation of this report; every number here was produced by the scripts in this repository on my) Tj
+T*
+(      ) Tj
+(own machine.) Tj
+T*
+T*
+/F2 8 Tf
+(Summary line) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(  The script hash should match the checksum published beside the script.) Tj
+T*
+T*
+0.00 0.00 0.00 rg
+(  {"andrew_id": "yihaoyin", "generated": "2026-09-24 22:06 \\u4e1c\\u90e8\\u590f\\u4ee4\\u65f6", "auto_score":) Tj
+T*
+(      ) Tj
+(4.5, "auto_of": 5.0, "report_points": 1.0, "held_for_ta": 0.0, "assignment_total": 6.0, "groups":) Tj
+T*
+(      ) Tj
+({"table": 1.0, "baseline": 1.0, "models": 1.25, "honest": 1.25, "numbers": 0.0}, "script_sha256":) Tj
+T*
+(      ) Tj
+("76151d2e3fb565930aed34c3b78d3a4f8debede7fcdaae3d053cfd814d921ab8"}) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 20 of 20) Tj ET
+endstream
+endobj
+xref
+0 45
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000247 00000 n 
+0000000315 00000 n 
+0000000388 00000 n 
+0000000524 00000 n 
+0000005941 00000 n 
+0000006077 00000 n 
+0000011194 00000 n 
+0000011331 00000 n 
+0000016383 00000 n 
+0000016521 00000 n 
+0000024896 00000 n 
+0000025034 00000 n 
+0000036568 00000 n 
+0000036706 00000 n 
+0000046626 00000 n 
+0000046764 00000 n 
+0000055742 00000 n 
+0000055880 00000 n 
+0000066658 00000 n 
+0000066796 00000 n 
+0000076835 00000 n 
+0000076973 00000 n 
+0000086978 00000 n 
+0000087116 00000 n 
+0000096609 00000 n 
+0000096747 00000 n 
+0000104972 00000 n 
+0000105110 00000 n 
+0000112215 00000 n 
+0000112353 00000 n 
+0000119987 00000 n 
+0000120125 00000 n 
+0000127279 00000 n 
+0000127417 00000 n 
+0000136195 00000 n 
+0000136333 00000 n 
+0000147240 00000 n 
+0000147378 00000 n 
+0000153947 00000 n 
+0000154085 00000 n 
+0000159652 00000 n 
+0000159790 00000 n 
+trailer
+<< /Size 45 /Root 1 0 R >>
+startxref
+165353
+%%EOF

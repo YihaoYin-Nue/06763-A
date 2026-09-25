@@ -1,0 +1,6024 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 11 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 5311 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+/F2 8 Tf
+(Assignment 4 evidence) Tj
+T*
+T*
+/F1 8 Tf
+(YihaoYin \(yihaoyin\)) Tj
+T*
+(generated 2026-09-24 22:07 ????? on Windows-11-10.0.26200-SP0, polars 1.44.2) Tj
+T*
+(project HW4) Tj
+T*
+(evidence script sha256 76151d2e3fb565930aed34c3b78d3a4f8debede7fcdaae3d053cfd814d921ab8) Tj
+T*
+T*
+/F2 8 Tf
+(Score  ) Tj
+0.00 0.45 0.15 rg
+(5.00 / 5) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  automatic, out of 6 for the assignment.) Tj
+T*
+0.40 0.40 0.40 rg
+(  The last 1 point is REPORT.md, which your TA reads. This script does not score it.) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Summary) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(  group                        score   checks        decided by) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(The table             ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.00 / 1.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   4/4 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Baselines             ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.00 / 1.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   4/4 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Models                ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.25 / 1.25) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   5/5 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Honest evaluation     ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 1.25 / 1.25) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   5/5 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(Report numbers        ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+( 0.50 / 0.50) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   2/2 passed    script) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(REPORT.md             ) Tj
+/F2 8 Tf
+0.60 0.42 0.00 rg
+(   ?  / 1.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   0/1 passed    your TA) Tj
+T*
+(  --------------------------------------------------------------) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+(automatic total       ) Tj
+(5.00 / 5.00) Tj
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(   of 6 for the assignment) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(What this script found) Tj
+T*
+T*
+/F1 8 Tf
+(  data         data\\tep_fault_free_training.parquet) Tj
+T*
+(  predictions  results\\predictions.parquet) Tj
+T*
+(  forecast     results\\forecast.csv) Tj
+T*
+(  validation   results\\validation.csv) Tj
+T*
+(  leaky        results\\leaky.csv) Tj
+T*
+(  report       REPORT.md) Tj
+T*
+0.40 0.40 0.40 rg
+(  code         6 files) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(The table) Tj
+(   1.00 / 1.00) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  predictions.parquet with the eight columns) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  every test run and origin, for every horizon, and nothing else) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  y_true is xmeas_18 at t + h) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% of rows match) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  shifts kept inside each run in the code) Tj
+T*
+T*
+/F2 8 Tf
+(Baselines) Tj
+(   1.00 / 1.00) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  forecast.csv with the five horizons and the six columns) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  persistence RMSE matches the recomputation) Tj
+T*
+0.40 0.40 0.40 rg
+(          within 0.5 % at every horizon) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  mean RMSE matches the recomputation) Tj
+T*
+0.40 0.40 0.40 rg
+(          mean over all samples of runs 1 to 300) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  skill = 1 - direct / better baseline) Tj
+T*
+T*
+/F2 8 Tf
+(Models) Tj
+(   1.25 / 1.25) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  direct RMSE matches your predictions) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  recursive RMSE matches your predictions) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  direct beats the better baseline at four or more horizons) Tj
+T*
+0.40 0.40 0.40 rg
+(          5 of 5) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  recursive differs from direct beyond h = 1) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  a scaler inside a pipeline in the code) Tj
+T*
+T*
+/F2 8 Tf
+(Honest evaluation) Tj
+(   1.25 / 1.25) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  validation.csv with three or more settings) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  validation on runs 301 to 400 in the code) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  leaky.csv with both splits for runs 1 to 10) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  TimeSeriesSplit with a gap of at least 10 in the code) Tj
+T*
+0.40 0.40 0.40 rg
+(          gap arguments found: ['H']) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  shuffled KFold in the code) Tj
+T*
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 1 of 11) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5066 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+/F2 8 Tf
+(Report numbers) Tj
+(   0.50 / 0.50) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  RMSE values in REPORT.md come from forecast.csv) Tj
+T*
+0.40 0.40 0.40 rg
+(          20 of 20 quoted; four needed) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  REPORT.md quotes both leaky.csv means) Tj
+T*
+T*
+/F2 8 Tf
+(REPORT.md) Tj
+0.40 0.40 0.40 rg
+(   1.00 point, read by your TA) Tj
+T*
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.60 0.42 0.00 rg
+([SKIP]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  six sections and the AI-use line) Tj
+T*
+0.40 0.40 0.40 rg
+(          read by your TA) Tj
+T*
+T*
+(  Each line is decided from the output below, not asserted.) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Transcript) Tj
+T*
+T*
+(  data, and the script's own baselines) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    250,000 rows, 500 runs, samples per run [500]) Tj
+T*
+(    training mean of xmeas_18 over runs 1 to 300: 65.80559) Tj
+T*
+(    h= 1: persistence 0.0501, mean 0.4231 on 46,000 test origins) Tj
+T*
+(    h= 5: persistence 0.1400, mean 0.4244 on 45,600 test origins) Tj
+T*
+(    h=10: persistence 0.2218, mean 0.4260 on 45,100 test origins) Tj
+T*
+(    h=20: persistence 0.3920, mean 0.4289 on 44,100 test origins) Tj
+T*
+(    h=40: persistence 0.6353, mean 0.4345 on 42,100 test origins) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  predictions) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    222,900 rows, columns ['run', 't', 'h', 'y_true', 'persistence', 'mean', 'direct', 'recursive']) Tj
+T*
+(    runs: 401 to 500, 100 distinct) Tj
+T*
+(    h= 1: 46,000 rows \(expected 46,000\), 0 duplicated origins, 0 origins outside 40..499) Tj
+T*
+(    h= 5: 45,600 rows \(expected 45,600\), 0 duplicated origins, 0 origins outside 40..495) Tj
+T*
+(    h=10: 45,100 rows \(expected 45,100\), 0 duplicated origins, 0 origins outside 40..490) Tj
+T*
+(    h=20: 44,100 rows \(expected 44,100\), 0 duplicated origins, 0 origins outside 40..480) Tj
+T*
+(    h=40: 42,100 rows \(expected 42,100\), 0 duplicated origins, 0 origins outside 40..460) Tj
+T*
+(    y_true equal to xmeas_18 at t + h: 100.00% of rows) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  forecast.csv against the script's recomputation) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    columns ['h', 'minutes', 'rows', 'persistence_rmse', 'mean_rmse', 'direct_rmse', 'recursive_rmse',) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+('skill', 'recursive_skill']) Tj
+T*
+(    ) Tj
+T*
+(      h              persistence                     mean                   direct                recursive) Tj
+T*
+(                  yours / script           yours / script       yours / from preds       yours / from preds) Tj
+T*
+(      1          0.0501 / 0.0501          0.4231 / 0.4231          0.0367 / 0.0367          0.0393 / 0.0393) Tj
+T*
+(      5          0.1400 / 0.1400          0.4244 / 0.4244          0.0869 / 0.0869          0.1070 / 0.1070) Tj
+T*
+(     10          0.2218 / 0.2218          0.4260 / 0.4260          0.1271 / 0.1271          0.1486 / 0.1486) Tj
+T*
+(     20          0.3920 / 0.3920          0.4289 / 0.4289          0.2029 / 0.2029          0.2482 / 0.2482) Tj
+T*
+(     40          0.6353 / 0.6353          0.4345 / 0.4345          0.3328 / 0.3328          0.3846 / 0.3846) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  validation.csv) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    24 settings, columns ['h', 'n_lags', 'alpha', 'features', 'train_rows', 'train_rmse', 'val_rmse',) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+('val_persistence_rmse', 'chosen']) Tj
+T*
+(    ) Tj
+T*
+(    shape: \(12, 9\)) Tj
+T*
+(    ?????????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+(    ? h   ? n_lags ? alpha   ? features ? ? ? train_rmse ? val_rmse ? val_persistence_rmse ? chosen ?) Tj
+T*
+(    ? --- ? ---    ? ---     ? ---      ?   ? ---        ? ---      ? ---                  ? ---    ?) Tj
+T*
+(    ? i64 ? i64    ? f64     ? i64      ?   ? f64        ? f64      ? f64                  ? bool   ?) Tj
+T*
+(    ?????????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+(    ? 10  ? 1      ? 0.01    ? 12       ? ? ? 0.154756   ? 0.152825 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 1      ? 1.0     ? 12       ? ? ? 0.154756   ? 0.152825 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 1      ? 100.0   ? 12       ? ? ? 0.154768   ? 0.152833 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 1      ? 10000.0 ? 12       ? ? ? 0.16248    ? 0.160314 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 2      ? 0.01    ? 13       ? ? ? 0.149295   ? 0.14773  ? 0.227914             ? false  ?) Tj
+T*
+(    ? ?   ? ?      ? ?       ? ?        ? ? ? ?          ? ?        ? ?                    ? ?      ?) Tj
+T*
+(    ? 10  ? 2      ? 10000.0 ? 13       ? ? ? 0.164293   ? 0.162113 ? 0.227914             ? false  ?) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 2 of 11) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 5922 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+0.40 0.40 0.40 rg
+(    ? 10  ? 5      ? 0.01    ? 16       ? ? ? 0.143173   ? 0.142104 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 5      ? 1.0     ? 16       ? ? ? 0.143173   ? 0.142103 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 5      ? 100.0   ? 16       ? ? ? 0.143384   ? 0.142252 ? 0.227914             ? false  ?) Tj
+T*
+(    ? 10  ? 5      ? 10000.0 ? 16       ? ? ? 0.161009   ? 0.159015 ? 0.227914             ? false  ?) Tj
+T*
+(    ?????????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  leaky.csv) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    20 rows, columns ['run', 'split', 'h', 'model_rmse', 'persistence_rmse']) Tj
+T*
+(    runs with a shuffled row: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) Tj
+T*
+(    runs with a time-ordered row: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) Tj
+T*
+(    ) Tj
+T*
+(    shape: \(2, 3\)) Tj
+T*
+(    ????????????????????????????????????????????) Tj
+T*
+(    ? kind     ? model_rmse ? persistence_rmse ?) Tj
+T*
+(    ? ---      ? ---        ? ---              ?) Tj
+T*
+(    ? str      ? f64        ? f64              ?) Tj
+T*
+(    ????????????????????????????????????????????) Tj
+T*
+(    ? shuffled ? 0.096044   ? 0.255007         ?) Tj
+T*
+(    ? time     ? 0.344777   ? 0.251701         ?) Tj
+T*
+(    ????????????????????????????????????????????) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  read the code) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    6 code files: src\\acf.py, src\\forecast.py, src\\leaky.py, src\\pipeline.py, src\\table.py, src\\validate.py) Tj
+T*
+(    ) Tj
+T*
+(    shifts kept inside a run \(.over / group_by / per-run loop\): yes) Tj
+T*
+(    scaler inside a pipeline: yes) Tj
+T*
+(    validation runs 301 to 400 referenced: yes) Tj
+T*
+(    TimeSeriesSplit: yes; gap arguments: ['H']) Tj
+T*
+(    KFold with shuffle=True: yes) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  REPORT.md) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    1195 words, 7 headings: ['Report', '1. The table', '2. Baselines and skill', '3. Validation', '4. Direct) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+(against recursive', '5. Shuffle against time', '6. Limits']) Tj
+T*
+(    RMSE values from forecast.csv quoted in the report: 20 of 20) Tj
+T*
+(    leaky.csv means quoted: shuffled yes, time yes) Tj
+T*
+(    AI-use line: yes) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Code: src\\acf.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(DT_MIN) Tj
+(, ) Tj
+(HORIZONS) Tj
+(, ) Tj
+(RESULTS) Tj
+(, ) Tj
+(SAMPLE) Tj
+(, ) Tj
+(SAMPLES_PER_RUN) Tj
+(, ) Tj
+(T_FIRST) Tj
+(, ) Tj
+(TRAIN) Tj
+(, ) Tj
+(Y) Tj
+(, ) Tj
+(load) Tj
+(, ) Tj
+(runs) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(MAX_LAG) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(60) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(autocorrelation) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(max_lag) Tj
+(: ) Tj
+(int) Tj
+( = ) Tj
+(MAX_LAG) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Autocorrelation of xmeas_18 in the training runs, pairs taken inside each run.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Samples before T_FIRST are left out: there every run is still leaving the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    same initial steady state, and the forecasts are never scored there.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    For a stationary series persistence has MSE 2 var \(1 - rho\) and the mean) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    has MSE var, so persistence_over_mean = sqrt\(2 \(1 - rho\)\) predicts the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    ratio of their RMSEs, and persistence wins only while rho > 0.5.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# One row per run, so a pair \(s, s+k\) never spans two runs.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(y) Tj
+( = ) Tj
+(runs) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(TRAIN) Tj
+(\)[) Tj
+(Y) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\).) Tj
+(reshape) Tj
+(\(-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(SAMPLES_PER_RUN) Tj
+(\)[:, ) Tj
+(T_FIRST) Tj
+( - ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(:]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(y) Tj
+( = ) Tj
+(y) Tj
+( - ) Tj
+(y) Tj
+(.) Tj
+(mean) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(var) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+(y) Tj
+( ** ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(lags) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(arange) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(max_lag) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(rho) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(array) Tj
+(\([) Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+(y) Tj
+([:, :-) Tj
+(k) Tj
+(] * ) Tj
+(y) Tj
+([:, ) Tj
+(k) Tj
+(:]\) / ) Tj
+(var) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lags) Tj
+(]\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 3 of 11) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 9264 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("lag") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(lags) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("minutes") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(lags) Tj
+( * ) Tj
+(DT_MIN) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("acf") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(rho) Tj
+(,) Tj
+T*
+(  ) Tj
+(                         ) Tj
+0.62 0.20 0.12 rg
+("persistence_over_mean") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(np) Tj
+(.) Tj
+(sqrt) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+( * \() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+( - ) Tj
+(rho) Tj
+(\)\)}\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(acf) Tj
+( = ) Tj
+(autocorrelation) Tj
+(\() Tj
+(load) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(acf) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("acf.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(acf) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(acf) Tj
+( = ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(acf) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("lag") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(is_in) Tj
+(\() Tj
+(HORIZONS) Tj
+(\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(cross) Tj
+( = ) Tj
+(acf) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("acf") Tj
+0.00 0.00 0.00 rg
+(\) < ) Tj
+0.05 0.40 0.50 rg
+(0.5) Tj
+0.00 0.00 0.00 rg
+(\)[) Tj
+0.62 0.20 0.12 rg
+("lag") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(min) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("rho first drops below 0.5 at lag {cross} \({cross * DT_MIN} min\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: src\\forecast.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(DT_MIN) Tj
+(, ) Tj
+(HORIZONS) Tj
+(, ) Tj
+(RESULTS) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(TEST) Tj
+(, ) Tj
+(TRAIN) Tj
+(, ) Tj
+(build_table) Tj
+(, ) Tj
+(load) Tj
+(, ) Tj
+(ridge) Tj
+(,) Tj
+T*
+(  ) Tj
+(                   ) Tj
+(runs) Tj
+(, ) Tj
+(train_mean) Tj
+(, ) Tj
+(xy) Tj
+(\)) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(validate) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(chosen) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(KEY) Tj
+( = [) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(METHODS) Tj
+( = [) Tj
+0.62 0.20 0.12 rg
+("persistence") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("mean") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("direct") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("recursive") Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(origins) Tj
+(\() Tj
+(test) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(h) Tj
+(: ) Tj
+(int) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(test) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(alias) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(\), ) Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+(h) Tj
+(, ) Tj
+(dtype) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(Int64) Tj
+(\).) Tj
+(alias) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(baselines) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(mean) Tj
+(: ) Tj
+(float) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Persistence and the mean on every test origin, one row per \(run, t, h\).""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(parts) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(h) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(HORIZONS) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(table) Tj
+(, ) Tj
+(_) Tj
+( = ) Tj
+(build_table) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(TEST) Tj
+(\), ) Tj
+(h) Tj
+(, ) Tj
+(n_lags) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(valves) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(parts) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(origins) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(h) Tj
+(\).) Tj
+(with_columns) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(y_true) Tj
+(=) Tj
+(table) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("target") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(            ) Tj
+(persistence) Tj
+(=) Tj
+(table) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("y[t]") Tj
+0.00 0.00 0.00 rg
+(],          ) Tj
+0.35 0.48 0.38 rg
+(# y[t+h] = y[t]) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(mean) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+(mean) Tj
+(\),                  ) Tj
+0.35 0.48 0.38 rg
+(# the training mean, whatever t is) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\() Tj
+(parts) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(direct) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(n_lags) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(alpha) Tj
+(: ) Tj
+(float) Tj
+(\) -> ) Tj
+(tuple) Tj
+([) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""One ridge model per horizon, lags of xmeas_18 plus the valves at t -> y[t+h].) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Also returns each model's coefficients on the standardized features, in) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    deg C per standard deviation of the input, to show what it leans on.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(parts) Tj
+(, ) Tj
+(coefs) Tj
+( = [], []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(h) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(HORIZONS) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(table) Tj
+(, ) Tj
+(names) Tj
+( = ) Tj
+(build_table) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(h) Tj
+(, ) Tj
+(n_lags) Tj
+(, ) Tj
+(valves) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(model) Tj
+( = ) Tj
+(ridge) Tj
+(\() Tj
+(alpha) Tj
+(\).) Tj
+(fit) Tj
+(\(*) Tj
+(xy) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(TRAIN) Tj
+(\), ) Tj
+(names) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(test) Tj
+( = ) Tj
+(runs) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(TEST) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(parts) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(origins) Tj
+(\() Tj
+(test) Tj
+(, ) Tj
+(h) Tj
+(\).) Tj
+(with_columns) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(direct) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(Series) Tj
+(\() Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(test) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(names) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)\)\)\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(coefs) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(: [) Tj
+(h) Tj
+(] * ) Tj
+(len) Tj
+(\() Tj
+(names) Tj
+(\), ) Tj
+0.62 0.20 0.12 rg
+("feature") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(names) Tj
+(,) Tj
+T*
+(  ) Tj
+(                                   ) Tj
+0.62 0.20 0.12 rg
+("coef") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(model) Tj
+([-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(coef_) Tj
+(}\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\() Tj
+(parts) Tj
+(\), ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\() Tj
+(coefs) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 4 of 11) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 9815 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(recursive) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(n_lags) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(alpha) Tj
+(: ) Tj
+(float) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""One model for y[t+1] from lags of xmeas_18 only, walked forward h steps.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Each step's prediction becomes the new y[t] and the oldest lag drops off.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    The valves are left out because step two onwards would need the valves at) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    t+1, t+2, ..., which are not known at t. The path from an origin does not) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    depend on h, so it is walked once to the longest horizon, and read off at) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    each horizon on the way.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(table) Tj
+(, ) Tj
+(names) Tj
+( = ) Tj
+(build_table) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(n_lags) Tj
+(, ) Tj
+(valves) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(one_step) Tj
+( = ) Tj
+(ridge) Tj
+(\() Tj
+(alpha) Tj
+(\).) Tj
+(fit) Tj
+(\(*) Tj
+(xy) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(TRAIN) Tj
+(\), ) Tj
+(names) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(test) Tj
+( = ) Tj
+(runs) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(TEST) Tj
+(\)                    ) Tj
+0.35 0.48 0.38 rg
+(# origins 40..499, every horizon's origins) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(lags) Tj
+( = ) Tj
+(test) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(names) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parts) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(step) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(max) Tj
+(\() Tj
+(HORIZONS) Tj
+(\) + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(nxt) Tj
+( = ) Tj
+(one_step) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(lags) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(lags) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(column_stack) Tj
+(\([) Tj
+(nxt) Tj
+(, ) Tj
+(lags) Tj
+([:, :-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]]\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(step) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(HORIZONS) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(parts) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(origins) Tj
+(\() Tj
+(test) Tj
+(, ) Tj
+(step) Tj
+(\).) Tj
+(with_columns) Tj
+(\() Tj
+(recursive) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(Series) Tj
+(\() Tj
+(nxt) Tj
+(\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\() Tj
+(parts) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(score) Tj
+(\() Tj
+(pred) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(methods) Tj
+(: ) Tj
+(list) Tj
+([) Tj
+(str) Tj
+(]\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""RMSE of each method at each horizon, over the same test origins.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(pred) Tj
+(.) Tj
+(group_by) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(agg) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(len) Tj
+(\(\).) Tj
+(alias) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("rows") Tj
+0.00 0.00 0.00 rg
+(\),) Tj
+T*
+(  ) Tj
+(                 *[\(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(m) Tj
+(\) - ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("y_true") Tj
+0.00 0.00 0.00 rg
+(\)\) ** ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(mean) Tj
+(\(\).) Tj
+(sqrt) Tj
+(\(\).) Tj
+(alias) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{m}_rmse") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(                   ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(methods) Tj
+(]\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(load) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n_lags) Tj
+(, ) Tj
+(alpha) Tj
+( = ) Tj
+(chosen) Tj
+(\(\)                    ) Tj
+0.35 0.48 0.38 rg
+(# picked on runs 301 to 400 by validate.py) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(direct_pred) Tj
+(, ) Tj
+(coefs) Tj
+( = ) Tj
+(direct) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(n_lags) Tj
+(, ) Tj
+(alpha) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# The baselines fix the rows: every test origin t = 40 .. 500-h, for each h.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(pred) Tj
+( = \() Tj
+(baselines) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(train_mean) Tj
+(\() Tj
+(df) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(join) Tj
+(\() Tj
+(direct_pred) Tj
+(, ) Tj
+(on) Tj
+(=) Tj
+(KEY) Tj
+(, ) Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(join) Tj
+(\() Tj
+(recursive) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(n_lags) Tj
+(, ) Tj
+(alpha) Tj
+(\), ) Tj
+(on) Tj
+(=) Tj
+(KEY) Tj
+(, ) Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(select) Tj
+(\(*) Tj
+(KEY) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("y_true") Tj
+0.00 0.00 0.00 rg
+(, *) Tj
+(METHODS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pred) Tj
+(.) Tj
+(null_count) Tj
+(\(\).) Tj
+(sum_horizontal) Tj
+(\(\).) Tj
+(item) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("a test origin is missing a forecast") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(better) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(min_horizontal) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("persistence_rmse") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("mean_rmse") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(table) Tj
+( = \() Tj
+(score) Tj
+(\() Tj
+(pred) Tj
+(, ) Tj
+(METHODS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(             .) Tj
+(with_columns) Tj
+(\() Tj
+(minutes) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(\) * ) Tj
+(DT_MIN) Tj
+(,) Tj
+T*
+(  ) Tj
+(                           ) Tj
+(skill) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+( - ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("direct_rmse") Tj
+0.00 0.00 0.00 rg
+(\) / ) Tj
+(better) Tj
+(,) Tj
+T*
+(  ) Tj
+(                           ) Tj
+(recursive_skill) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+( - ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("recursive_rmse") Tj
+0.00 0.00 0.00 rg
+(\) / ) Tj
+(better) Tj
+(\)) Tj
+T*
+(  ) Tj
+(             .) Tj
+(select) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("minutes") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("rows") Tj
+0.00 0.00 0.00 rg
+(, *[) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{m}_rmse") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(METHODS) Tj
+(],) Tj
+T*
+(  ) Tj
+(                     ) Tj
+0.62 0.20 0.12 rg
+("skill") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("recursive_skill") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(pred) Tj
+(.) Tj
+(write_parquet) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("predictions.parquet") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(table) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("forecast.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(coefs) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("coefficients.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("chosen \(n_lags, alpha\):") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(chosen) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(Config) Tj
+(\() Tj
+(float_precision) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(main) Tj
+(\(\)\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: src\\leaky.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 5 of 11) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 9389 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(ensemble) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(RandomForestRegressor) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(model_selection) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(KFold) Tj
+(, ) Tj
+(TimeSeriesSplit) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(RESULTS) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(build_table) Tj
+(, ) Tj
+(load) Tj
+(, ) Tj
+(rmse) Tj
+(, ) Tj
+(xy) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(validate) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(chosen) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(H) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(RUNS) Tj
+( = ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(11) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(splits) Tj
+(\(\) -> ) Tj
+(dict) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( {) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# Rows go to train and test at random, so each test row's neighbours,) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# a few minutes before and after, are usually in the training set.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("shuffled") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(KFold) Tj
+(\() Tj
+(n_splits) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(shuffle) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(random_state) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# Train on the past, skip H origins, test on what follows. A training) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# row at origin t has target y[t+H]; with gap=H the last one still) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# lands before the first test origin, so no training target is taken) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.35 0.48 0.38 rg
+(# from the test stretch.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("time") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(TimeSeriesSplit) Tj
+(\() Tj
+(n_splits) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(gap) Tj
+(=) Tj
+(H) Tj
+(\),) Tj
+T*
+(  ) Tj
+(    }) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(score_run) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(run) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(n_lags) Tj
+(: ) Tj
+(int) Tj
+(\) -> ) Tj
+(list) Tj
+([) Tj
+(dict) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""One run on its own: a forest and persistence, scored on the same test folds.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(table) Tj
+(, ) Tj
+(names) Tj
+( = ) Tj
+(build_table) Tj
+(\() Tj
+(df) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\) == ) Tj
+(run) Tj
+(\), ) Tj
+(H) Tj
+(, ) Tj
+(n_lags) Tj
+(\)   ) Tj
+0.35 0.48 0.38 rg
+(# direct features) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(X) Tj
+(, ) Tj
+(y) Tj
+( = ) Tj
+(xy) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(names) Tj
+(\)                    ) Tj
+0.35 0.48 0.38 rg
+(# rows in time order, column 0 is y[t]) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(rows) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(name) Tj
+(, ) Tj
+(cv) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(splits) Tj
+(\(\).) Tj
+(items) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(forest) Tj
+(, ) Tj
+(persistence) Tj
+( = [], []) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train) Tj
+(, ) Tj
+(test) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(cv) Tj
+(.) Tj
+(split) Tj
+(\() Tj
+(X) Tj
+(\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# One thread: parallel trees are summed in a varying order, which) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+0.35 0.48 0.38 rg
+(# changes the last digit of the RMSE from one run to the next.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(model) Tj
+( = ) Tj
+(RandomForestRegressor) Tj
+(\() Tj
+(n_estimators) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(100) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(random_state) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(n_jobs) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(model) Tj
+(.) Tj
+(fit) Tj
+(\() Tj
+(X) Tj
+([) Tj
+(train) Tj
+(], ) Tj
+(y) Tj
+([) Tj
+(train) Tj
+(]\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(forest) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(rmse) Tj
+(\() Tj
+(y) Tj
+([) Tj
+(test) Tj
+(] - ) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(X) Tj
+([) Tj
+(test) Tj
+(]\)\)\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(persistence) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(rmse) Tj
+(\() Tj
+(y) Tj
+([) Tj
+(test) Tj
+(] - ) Tj
+(X) Tj
+([) Tj
+(test) Tj
+(, ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(rows) Tj
+(.) Tj
+(append) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("run") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(run) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("split") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(name) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(H) Tj
+(,) Tj
+T*
+(  ) Tj
+(                     ) Tj
+0.62 0.20 0.12 rg
+("model_rmse") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(float) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+(forest) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(                     ) Tj
+0.62 0.20 0.12 rg
+("persistence_rmse") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(float) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+(persistence) Tj
+(\)\)}\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(rows) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(load) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n_lags) Tj
+(, ) Tj
+(_) Tj
+( = ) Tj
+(chosen) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\([) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(RUNS) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(score_run) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(run) Tj
+(, ) Tj
+(n_lags) Tj
+(\)]\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("leaky.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(Config) Tj
+(\() Tj
+(float_precision) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(tbl_rows) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(30) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(out) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(out) Tj
+(.) Tj
+(group_by) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("split") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(agg) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("model_rmse") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("persistence_rmse") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(mean) Tj
+(\(\)\).) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("split") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: src\\pipeline.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(acf) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(forecast) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(leaky) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 6 of 11) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 9331 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(validate) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(a) Tj
+( = ) Tj
+(acf) Tj
+(.) Tj
+(main) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(cross) Tj
+( = ) Tj
+(a) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(a) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("acf") Tj
+0.00 0.00 0.00 rg
+(] < ) Tj
+0.05 0.40 0.50 rg
+(0.5) Tj
+0.00 0.00 0.00 rg
+(\)[) Tj
+0.62 0.20 0.12 rg
+("lag") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(min) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("acf          rho first below 0.5 at lag {cross}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(v) Tj
+( = ) Tj
+(validate) Tj
+(.) Tj
+(main) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n_lags) Tj
+(, ) Tj
+(alpha) Tj
+( = ) Tj
+(validate) Tj
+(.) Tj
+(chosen) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("validate     {v.height} settings on runs 301 to 400; chosen {n_lags} lags, alpha {alpha}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(f) Tj
+( = ) Tj
+(forecast) Tj
+(.) Tj
+(main) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(wins) Tj
+( = ) Tj
+(int) Tj
+(\(\() Tj
+(f) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("skill") Tj
+0.00 0.00 0.00 rg
+(] > ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(sum) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("forecast     direct beats the better baseline at {wins} of {f.height} horizons") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(k) Tj
+( = ) Tj
+(leaky) Tj
+(.) Tj
+(main) Tj
+(\(\).) Tj
+(group_by) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("split") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(agg) Tj
+(\() Tj
+(leaky) Tj
+(.) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("model_rmse") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(mean) Tj
+(\(\)\).) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("split") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("leaky        mean forest RMSE ") Tj
+0.00 0.00 0.00 rg
+( + ) Tj
+0.62 0.20 0.12 rg
+(", ") Tj
+0.00 0.00 0.00 rg
+(.) Tj
+(join) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{s} {m:.4f}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(s) Tj
+(, ) Tj
+(m) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+(.) Tj
+(iter_rows) Tj
+(\(\)\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: src\\table.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(linear_model) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Ridge) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(pipeline) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(make_pipeline) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(preprocessing) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(StandardScaler) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(ROOT) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+(__file__) Tj
+(\).) Tj
+(resolve) Tj
+(\(\).) Tj
+(parent) Tj
+(.) Tj
+(parent) Tj
+T*
+(  ) Tj
+(DATA) Tj
+( = ) Tj
+(ROOT) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("data") Tj
+0.00 0.00 0.00 rg
+( / ) Tj
+0.62 0.20 0.12 rg
+("tep_fault_free_training.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(RESULTS) Tj
+( = ) Tj
+(ROOT) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("results") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(Y) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("xmeas_18") Tj
+0.00 0.00 0.00 rg
+(                       ) Tj
+0.35 0.48 0.38 rg
+(# stripper temperature, deg C) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(RUN) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("simulationRun") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(SAMPLE) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("sample") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(XMV) Tj
+( = [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("xmv_{i}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(i) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(12) Tj
+0.00 0.00 0.00 rg
+(\)]) Tj
+T*
+(  ) Tj
+(DT_MIN) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(                           ) Tj
+0.35 0.48 0.38 rg
+(# minutes between samples) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# The fixed choices of the assignment.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(HORIZONS) Tj
+( = [) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(40) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(TRAIN) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(300) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(VALIDATION) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(301) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(400) Tj
+0.00 0.00 0.00 rg
+(\)              ) Tj
+0.35 0.48 0.38 rg
+(# hyperparameters only) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(TEST) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(401) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(500) Tj
+0.00 0.00 0.00 rg
+(\)                    ) Tj
+0.35 0.48 0.38 rg
+(# touched once, by forecast.py) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(T_FIRST) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(40) Tj
+0.00 0.00 0.00 rg
+(                         ) Tj
+0.35 0.48 0.38 rg
+(# first forecast origin in every run) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(SAMPLES_PER_RUN) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(500) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""The fault-free training file, sorted, after checking every run is whole.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    A shift by k rows is a shift by k samples only if no run has a missing or) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    repeated sample, so that is checked here rather than assumed.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(DATA) Tj
+(\).) Tj
+(sort) Tj
+(\() Tj
+(RUN) Tj
+(, ) Tj
+(SAMPLE) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(per_run) Tj
+( = ) Tj
+(df) Tj
+(.) Tj
+(group_by) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(agg) Tj
+(\() Tj
+(n) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(len) Tj
+(\(\), ) Tj
+(first) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(SAMPLE) Tj
+(\).) Tj
+(min) Tj
+(\(\),) Tj
+T*
+(  ) Tj
+(                                   ) Tj
+(last) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(SAMPLE) Tj
+(\).) Tj
+(max) Tj
+(\(\), ) Tj
+(unique) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(SAMPLE) Tj
+(\).) Tj
+(n_unique) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(bad) Tj
+( = ) Tj
+(per_run) Tj
+(.) Tj
+(filter) Tj
+(\(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("n") Tj
+0.00 0.00 0.00 rg
+(\) != ) Tj
+(SAMPLES_PER_RUN) Tj
+(\) | \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("unique") Tj
+0.00 0.00 0.00 rg
+(\) != ) Tj
+(SAMPLES_PER_RUN) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                         | \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("first") Tj
+0.00 0.00 0.00 rg
+(\) != ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\) | \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("last") Tj
+0.00 0.00 0.00 rg
+(\) != ) Tj
+(SAMPLES_PER_RUN) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(bad) Tj
+(.) Tj
+(height) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(per_run) Tj
+(.) Tj
+(height) Tj
+( != ) Tj
+0.05 0.40 0.50 rg
+(500) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("expected 500 runs of samples 1..{SAMPLES_PER_RUN}:\\n{bad}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 7 of 11) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 9026 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(df) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(runs) Tj
+(\() Tj
+(frame) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(which) Tj
+(: ) Tj
+(tuple) Tj
+([) Tj
+(int) Tj
+(, ) Tj
+(int) Tj
+(]\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(frame) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(is_between) Tj
+(\(*) Tj
+(which) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lag_names) Tj
+(\() Tj
+(n_lags) Tj
+(: ) Tj
+(int) Tj
+(\) -> ) Tj
+(list) Tj
+([) Tj
+(str) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""y[t] first, so column 0 of every feature matrix is the persistence forecast.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( [) Tj
+0.62 0.20 0.12 rg
+("y[t]") Tj
+0.00 0.00 0.00 rg
+(] + [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("y[t-{k}]") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(n_lags) Tj
+(\)]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(build_table) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(h) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(n_lags) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(valves) Tj
+(: ) Tj
+(bool) Tj
+( = ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(                \) -> ) Tj
+(tuple) Tj
+([) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(list) Tj
+([) Tj
+(str) Tj
+(]]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""One row per \(run, t\): the features known at t, and the target y[t+h].) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Lag k is xmeas_18 at sample t-k, for k = 0 .. n_lags-1; the valves are the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    ones at sample t itself, because later valve moves are not known when the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    forecast is made. Every shift runs over\(RUN\), ordered by sample, so no lag) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    and no target reaches into a neighbouring run: at the edges of a run the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    shift gives null and the row is dropped. Origins then start at T_FIRST, so) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    every lag depth up to 40 is fitted and scored on the same \(run, t\) rows.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+( <= ) Tj
+(n_lags) Tj
+( <= ) Tj
+(T_FIRST) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("lag depth must be 1..{T_FIRST}, got {n_lags}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(names) Tj
+( = ) Tj
+(lag_names) Tj
+(\() Tj
+(n_lags) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(features) Tj
+( = {) Tj
+(name) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(Y) Tj
+(\).) Tj
+(shift) Tj
+(\() Tj
+(k) Tj
+(\).) Tj
+(over) Tj
+(\() Tj
+(RUN) Tj
+(, ) Tj
+(order_by) Tj
+(=) Tj
+(SAMPLE) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(k) Tj
+(, ) Tj
+(name) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(enumerate) Tj
+(\() Tj
+(names) Tj
+(\)}) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(valves) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(features) Tj
+( |= {) Tj
+(v) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(v) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(v) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(XMV) Tj
+(}) Tj
+T*
+(  ) Tj
+(    ) Tj
+(table) Tj
+( = \() Tj
+(df) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(RUN) Tj
+(, ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(SAMPLE) Tj
+(\).) Tj
+(alias) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(\), **) Tj
+(features) Tj
+(,) Tj
+T*
+(  ) Tj
+(                       ) Tj
+(target) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(Y) Tj
+(\).) Tj
+(shift) Tj
+(\(-) Tj
+(h) Tj
+(\).) Tj
+(over) Tj
+(\() Tj
+(RUN) Tj
+(, ) Tj
+(order_by) Tj
+(=) Tj
+(SAMPLE) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(             .) Tj
+(drop_nulls) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(             .) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(\) >= ) Tj
+(T_FIRST) Tj
+(\)) Tj
+T*
+(  ) Tj
+(             .) Tj
+(sort) Tj
+(\() Tj
+(RUN) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+(, ) Tj
+(list) Tj
+(\() Tj
+(features) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(xy) Tj
+(\() Tj
+(table) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(names) Tj
+(: ) Tj
+(list) Tj
+([) Tj
+(str) Tj
+(]\) -> ) Tj
+(tuple) Tj
+([) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(, ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(names) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\), ) Tj
+(table) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("target") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train_mean) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(float) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""The mean forecast: xmeas_18 over all samples of the training runs.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(float) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(TRAIN) Tj
+(\)[) Tj
+(Y) Tj
+(].) Tj
+(mean) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ridge) Tj
+(\() Tj
+(alpha) Tj
+(: ) Tj
+(float) Tj
+(\):) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# The scaler sits inside the pipeline, so it is fitted on training rows only.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(make_pipeline) Tj
+(\() Tj
+(StandardScaler) Tj
+(\(\), ) Tj
+(Ridge) Tj
+(\() Tj
+(alpha) Tj
+(=) Tj
+(alpha) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(rmse) Tj
+(\() Tj
+(error) Tj
+(\) -> ) Tj
+(float) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(float) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(sqrt) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(square) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(asarray) Tj
+(\() Tj
+(error) Tj
+(\)\)\)\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(df) Tj
+( = ) Tj
+(load) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(h) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(HORIZONS) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(table) Tj
+(, ) Tj
+(names) Tj
+( = ) Tj
+(build_table) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(TEST) Tj
+(\), ) Tj
+(h) Tj
+(, ) Tj
+(n_lags) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("h={h:>2}: {table.height:,} test rows, origins {table['t'].min\(\)}..{table['t'].max\(\)}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(table) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(RUN) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("t") Tj
+0.00 0.00 0.00 rg
+(, *) Tj
+(names) Tj
+([:) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+0.62 0.20 0.12 rg
+("xmv_1") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("target") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(head) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: src\\validate.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 8 of 11) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 8821 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(RESULTS) Tj
+(, ) Tj
+(TRAIN) Tj
+(, ) Tj
+(VALIDATION) Tj
+(, ) Tj
+(build_table) Tj
+(, ) Tj
+(load) Tj
+(, ) Tj
+(ridge) Tj
+(, ) Tj
+(rmse) Tj
+(, ) Tj
+(runs) Tj
+(, ) Tj
+(xy) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(H) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(                                ) Tj
+0.35 0.48 0.38 rg
+(# hyperparameters are chosen at 30 minutes) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(LAGS) Tj
+( = [) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(40) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(ALPHAS) Tj
+( = [) Tj
+0.05 0.40 0.50 rg
+(0.01) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1.0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(100.0) Tj
+0.00 0.00 0.00 rg
+(, 10) Tj
+(_000) Tj
+(.) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sweep) Tj
+(\() Tj
+(df) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Fit on runs 1 to 300, score on runs 301 to 400, for every \(lag depth, alpha\).) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Only runs 1 to 400 are handed to this function: the test runs are not) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    loaded here at all, so they cannot play any part in the choice.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(rows) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(n_lags) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(LAGS) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(table) Tj
+(, ) Tj
+(names) Tj
+( = ) Tj
+(build_table) Tj
+(\() Tj
+(df) Tj
+(, ) Tj
+(H) Tj
+(, ) Tj
+(n_lags) Tj
+(\)          ) Tj
+0.35 0.48 0.38 rg
+(# lags + valves at t) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(X_train) Tj
+(, ) Tj
+(y_train) Tj
+( = ) Tj
+(xy) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(TRAIN) Tj
+(\), ) Tj
+(names) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(X_val) Tj
+(, ) Tj
+(y_val) Tj
+( = ) Tj
+(xy) Tj
+(\() Tj
+(runs) Tj
+(\() Tj
+(table) Tj
+(, ) Tj
+(VALIDATION) Tj
+(\), ) Tj
+(names) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(alpha) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ALPHAS) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(model) Tj
+( = ) Tj
+(ridge) Tj
+(\() Tj
+(alpha) Tj
+(\).) Tj
+(fit) Tj
+(\() Tj
+(X_train) Tj
+(, ) Tj
+(y_train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(            ) Tj
+(rows) Tj
+(.) Tj
+(append) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("h") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(H) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("n_lags") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(n_lags) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("alpha") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(alpha) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("features") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(len) Tj
+(\() Tj
+(names) Tj
+(\),) Tj
+T*
+(  ) Tj
+(                         ) Tj
+0.62 0.20 0.12 rg
+("train_rows") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(len) Tj
+(\() Tj
+(y_train) Tj
+(\),) Tj
+T*
+(  ) Tj
+(                         ) Tj
+0.62 0.20 0.12 rg
+("train_rmse") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(rmse) Tj
+(\() Tj
+(y_train) Tj
+( - ) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(X_train) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(                         ) Tj
+0.62 0.20 0.12 rg
+("val_rmse") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(rmse) Tj
+(\() Tj
+(y_val) Tj
+( - ) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(X_val) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(                         ) Tj
+0.62 0.20 0.12 rg
+("val_persistence_rmse") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(rmse) Tj
+(\() Tj
+(y_val) Tj
+( - ) Tj
+(X_val) Tj
+([:, ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]\)}\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\() Tj
+(rows) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+(.) Tj
+(with_columns) Tj
+(\() Tj
+(chosen) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("val_rmse") Tj
+0.00 0.00 0.00 rg
+(\) == ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("val_rmse") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(min) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(chosen) Tj
+(\(\) -> ) Tj
+(tuple) Tj
+([) Tj
+(int) Tj
+(, ) Tj
+(float) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""The setting with the lowest validation RMSE, read back from validation.csv.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(best) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("validation.csv") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("chosen") Tj
+0.00 0.00 0.00 rg
+(\)\).) Tj
+(row) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(named) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(int) Tj
+(\() Tj
+(best) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("n_lags") Tj
+0.00 0.00 0.00 rg
+(]\), ) Tj
+(float) Tj
+(\() Tj
+(best) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("alpha") Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(main) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(seen) Tj
+( = ) Tj
+(runs) Tj
+(\() Tj
+(load) Tj
+(\(\), \() Tj
+(TRAIN) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(VALIDATION) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]\)\)        ) Tj
+0.35 0.48 0.38 rg
+(# runs 1 to 400 only) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = ) Tj
+(sweep) Tj
+(\() Tj
+(seen) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("validation.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(out) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(out) Tj
+( = ) Tj
+(main) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(out) Tj
+(.) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("n_lags") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("alpha") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("chosen \(n_lags, alpha\):") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(chosen) Tj
+(\(\)\)) Tj
+T*
+T*
+/F2 8 Tf
+(REPORT: REPORT.md) Tj
+T*
+T*
+/F1 8 Tf
+(  # Report) Tj
+T*
+(  Yihao Yin \(yihaoyin\)) Tj
+T*
+(  ) Tj
+T*
+(  Forecasting the Tennessee Eastman stripper temperature `xmeas_18` \(deg C\) 1 to 40 samples \(3 to 120 min\)) Tj
+T*
+(      ) Tj
+(ahead. `uv run python src/pipeline.py` rebuilds every file in `results/`, byte-identical on rerun.) Tj
+T*
+(  ) Tj
+T*
+(  ## 1. The table) Tj
+T*
+(  `build_table\(df, h, n_lags\)` in `src/table.py` returns one row per \(run, t\): the lags y[t], y[t-1], ...,) Tj
+T*
+(      ) Tj
+(y[t-n_lags+1] of `xmeas_18`, the valves `xmv_1` to `xmv_11` at sample t, and the target y[t+h]. All but) Tj
+T*
+(      ) Tj
+(the target is known at t; the valves are taken at t only, since later moves are not known when the) Tj
+T*
+(      ) Tj
+(forecast is made. Every lag and the target is `pl.col\(Y\).shift\(k\).over\(RUN, order_by=SAMPLE\)`, so each) Tj
+T*
+(      ) Tj
+(shift restarts in each run and gives null at its edges instead of reading the neighbouring run. Those) Tj
+T*
+(      ) Tj
+(rows are dropped, and origins start at t = 40, so every lag depth up to 40 is scored on the same rows.) Tj
+T*
+(      ) Tj
+(`load\(\)` checks that every run holds samples 1 to 500 exactly once, so a shift by k rows is a shift by) Tj
+T*
+(      ) Tj
+(k samples. Checked against a per-run array, every lag, valve and target is `xmeas_18` at t-k, t and t+h) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 9 of 11) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 5860 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(      ) Tj
+(of the same run.) Tj
+T*
+(  ) Tj
+T*
+(  ## 2. Baselines and skill) Tj
+T*
+(  `results/forecast.csv`, test runs 401 to 500, RMSE in deg C; skill = 1 - direct / min\(persistence, mean\).) Tj
+T*
+(  ) Tj
+T*
+(  | h | min | persistence | mean | direct | recursive | skill |) Tj
+T*
+(  |---:|---:|---:|---:|---:|---:|---:|) Tj
+T*
+(  | 1 | 3 | 0.0501 | 0.4231 | 0.0367 | 0.0393 | 0.2680 |) Tj
+T*
+(  | 5 | 15 | 0.1400 | 0.4244 | 0.0869 | 0.1070 | 0.3791 |) Tj
+T*
+(  | 10 | 30 | 0.2218 | 0.4260 | 0.1271 | 0.1486 | 0.4268 |) Tj
+T*
+(  | 20 | 60 | 0.3920 | 0.4289 | 0.2029 | 0.2482 | 0.4825 |) Tj
+T*
+(  | 40 | 120 | 0.6353 | 0.4345 | 0.3328 | 0.3846 | 0.2340 |) Tj
+T*
+(  ) Tj
+T*
+(  Persistence beats the mean \(65.8056 deg C\) up to h = 20 \(0.3920 against 0.4289\) and loses at h = 40 \(0.6353) Tj
+T*
+(      ) Tj
+(against 0.4345\). This matches the autocorrelation of `xmeas_18` in the training runs) Tj
+T*
+(      ) Tj
+(\(`results/acf.csv`\): rho is 0.868 at 10 samples and 0.572 at 20, falls below 0.5 at lag 23 \(69 min\),) Tj
+T*
+(      ) Tj
+(and is -0.155 at 40. The temperature oscillates, so two hours on it tends to be across the mean and) Tj
+T*
+(      ) Tj
+(holding today's value points the wrong way. Direct beats the better baseline at all five horizons;) Tj
+T*
+(      ) Tj
+(skill peaks at one hour, where neither free forecast is good.) Tj
+T*
+(  ) Tj
+T*
+(  ## 3. Validation) Tj
+T*
+(  `make_pipeline\(StandardScaler\(\), Ridge\(alpha\)\)` at h = 10 on lags plus valves, fitted on runs 1 to 300 and) Tj
+T*
+(      ) Tj
+(scored on runs 301 to 400; `src/validate.py` never loads the test runs. Lag depths 1, 2, 5, 10, 20, 40) Tj
+T*
+(      ) Tj
+(and alpha 0.01, 1, 100, 10000 give 24 settings \(`results/validation.csv`\). The lowest validation RMSE,) Tj
+T*
+(      ) Tj
+(0.1280 against 0.2279 for persistence, is 40 lags with alpha = 1. Lag depth mattered most: 0.1528 with) Tj
+T*
+(      ) Tj
+(one lag, 0.1308 with 10, 0.1280 with 20; 40 beat 20 by 0.00005, a tie in practice. A history shows) Tj
+T*
+(      ) Tj
+(which way the temperature is moving; one value cannot. Alpha from 0.01 to 100 changed only the fourth) Tj
+T*
+(      ) Tj
+(decimal, since 135,300 training rows hold 51 coefficients in check, and 10000 hurt \(0.1364\) by) Tj
+T*
+(      ) Tj
+(shrinking useful ones. Train and validation RMSE agree \(0.1277 against 0.1280\): nothing to overfit.) Tj
+T*
+(  ) Tj
+T*
+(  ## 4. Direct against recursive) Tj
+T*
+(  Direct is one ridge per horizon on 40 lags plus the valves at t. Recursive is one ridge for y[t+1] on the) Tj
+T*
+(      ) Tj
+(40 lags alone, applied h times with each prediction shifted into y[t]. Direct wins at every horizon:) Tj
+T*
+(      ) Tj
+(0.0367 against 0.0393 at h = 1, 0.1271 against 0.1486 at h = 10, 0.3328 against 0.3846 at h = 40. At h) Tj
+T*
+(      ) Tj
+(= 1 nothing compounds, so that gap is the valves alone, mostly the stripper steam valve `xmv_9`, which) Tj
+T*
+(      ) Tj
+(shows where the temperature is being pushed before it moves. The gap then grows from 0.0026 to 0.0518) Tj
+T*
+(      ) Tj
+(deg C: the recursive model was trained for one step and feeds its own errors back, while each direct) Tj
+T*
+(      ) Tj
+(model is fitted to its own horizon. Recursive still beats the mean at two hours; 40 lags describe the) Tj
+T*
+(      ) Tj
+(oscillation, and a stable linear recursion relaxes toward the mean rather than diverging. It has no) Tj
+T*
+(      ) Tj
+(valves because from the second step on it would need the valves at t+1, t+2, ..., which are unknown at) Tj
+T*
+(      ) Tj
+(t: holding them fixed assumes the controllers stop, and forecasting them needs eleven more models.) Tj
+T*
+(  ) Tj
+T*
+(  ## 5. Shuffle against time) Tj
+T*
+(  Runs 1 to 10 one at a time, h = 10, the direct features, a 100-tree random forest, 5 folds, persistence on) Tj
+T*
+(      ) Tj
+(the same test folds. Means over the runs of `results/leaky.csv`:) Tj
+T*
+(  ) Tj
+T*
+(  | split | forest | persistence |) Tj
+T*
+(  |---|---:|---:|) Tj
+T*
+(  | `KFold\(n_splits=5, shuffle=True\)` | 0.0960 | 0.2550 |) Tj
+T*
+(  | `TimeSeriesSplit\(n_splits=5, gap=10\)` | 0.3448 | 0.2517 |) Tj
+T*
+(  ) Tj
+T*
+(  Shuffled, the forest looks 62% better than persistence; in time order it is 37% worse, and both hold in) Tj
+T*
+(      ) Tj
+(every one of the ten runs. I would report 0.3448 to a plant manager: in use the model always forecasts) Tj
+T*
+(      ) Tj
+(a future it has not seen, which is what the time split measures. Shuffled, each test row's neighbours a) Tj
+T*
+(      ) Tj
+(few minutes either side are in the training set, and their targets y[t+h-1] and y[t+h+1] are almost the) Tj
+T*
+(      ) Tj
+(answer \(rho is 0.994 at one lag\), so the forest interpolates between answers it has seen. With about) Tj
+T*
+(      ) Tj
+(360 rows of one run it even appears to beat the ridge model trained on 300 runs \(0.1271\), which only a) Tj
+T*
+(      ) Tj
+(leak allows. The gap must be at least h because a training row at origin t has target y[t+h]; with a) Tj
+T*
+(      ) Tj
+(smaller gap the last training targets fall inside the test stretch. In time order the forest loses to) Tj
+T*
+(      ) Tj
+(persistence because it has only 66 to 366 training rows and cannot predict outside the range of targets) Tj
+T*
+(      ) Tj
+(it has seen.) Tj
+T*
+(  ) Tj
+T*
+(  ## 6. Limits) Tj
+T*
+(  The model has only seen fault-free runs, so its errors are known only for normal data, and it leans on one) Tj
+T*
+(      ) Tj
+(input: at h = 10 the steam valve `xmv_9` carries +0.30 deg C per standard deviation) Tj
+T*
+(      ) Tj
+(\(`results/coefficients.csv`\), more than three times the next valve \(`xmv_5`, -0.09\). Suppose the steam) Tj
+T*
+(      ) Tj
+(supply pressure drops. `xmv_9` still reads the same opening, but less steam passes through it and the) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 10 of 11) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 1478 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(      ) Tj
+(stripper cools. Having only ever seen the temperature follow that valve, the model keeps forecasting) Tj
+T*
+(      ) Tj
+(the temperature this opening has always given. Nothing warns it: every input is in its usual range, the) Tj
+T*
+(      ) Tj
+(output is one number, and the 0.1271 deg C it scored at 30 minutes describes a plant that behaves like) Tj
+T*
+(      ) Tj
+(the fault-free simulations, not this one. It needs a separate check, such as an alarm on its own) Tj
+T*
+(      ) Tj
+(one-step residuals, to say when its training no longer applies.) Tj
+T*
+(  ) Tj
+T*
+(  Generative AI use: I used Claude to help me with the code debug; every number in it is computed by the code) Tj
+T*
+(      ) Tj
+(in `src/` and saved in `results/`.) Tj
+T*
+T*
+/F2 8 Tf
+(Summary line) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(  The script hash should match the checksum published beside the script.) Tj
+T*
+T*
+0.00 0.00 0.00 rg
+(  {"andrew_id": "yihaoyin", "generated": "2026-09-24 22:07 \\u4e1c\\u90e8\\u590f\\u4ee4\\u65f6", "auto_score":) Tj
+T*
+(      ) Tj
+(5.0, "auto_of": 5.0, "report_points": 1.0, "held_for_ta": 0.0, "assignment_total": 6.0, "groups":) Tj
+T*
+(      ) Tj
+({"table": 1.0, "baseline": 1.0, "models": 1.25, "honest": 1.25, "numbers": 0.5}, "script_sha256":) Tj
+T*
+(      ) Tj
+("76151d2e3fb565930aed34c3b78d3a4f8debede7fcdaae3d053cfd814d921ab8"}) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (A4 evidence, yihaoyin   page 11 of 11) Tj ET
+endstream
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000184 00000 n 
+0000000252 00000 n 
+0000000325 00000 n 
+0000000461 00000 n 
+0000005824 00000 n 
+0000005960 00000 n 
+0000011078 00000 n 
+0000011215 00000 n 
+0000017190 00000 n 
+0000017328 00000 n 
+0000026645 00000 n 
+0000026783 00000 n 
+0000036651 00000 n 
+0000036789 00000 n 
+0000046231 00000 n 
+0000046369 00000 n 
+0000055753 00000 n 
+0000055891 00000 n 
+0000064970 00000 n 
+0000065108 00000 n 
+0000073982 00000 n 
+0000074120 00000 n 
+0000080033 00000 n 
+0000080171 00000 n 
+trailer
+<< /Size 27 /Root 1 0 R >>
+startxref
+81702
+%%EOF

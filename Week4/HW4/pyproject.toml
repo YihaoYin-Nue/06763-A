@@ -1,0 +1,14 @@
+[project]
+name = "a04-forecaster"
+version = "0.1.0"
+description = "06763 A4 - h-step forecaster for the Tennessee Eastman stripper temperature"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.20",
+    "numpy>=2.0",
+    "scikit-learn>=1.5",
+]
+
+# Not an installable package - just a pinned environment for scripts.
+[tool.uv]
+package = false
